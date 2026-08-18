@@ -1,0 +1,6 @@
+metric,value_at_t_final,definition
+$\epsilon_\omega$,0.10966641,relative L2
+$|\Delta K|/K_{\rm ref}$,0.0054221505,relative error
+$|\Delta Z|/Z_{\rm ref}$,0.034735068,relative error
+"$P(\Pi_\omega<0)$, reference",0.4283,probability
+"$P(\Pi_\omega<0)$, SP-NSGS",0.385,probability

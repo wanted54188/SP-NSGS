@@ -1,0 +1,5 @@
+quantity,relative_L2_at_t_final,correlation_at_t_final
+"$q_{\rm sgs,x}$",0.31903656,0.94806223
+"$q_{\rm sgs,y}$",0.29561141,0.96119258
+$\nabla\!\cdot\mathbf{q}_{\rm sgs}$,0.79627238,0.79957132
+$\Pi_\omega$,0.49688197,0.9096949

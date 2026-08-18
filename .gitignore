@@ -1,0 +1,24 @@
+# Local reference data and generated experiment outputs
+data/
+results/runs/
+results/manifests/
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Logs and LaTeX build products
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+texput.log
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
