@@ -97,3 +97,11 @@ Two assisted physical archives use Git LFS; all remaining code/assets/weights ar
 
 Suggested tag after merge and checks: `v2.0.0-pof-revision-20261012`.
 No accepted-publication DOI or universal accuracy/generalization claim is made.
+
+## Post-push clone correction
+
+A real anonymous GitHub clone and remote LFS hydration found two historical
+Python files stored with LF bytes instead of staging CRLF. Their parsed code
+and every scientific asset were unchanged. Provenance was aligned to actual
+committed bytes, and verify now checks every shipped source-lineage artifact.
+No frozen numerical result or checkpoint changed.

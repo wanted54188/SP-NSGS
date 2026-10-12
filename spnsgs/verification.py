@@ -4,6 +4,9 @@ import numpy as np
 import pandas as pd
 from .registry import *
 def verify():
+    # A hydrated clone must match every shipped frozen/source-lineage byte hash.
+    for record in read_json(ROOT/'manifests/source_lineage.json'):
+        checked_lineage(ROOT/record['path'])
     datasets=read_json(ROOT/'manifests/datasets.json');models=read_json(ROOT/'manifests/models.json')
     checked_datasets=[]
     for key,r in datasets.items():

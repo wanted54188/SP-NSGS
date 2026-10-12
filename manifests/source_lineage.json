@@ -10,14 +10,14 @@
     "source": "spnsgs\\data.py",
     "source_sha256": "290562e9a215ad4de6e72c0186ca20d6ffbd923798f0a19d62c892b5a2e77826",
     "path": "spnsgs/data.py",
-    "sha256": "27a4bac4e3b629d5747dd8f11ce2c930cd26281baf90d838f08a249e382aa741",
+    "sha256": "290562e9a215ad4de6e72c0186ca20d6ffbd923798f0a19d62c892b5a2e77826",
     "metadata_paths_sanitized": false
   },
   {
     "source": "spnsgs\\filters.py",
     "source_sha256": "c8a7063de84d751304b59f5e5d2d67b865fde06ff37ea71d4490bf15a0e17910",
     "path": "spnsgs/filters.py",
-    "sha256": "6aec4be4cbf9d736795c309b6416d2acf31efb9d534bbdd99f039c1383e53770",
+    "sha256": "c8a7063de84d751304b59f5e5d2d67b865fde06ff37ea71d4490bf15a0e17910",
     "metadata_paths_sanitized": false
   },
   {
@@ -6989,7 +6989,7 @@
   },
   {
     "path": "spnsgs/verification.py",
-    "sha256": "4d603d12f985770c3f37105b5ff03800689cf3fd27d23fba3639657cdce2418c",
+    "sha256": "d441f50f5fa3b1c096c5824645688867abfb7103b63fe8e4d4571a610e2a7bcc",
     "source": "published release adapter; formal original solver unchanged"
   },
   {
