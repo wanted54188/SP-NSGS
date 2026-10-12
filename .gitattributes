@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* -text
+data/reference/assisted/*/physical.npz filter=lfs diff=lfs merge=lfs -text

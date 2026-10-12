@@ -1,0 +1,121 @@
+{
+  "files": 50,
+  "times_s": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    1.6,
+    1.7,
+    1.8,
+    1.9,
+    2.0,
+    2.1,
+    2.2,
+    2.3,
+    2.4,
+    2.5,
+    2.6,
+    2.7,
+    2.8,
+    2.9,
+    3.0,
+    3.1,
+    3.2,
+    3.3,
+    3.4,
+    3.5,
+    3.6,
+    3.7,
+    3.8,
+    3.9,
+    4.0,
+    4.1,
+    4.2,
+    4.3,
+    4.4,
+    4.5,
+    4.6,
+    4.7,
+    4.8,
+    4.9,
+    5.0
+  ],
+  "time_step_s": [
+    0.1
+  ],
+  "first_file": "source:数据/0.296m 0.005s/XYZ_内部表_table_1.000000e-01.csv",
+  "first_file_time_s": 0.1,
+  "raw_rows": 10201,
+  "prepared_shape": [
+    100,
+    100
+  ],
+  "spacing_m": {
+    "dx": 0.06283185307179587,
+    "dy": 0.06283185307179587
+  },
+  "coordinate_max_error_m": 1.9894361584782416e-06,
+  "z_range_m": [
+    0.0049999999999234,
+    0.0050000000000765
+  ],
+  "maximum_z_deviation_from_plane_m": 7.655074490964253e-14,
+  "periodic_boundary": {
+    "u": {
+      "x_relative_rms": 9.590934624999075e-05,
+      "y_relative_rms": 0.00028280079276750804,
+      "x_max_abs": 0.0005304165417205006,
+      "y_max_abs": 0.0015948514803190003
+    },
+    "v": {
+      "x_relative_rms": 0.00016219237709591634,
+      "y_relative_rms": 0.00022710888839185252,
+      "x_max_abs": 0.0011210013762425475,
+      "y_max_abs": 0.0015661139622640263
+    },
+    "omega": {
+      "x_relative_rms": 7.682649814754923e-06,
+      "y_relative_rms": 9.982697219047698e-06,
+      "x_max_abs": 0.0001232111551878745,
+      "y_max_abs": 0.0001822833040370092
+    }
+  },
+  "maximum_periodic_relative_rms": 0.002440358581543117,
+  "worst_periodic_time_s": 3.0,
+  "periodic_check_pass": true,
+  "interior_divergence": {
+    "rms_per_s": 0.04020213132311146,
+    "max_abs_per_s": 0.1273824527889471
+  },
+  "vorticity_consistency": {
+    "relative_rmse": 0.016338794208769634,
+    "correlation": 0.999986297714665
+  },
+  "initial_condition_relative_l2": {
+    "u": 0.10731905890620361,
+    "v": 0.07879269642330411,
+    "omega": 0.11787217677719242
+  },
+  "prepared_initial_omega_relative_l2": 0.10847592313967283,
+  "kinematic_viscosity_m2_s": 1e-06,
+  "forcing_enabled": false,
+  "filter": {
+    "kind": "gaussian",
+    "width_m": 0.25132741228718347,
+    "data_are_filtered": false,
+    "apply_filter_in_memory": true,
+    "sgs_supervision": "computed_in_memory"
+  }
+}

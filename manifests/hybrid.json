@@ -1,0 +1,271 @@
+{
+  "alpha": 0.5,
+  "grid_explored_on_IC1": [
+    0,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1
+  ],
+  "v3_sparse_selected_alpha": 1,
+  "v4_alpha_origin": "new hypothesis informed by inspected IC1 a-priori and free-running; not v3 sparse selection or a preregistered IC1 optimum",
+  "blind_test": false,
+  "IC2_historical_endpoints_inspected": true,
+  "lock_created_utc": "2026-10-12T03:32:36.974983+00:00",
+  "original_v4_lock_sha256": "e460975e0efa55597de0a7162ec9d9022d69a5de8b7a22c602ad172e8e116b4d",
+  "runs": {
+    "ic1/apriori/2026": {
+      "directory": "results/frozen/hybrid/ic1/apriori/seed_2026",
+      "files": {
+        "timewise.csv": {
+          "path": "results/frozen/hybrid/ic1/apriori/seed_2026/timewise.csv",
+          "sha256": "55768fa0b1ed9c88f6cd932733ff178daa373919126d08b06555ab01adaae56c",
+          "original_sha256": "55768fa0b1ed9c88f6cd932733ff178daa373919126d08b06555ab01adaae56c",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v3/ic1/apriori/seed_2026_alpha_0.5/timewise.csv",
+          "role": "published fixed-alpha hybrid result"
+        },
+        "summary.json": {
+          "path": "results/frozen/hybrid/ic1/apriori/seed_2026/summary.json",
+          "sha256": "4df9129b152cf3cf332bce75d5a2d963f96e245421406edd969ffbf9ba561059",
+          "original_sha256": "4df9129b152cf3cf332bce75d5a2d963f96e245421406edd969ffbf9ba561059",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v3/ic1/apriori/seed_2026_alpha_0.5/summary.json",
+          "role": "published fixed-alpha hybrid result"
+        }
+      },
+      "origin_phase": "v3 IC1 exploration",
+      "created_utc": null
+    },
+    "ic1/apriori/2027": {
+      "directory": "results/frozen/hybrid/ic1/apriori/seed_2027",
+      "files": {
+        "timewise.csv": {
+          "path": "results/frozen/hybrid/ic1/apriori/seed_2027/timewise.csv",
+          "sha256": "91e4f514e306404b9dd0f7a847343e459961e6f03cbaf07cb75c6df6c8e01421",
+          "original_sha256": "91e4f514e306404b9dd0f7a847343e459961e6f03cbaf07cb75c6df6c8e01421",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v3/ic1/apriori/seed_2027_alpha_0.5/timewise.csv",
+          "role": "published fixed-alpha hybrid result"
+        },
+        "summary.json": {
+          "path": "results/frozen/hybrid/ic1/apriori/seed_2027/summary.json",
+          "sha256": "718d50ddaded31fe03caabee22ca717e7a0fb1b9bea05a5ec95c74ccb9c2667d",
+          "original_sha256": "718d50ddaded31fe03caabee22ca717e7a0fb1b9bea05a5ec95c74ccb9c2667d",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v3/ic1/apriori/seed_2027_alpha_0.5/summary.json",
+          "role": "published fixed-alpha hybrid result"
+        }
+      },
+      "origin_phase": "v3 IC1 exploration",
+      "created_utc": null
+    },
+    "ic1/apriori/2028": {
+      "directory": "results/frozen/hybrid/ic1/apriori/seed_2028",
+      "files": {
+        "timewise.csv": {
+          "path": "results/frozen/hybrid/ic1/apriori/seed_2028/timewise.csv",
+          "sha256": "1223cc2868e027331a750f37b9c8a681f31ee68e5e08a40201ba80297be540d8",
+          "original_sha256": "1223cc2868e027331a750f37b9c8a681f31ee68e5e08a40201ba80297be540d8",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v3/ic1/apriori/seed_2028_alpha_0.5/timewise.csv",
+          "role": "published fixed-alpha hybrid result"
+        },
+        "summary.json": {
+          "path": "results/frozen/hybrid/ic1/apriori/seed_2028/summary.json",
+          "sha256": "3f25897d9649394dcaec1fb10de507382931f18cfd8bb33e001722c774807897",
+          "original_sha256": "3f25897d9649394dcaec1fb10de507382931f18cfd8bb33e001722c774807897",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v3/ic1/apriori/seed_2028_alpha_0.5/summary.json",
+          "role": "published fixed-alpha hybrid result"
+        }
+      },
+      "origin_phase": "v3 IC1 exploration",
+      "created_utc": null
+    },
+    "ic1/free_running/2026": {
+      "directory": "results/frozen/hybrid/ic1/free_running/seed_2026",
+      "files": {
+        "timewise.csv": {
+          "path": "results/frozen/hybrid/ic1/free_running/seed_2026/timewise.csv",
+          "sha256": "fe16a239eddcbd6114999c9b9bc6db2cce06ed725c5a0061c3d2eb56cfff35db",
+          "original_sha256": "fe16a239eddcbd6114999c9b9bc6db2cce06ed725c5a0061c3d2eb56cfff35db",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v3/ic1/free_running/seed_2026_alpha_0.5/timewise.csv",
+          "role": "published fixed-alpha hybrid result"
+        },
+        "summary.json": {
+          "path": "results/frozen/hybrid/ic1/free_running/seed_2026/summary.json",
+          "sha256": "4f22765ec2f86f2199f10572a2f0767a16e13d99900cf3a3bd3eff5e595ec19b",
+          "original_sha256": "4f22765ec2f86f2199f10572a2f0767a16e13d99900cf3a3bd3eff5e595ec19b",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v3/ic1/free_running/seed_2026_alpha_0.5/summary.json",
+          "role": "published fixed-alpha hybrid result"
+        }
+      },
+      "origin_phase": "v3 IC1 exploration",
+      "created_utc": null
+    },
+    "ic1/free_running/2027": {
+      "directory": "results/frozen/hybrid/ic1/free_running/seed_2027",
+      "files": {
+        "timewise.csv": {
+          "path": "results/frozen/hybrid/ic1/free_running/seed_2027/timewise.csv",
+          "sha256": "827c06cd46f8163f80fad51a8e533dfe76f07b58c2e7e94ac8958fbe6bbc8e8e",
+          "original_sha256": "827c06cd46f8163f80fad51a8e533dfe76f07b58c2e7e94ac8958fbe6bbc8e8e",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v3/ic1/free_running/seed_2027_alpha_0.5/timewise.csv",
+          "role": "published fixed-alpha hybrid result"
+        },
+        "summary.json": {
+          "path": "results/frozen/hybrid/ic1/free_running/seed_2027/summary.json",
+          "sha256": "a93e852bda0dad3993e1749ee347622de893c28fd1a8f831e520c258ee122f64",
+          "original_sha256": "a93e852bda0dad3993e1749ee347622de893c28fd1a8f831e520c258ee122f64",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v3/ic1/free_running/seed_2027_alpha_0.5/summary.json",
+          "role": "published fixed-alpha hybrid result"
+        }
+      },
+      "origin_phase": "v3 IC1 exploration",
+      "created_utc": null
+    },
+    "ic1/free_running/2028": {
+      "directory": "results/frozen/hybrid/ic1/free_running/seed_2028",
+      "files": {
+        "timewise.csv": {
+          "path": "results/frozen/hybrid/ic1/free_running/seed_2028/timewise.csv",
+          "sha256": "74651aa2c5cf1a8821ccf25adc9b6680ff4bf896db9906bc23e5a3492083cfe8",
+          "original_sha256": "74651aa2c5cf1a8821ccf25adc9b6680ff4bf896db9906bc23e5a3492083cfe8",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v3/ic1/free_running/seed_2028_alpha_0.5/timewise.csv",
+          "role": "published fixed-alpha hybrid result"
+        },
+        "summary.json": {
+          "path": "results/frozen/hybrid/ic1/free_running/seed_2028/summary.json",
+          "sha256": "e254ea5d3a32812543b922b090a862a51bda922b0b08de19b75941f1e0a54785",
+          "original_sha256": "e254ea5d3a32812543b922b090a862a51bda922b0b08de19b75941f1e0a54785",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v3/ic1/free_running/seed_2028_alpha_0.5/summary.json",
+          "role": "published fixed-alpha hybrid result"
+        }
+      },
+      "origin_phase": "v3 IC1 exploration",
+      "created_utc": null
+    },
+    "ic2/apriori/2026": {
+      "directory": "results/frozen/hybrid/ic2/apriori/seed_2026",
+      "files": {
+        "timewise.csv": {
+          "path": "results/frozen/hybrid/ic2/apriori/seed_2026/timewise.csv",
+          "sha256": "901a480e03af227f978c3d672b7e96454b797c07579175a03bf08767b958aa49",
+          "original_sha256": "901a480e03af227f978c3d672b7e96454b797c07579175a03bf08767b958aa49",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v4/ic2/apriori/seed_2026_alpha_0.5/timewise.csv",
+          "role": "published fixed-alpha hybrid result"
+        },
+        "summary.json": {
+          "path": "results/frozen/hybrid/ic2/apriori/seed_2026/summary.json",
+          "sha256": "5cd7dbab7bcbcf42b4f363627c8b4b5e885764ad7b9111ba980ff8aa778c0d8e",
+          "original_sha256": "5cd7dbab7bcbcf42b4f363627c8b4b5e885764ad7b9111ba980ff8aa778c0d8e",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v4/ic2/apriori/seed_2026_alpha_0.5/summary.json",
+          "role": "published fixed-alpha hybrid result"
+        }
+      },
+      "origin_phase": "v4 fixed IC2",
+      "created_utc": "2026-10-12T04:46:58.976533+00:00"
+    },
+    "ic2/apriori/2027": {
+      "directory": "results/frozen/hybrid/ic2/apriori/seed_2027",
+      "files": {
+        "timewise.csv": {
+          "path": "results/frozen/hybrid/ic2/apriori/seed_2027/timewise.csv",
+          "sha256": "03e62c42a941d3f9b704a66d2bca207f3369bd0c058feed9d6528784c3c9d9c6",
+          "original_sha256": "03e62c42a941d3f9b704a66d2bca207f3369bd0c058feed9d6528784c3c9d9c6",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v4/ic2/apriori/seed_2027_alpha_0.5/timewise.csv",
+          "role": "published fixed-alpha hybrid result"
+        },
+        "summary.json": {
+          "path": "results/frozen/hybrid/ic2/apriori/seed_2027/summary.json",
+          "sha256": "9bf05c44d9b242f3e8d43153eb8715bdbc723f71115a093cf5289f3847f8906f",
+          "original_sha256": "9bf05c44d9b242f3e8d43153eb8715bdbc723f71115a093cf5289f3847f8906f",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v4/ic2/apriori/seed_2027_alpha_0.5/summary.json",
+          "role": "published fixed-alpha hybrid result"
+        }
+      },
+      "origin_phase": "v4 fixed IC2",
+      "created_utc": "2026-10-12T04:47:01.060094+00:00"
+    },
+    "ic2/apriori/2028": {
+      "directory": "results/frozen/hybrid/ic2/apriori/seed_2028",
+      "files": {
+        "timewise.csv": {
+          "path": "results/frozen/hybrid/ic2/apriori/seed_2028/timewise.csv",
+          "sha256": "197d4d5d94065025953cef23fc42a9ca0ee1fdaaf8d72f2f6a9f7a931e324efc",
+          "original_sha256": "197d4d5d94065025953cef23fc42a9ca0ee1fdaaf8d72f2f6a9f7a931e324efc",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v4/ic2/apriori/seed_2028_alpha_0.5/timewise.csv",
+          "role": "published fixed-alpha hybrid result"
+        },
+        "summary.json": {
+          "path": "results/frozen/hybrid/ic2/apriori/seed_2028/summary.json",
+          "sha256": "b9d2205da60ba09bec96994b4479f8d747c0b038d35c9b8ac16582636a7d3c77",
+          "original_sha256": "b9d2205da60ba09bec96994b4479f8d747c0b038d35c9b8ac16582636a7d3c77",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v4/ic2/apriori/seed_2028_alpha_0.5/summary.json",
+          "role": "published fixed-alpha hybrid result"
+        }
+      },
+      "origin_phase": "v4 fixed IC2",
+      "created_utc": "2026-10-12T04:47:02.937311+00:00"
+    },
+    "ic2/free_running/2026": {
+      "directory": "results/frozen/hybrid/ic2/free_running/seed_2026",
+      "files": {
+        "timewise.csv": {
+          "path": "results/frozen/hybrid/ic2/free_running/seed_2026/timewise.csv",
+          "sha256": "c331d522c6d5a87001278ee25d518d770c589596c7c3360046dc1e0a4a84c353",
+          "original_sha256": "c331d522c6d5a87001278ee25d518d770c589596c7c3360046dc1e0a4a84c353",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v4/ic2/free_running/seed_2026_alpha_0.5/timewise.csv",
+          "role": "published fixed-alpha hybrid result"
+        },
+        "summary.json": {
+          "path": "results/frozen/hybrid/ic2/free_running/seed_2026/summary.json",
+          "sha256": "d2343fe710281c083bb7af08849e7edb8548aa9c2352ca30ad56590714574ac6",
+          "original_sha256": "d2343fe710281c083bb7af08849e7edb8548aa9c2352ca30ad56590714574ac6",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v4/ic2/free_running/seed_2026_alpha_0.5/summary.json",
+          "role": "published fixed-alpha hybrid result"
+        }
+      },
+      "origin_phase": "v4 fixed IC2",
+      "created_utc": "2026-10-12T04:48:07.607636+00:00"
+    },
+    "ic2/free_running/2027": {
+      "directory": "results/frozen/hybrid/ic2/free_running/seed_2027",
+      "files": {
+        "timewise.csv": {
+          "path": "results/frozen/hybrid/ic2/free_running/seed_2027/timewise.csv",
+          "sha256": "9a5c7bb5502112f4e08e993619dbeb47c1841910a513212a44047d8991727391",
+          "original_sha256": "9a5c7bb5502112f4e08e993619dbeb47c1841910a513212a44047d8991727391",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v4/ic2/free_running/seed_2027_alpha_0.5/timewise.csv",
+          "role": "published fixed-alpha hybrid result"
+        },
+        "summary.json": {
+          "path": "results/frozen/hybrid/ic2/free_running/seed_2027/summary.json",
+          "sha256": "1c24b23678f99df2ea228ed4b52c7283bbc4190b0562fefab378d0258213e7c2",
+          "original_sha256": "1c24b23678f99df2ea228ed4b52c7283bbc4190b0562fefab378d0258213e7c2",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v4/ic2/free_running/seed_2027_alpha_0.5/summary.json",
+          "role": "published fixed-alpha hybrid result"
+        }
+      },
+      "origin_phase": "v4 fixed IC2",
+      "created_utc": "2026-10-12T04:48:23.450307+00:00"
+    },
+    "ic2/free_running/2028": {
+      "directory": "results/frozen/hybrid/ic2/free_running/seed_2028",
+      "files": {
+        "timewise.csv": {
+          "path": "results/frozen/hybrid/ic2/free_running/seed_2028/timewise.csv",
+          "sha256": "dec7caf0dfdccc6a609c1be7a18184e9b035568e75ea291fa72c4eaa256f2271",
+          "original_sha256": "dec7caf0dfdccc6a609c1be7a18184e9b035568e75ea291fa72c4eaa256f2271",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v4/ic2/free_running/seed_2028_alpha_0.5/timewise.csv",
+          "role": "published fixed-alpha hybrid result"
+        },
+        "summary.json": {
+          "path": "results/frozen/hybrid/ic2/free_running/seed_2028/summary.json",
+          "sha256": "66480a36d6f12fc1028c0d5b7f4efabbe50f108ae53b6e50f5c54ad54b1aad52",
+          "original_sha256": "66480a36d6f12fc1028c0d5b7f4efabbe50f108ae53b6e50f5c54ad54b1aad52",
+          "origin": "results/clark_a0b1_hybrid_study/phase1_v4/ic2/free_running/seed_2028_alpha_0.5/summary.json",
+          "role": "published fixed-alpha hybrid result"
+        }
+      },
+      "origin_phase": "v4 fixed IC2",
+      "created_utc": "2026-10-12T04:48:33.599697+00:00"
+    }
+  }
+}

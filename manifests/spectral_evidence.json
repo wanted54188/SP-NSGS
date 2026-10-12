@@ -1,0 +1,110 @@
+{
+  "clark": {
+    "directory": "data/spectra/ic1/clark",
+    "files": {
+      "per_frame_spectra.npz": {
+        "path": "data/spectra/ic1/clark/per_frame_spectra.npz",
+        "sha256": "112304b1a2cf150da193f4d766581534e6a18c4b8a4037edf6f480f2a25891d0",
+        "original_sha256": "112304b1a2cf150da193f4d766581534e6a18c4b8a4037edf6f480f2a25891d0",
+        "origin": "results/reviewer_requested_spectral_diagnostics_2026-10-11/ic1/clark/per_frame_spectra.npz",
+        "role": "50-frame source/co-spectrum evidence"
+      },
+      "per_frame_validation.csv": {
+        "path": "data/spectra/ic1/clark/per_frame_validation.csv",
+        "sha256": "8ff90349936683868fe946503bfaa60714b2ca87dbf8d63fffd21a2de1e01ac7",
+        "original_sha256": "8ff90349936683868fe946503bfaa60714b2ca87dbf8d63fffd21a2de1e01ac7",
+        "origin": "results/reviewer_requested_spectral_diagnostics_2026-10-11/ic1/clark/per_frame_validation.csv",
+        "role": "50-frame source/co-spectrum evidence"
+      },
+      "validated_time_means.json": {
+        "path": "data/spectra/ic1/clark/validated_time_means.json",
+        "sha256": "b3bf6afec228939524c9a3d8237055cee12f2552a4355cdc9c29e38850ac31a7",
+        "original_sha256": "b3bf6afec228939524c9a3d8237055cee12f2552a4355cdc9c29e38850ac31a7",
+        "origin": "results/reviewer_requested_spectral_diagnostics_2026-10-11/ic1/clark/validated_time_means.json",
+        "role": "50-frame source/co-spectrum evidence"
+      }
+    },
+    "original_provenance_sha256": "ac69d91c6d52a722e37ae4dd3a3989f4020773ca03dd91a0fd7b872ef119c0d9"
+  },
+  "A0B1_2026": {
+    "directory": "data/spectra/ic1/A0B1_2026",
+    "files": {
+      "per_frame_spectra.npz": {
+        "path": "data/spectra/ic1/A0B1_2026/per_frame_spectra.npz",
+        "sha256": "68b311e9cd1b2cf1587af52a7232813ab977c6124b09a7337824a79f1c938d91",
+        "original_sha256": "68b311e9cd1b2cf1587af52a7232813ab977c6124b09a7337824a79f1c938d91",
+        "origin": "results/reviewer_requested_spectral_diagnostics_2026-10-11/ic1/A0B1_2026/per_frame_spectra.npz",
+        "role": "50-frame source/co-spectrum evidence"
+      },
+      "per_frame_validation.csv": {
+        "path": "data/spectra/ic1/A0B1_2026/per_frame_validation.csv",
+        "sha256": "2e595881e5e9a63af219c92da94ce543cffa792fcda2c2eb1e592f716aa33c2c",
+        "original_sha256": "2e595881e5e9a63af219c92da94ce543cffa792fcda2c2eb1e592f716aa33c2c",
+        "origin": "results/reviewer_requested_spectral_diagnostics_2026-10-11/ic1/A0B1_2026/per_frame_validation.csv",
+        "role": "50-frame source/co-spectrum evidence"
+      },
+      "validated_time_means.json": {
+        "path": "data/spectra/ic1/A0B1_2026/validated_time_means.json",
+        "sha256": "4168ddd4007d8341b3abe4cbcc0f0f0956ca6712e1249ac610046cec637173c9",
+        "original_sha256": "4168ddd4007d8341b3abe4cbcc0f0f0956ca6712e1249ac610046cec637173c9",
+        "origin": "results/reviewer_requested_spectral_diagnostics_2026-10-11/ic1/A0B1_2026/validated_time_means.json",
+        "role": "50-frame source/co-spectrum evidence"
+      }
+    },
+    "original_provenance_sha256": "65d1d9303b14884b05819e2a60760381dd96ea836fe6220fe684bda74f788221"
+  },
+  "A0B1_2027": {
+    "directory": "data/spectra/ic1/A0B1_2027",
+    "files": {
+      "per_frame_spectra.npz": {
+        "path": "data/spectra/ic1/A0B1_2027/per_frame_spectra.npz",
+        "sha256": "9bd143975bb07b341cf88fb9133c7d25e55760b7d38761659abcf7e47880dd29",
+        "original_sha256": "9bd143975bb07b341cf88fb9133c7d25e55760b7d38761659abcf7e47880dd29",
+        "origin": "results/reviewer_requested_spectral_diagnostics_2026-10-11/ic1/A0B1_2027/per_frame_spectra.npz",
+        "role": "50-frame source/co-spectrum evidence"
+      },
+      "per_frame_validation.csv": {
+        "path": "data/spectra/ic1/A0B1_2027/per_frame_validation.csv",
+        "sha256": "76de3becc7f4da483603e02a02ba6e22816a0dd7bb0efcde1408e51378cf1c07",
+        "original_sha256": "76de3becc7f4da483603e02a02ba6e22816a0dd7bb0efcde1408e51378cf1c07",
+        "origin": "results/reviewer_requested_spectral_diagnostics_2026-10-11/ic1/A0B1_2027/per_frame_validation.csv",
+        "role": "50-frame source/co-spectrum evidence"
+      },
+      "validated_time_means.json": {
+        "path": "data/spectra/ic1/A0B1_2027/validated_time_means.json",
+        "sha256": "6337e1a5914ee68dd0b354a2752664469482587410cf27548c4ca3c677419869",
+        "original_sha256": "6337e1a5914ee68dd0b354a2752664469482587410cf27548c4ca3c677419869",
+        "origin": "results/reviewer_requested_spectral_diagnostics_2026-10-11/ic1/A0B1_2027/validated_time_means.json",
+        "role": "50-frame source/co-spectrum evidence"
+      }
+    },
+    "original_provenance_sha256": "15a0dd3910048230b73c2069903ee0d7ed2f04cb915d9f1b883ca91f59b29819"
+  },
+  "A0B1_2028": {
+    "directory": "data/spectra/ic1/A0B1_2028",
+    "files": {
+      "per_frame_spectra.npz": {
+        "path": "data/spectra/ic1/A0B1_2028/per_frame_spectra.npz",
+        "sha256": "f808ecb2f24b2eb9984e1d3942b6ba97e338be533c2319c61a9b3d3f508ce088",
+        "original_sha256": "f808ecb2f24b2eb9984e1d3942b6ba97e338be533c2319c61a9b3d3f508ce088",
+        "origin": "results/reviewer_requested_spectral_diagnostics_2026-10-11/ic1/A0B1_2028/per_frame_spectra.npz",
+        "role": "50-frame source/co-spectrum evidence"
+      },
+      "per_frame_validation.csv": {
+        "path": "data/spectra/ic1/A0B1_2028/per_frame_validation.csv",
+        "sha256": "8143eb83b6e64415aa8034527b04c5ade422003ddc0259af18975e78072df025",
+        "original_sha256": "8143eb83b6e64415aa8034527b04c5ade422003ddc0259af18975e78072df025",
+        "origin": "results/reviewer_requested_spectral_diagnostics_2026-10-11/ic1/A0B1_2028/per_frame_validation.csv",
+        "role": "50-frame source/co-spectrum evidence"
+      },
+      "validated_time_means.json": {
+        "path": "data/spectra/ic1/A0B1_2028/validated_time_means.json",
+        "sha256": "b1e6ebade5839276b0f9a2ffce72dfcccd876779ef5213fb91284422fbb13ae4",
+        "original_sha256": "b1e6ebade5839276b0f9a2ffce72dfcccd876779ef5213fb91284422fbb13ae4",
+        "origin": "results/reviewer_requested_spectral_diagnostics_2026-10-11/ic1/A0B1_2028/validated_time_means.json",
+        "role": "50-frame source/co-spectrum evidence"
+      }
+    },
+    "original_provenance_sha256": "e0f39d512caf2f09bcec9fdcfb659dfbb6abee2646cb118675ec96ce83901058"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "reference_manifest": "source:results/cross_regime_transfer_2026-10-08/references/filter_large/ic1/reference_provenance.json",
+  "reference_manifest_sha256": "90849623e78594f0af14b7fb82290e2615cce9b067cdf40585df7cb87687571c",
+  "reference_sha256": "62d3a5a2efa0413048d1cd78106821d8bbab13a50dd815cdcb9fc3ca284d9d24",
+  "frozen_model_or_classical_calibration": {
+    "seed": 2026,
+    "checkpoint": "source:results/revision_v2/runs/A0B1/seed_2026/best_closure.pt",
+    "checkpoint_sha256": "c1842f5b90c227b3574f6e7122fce536b231a7314de8707e856f0f1a831b164e",
+    "effective_config": "source:results/revision_v2/runs/A0B1/seed_2026/effective_config.json",
+    "effective_config_sha256": "82e151213e0863058c1d82fa19542b3f4cccdea811ed95e689ddb8d972d56341",
+    "training_dataset_sha256": "c76a5fe030cbd2b827381d21b204fea62e22e2030959c7b1e7adab80c9afb904",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "solver_source_sha256": "d4d49a41f42240f16d567bca3748155e9bacf9dc8738fcb0b677e7b91ebf9a28"
+  },
+  "physical_runtime_mapping": {
+    "enabled": false
+  },
+  "delta_m": 0.3769911184,
+  "original_training_delta_m": 0.25132741228718347,
+  "future_reference_access_during_rollout": false,
+  "training_or_recalibration_performed": false,
+  "failure_time_s": null,
+  "per_time_metrics_sha256": "ab20f55ff5ad0c4f36d930c2845f1ba792c16d976d3122efdd8843458dc3f584",
+  "summary_sha256": "f0e84c526d97f4418e0070ad510fd372e291555fb758c09fb1b1f56fa7e9ff6a",
+  "evaluator_sha256": "f79118fbbd73c51d8dedb79c870ce8af78e28af8d1512daba852b68094672948"
+}

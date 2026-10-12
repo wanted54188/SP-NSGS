@@ -1,0 +1,172 @@
+{
+  "status": "LOCAL INTEGRATION COMPLETE; PUBLICATION PERMISSION PENDING",
+  "core_source_AST_checks": [
+    {
+      "module": "config",
+      "original_sha256": "602352b5029d8e93dc17ed24638dbe657bebf5d14fef9d88fd051d876f270a31",
+      "release_sha256": "426e4972c3c9a99c35be03969ab7a30109ad989182ff726fc26fee4c9838a17f",
+      "AST_identical": true
+    },
+    {
+      "module": "data",
+      "original_sha256": "290562e9a215ad4de6e72c0186ca20d6ffbd923798f0a19d62c892b5a2e77826",
+      "release_sha256": "27a4bac4e3b629d5747dd8f11ce2c930cd26281baf90d838f08a249e382aa741",
+      "AST_identical": true
+    },
+    {
+      "module": "filters",
+      "original_sha256": "c8a7063de84d751304b59f5e5d2d67b865fde06ff37ea71d4490bf15a0e17910",
+      "release_sha256": "6aec4be4cbf9d736795c309b6416d2acf31efb9d534bbdd99f039c1383e53770",
+      "AST_identical": true
+    },
+    {
+      "module": "solver",
+      "original_sha256": "d4d49a41f42240f16d567bca3748155e9bacf9dc8738fcb0b677e7b91ebf9a28",
+      "release_sha256": "b4da4c4269999e038281a965545d051bea47f15de84d65a0832aa18fd9e33bb0",
+      "AST_identical": true
+    },
+    {
+      "module": "classical_baselines",
+      "original_sha256": "e1e73dc164bf5d8747aa824d4f5e90007d28b963bb1a05039c782370e44ab83e",
+      "release_sha256": "b1eef395c87dc7acbe29272f7240b03a3d31fe6efb211f066e7f71baa4438b84",
+      "AST_identical": true
+    }
+  ],
+  "lightweight_pytest": "8 passed",
+  "frozen_factorial_records_verified": 72,
+  "frozen_cross_regime_records_verified": 60,
+  "frozen_amplitude_table_rows_verified": 12,
+  "numerical_figures_redrawn": 21,
+  "available_model_keys": [
+    "iso/2026",
+    "iso/2027",
+    "iso/2028",
+    "A1B0/2026",
+    "A1B0/2027",
+    "A1B0/2028",
+    "A0B1/2026",
+    "A0B1/2027",
+    "A0B1/2028",
+    "full/2026",
+    "full/2028"
+  ],
+  "missing_exact_model_keys": [
+    "full/2027"
+  ],
+  "private_path_pattern_hits": [],
+  "category_file_counts": {
+    "code_or_documentation": 49,
+    "processed_reference_or_frozen_evidence": 892,
+    "original_figure_or_plotting_data": 40,
+    "checkpoint": 11
+  },
+  "canonical_shared_arrays": {
+    "data/reference/baseline/ic1/initial_state.npy": [
+      "baseline/ic1/initial",
+      "assisted/ic1/initial"
+    ],
+    "data/reference/baseline/ic2/initial_state.npy": [
+      "baseline/ic2/initial",
+      "assisted/ic2/initial"
+    ]
+  },
+  "exact_duplicate_files": {
+    "a22fff5dbf154cf2d58c5bc0d1cbfc332bc6daac807ab040bdd609c40d9b2202": [
+      "results/frozen/classical/ic1/apriori/clark/timewise.csv",
+      "results/frozen/classical/ic1/apriori/mixed_seed_2026/timewise.csv",
+      "results/frozen/classical/ic1/apriori/mixed_seed_2027/timewise.csv"
+    ],
+    "03e8edfff35ffd6bf15d3261061ac0adf4b343f1df8a74dbc081ff70a3ab2965": [
+      "results/frozen/classical/ic1/free_running/clark/timewise.csv",
+      "results/frozen/classical/ic1/free_running/mixed_seed_2026/timewise.csv",
+      "results/frozen/classical/ic1/free_running/mixed_seed_2027/timewise.csv"
+    ],
+    "c8590f1dc10cdf1c4e6987cef84a74fb2fc19a7ff0553a99edc635ad86339da1": [
+      "results/frozen/classical/ic2/apriori/clark/timewise.csv",
+      "results/frozen/classical/ic2/apriori/mixed_seed_2026/timewise.csv",
+      "results/frozen/classical/ic2/apriori/mixed_seed_2027/timewise.csv"
+    ],
+    "da664699a566f545f5bea7321a760f94276a91d8ef0e248c149a3471937f2d5b": [
+      "results/frozen/classical/ic2/free_running/clark/timewise.csv",
+      "results/frozen/classical/ic2/free_running/mixed_seed_2026/timewise.csv",
+      "results/frozen/classical/ic2/free_running/mixed_seed_2027/timewise.csv"
+    ],
+    "7769f6b06d1beab8071013eaea274fb29fdb53ee9452e98ee7a32f14d95f3728": [
+      "results/frozen/cross_regime/double_Re/ic1/apriori_reference_state/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/double_Re/ic1/apriori_reference_state/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/double_Re/ic1/apriori_reference_state/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "68f61d9c04221f7851c8a61a477442f795cc18c57d1398833fb08d2205c76c38": [
+      "results/frozen/cross_regime/double_Re/ic1/free_running_continuation/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/double_Re/ic1/free_running_continuation/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/double_Re/ic1/free_running_continuation/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "6020ab8618e6bc4d79810b2c67cbf47cb52f2e8d20a1b496e54fb6b6122a049b": [
+      "results/frozen/cross_regime/filter_large/ic1/apriori_reference_state/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_large/ic1/apriori_reference_state/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_large/ic1/apriori_reference_state/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "5162c31a5c57059e14fb8691787828407213ef60615980a41713d32f938fae11": [
+      "results/frozen/cross_regime/filter_large/ic1/free_running_continuation/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_large/ic1/free_running_continuation/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_large/ic1/free_running_continuation/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "cf737e102af5d0dea16d3947c2d76b1b77c221229293b89e3d9676e40b95774e": [
+      "results/frozen/cross_regime/filter_large/ic2/apriori_reference_state/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_large/ic2/apriori_reference_state/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_large/ic2/apriori_reference_state/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "b5e4ef62acd0809cb5cb8668723c877568ea6624bdc29fbfd6dd757dde582194": [
+      "results/frozen/cross_regime/filter_large/ic2/free_running_continuation/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_large/ic2/free_running_continuation/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_large/ic2/free_running_continuation/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "945c2053e1236d501299d0d8c89890790cb90f673103fe55bdb177b77b208a4c": [
+      "results/frozen/cross_regime/filter_small/ic1/apriori_reference_state/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_small/ic1/apriori_reference_state/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_small/ic1/apriori_reference_state/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "155bc21a7a3060e60c878d632d638cd4b1428207c5f416d11b8616e6c771cf0a": [
+      "results/frozen/cross_regime/filter_small/ic1/free_running_continuation/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_small/ic1/free_running_continuation/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_small/ic1/free_running_continuation/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "d3e0e3e36b935e34526e6933bdce8234540ddfea74926d934224eb25112f01ef": [
+      "results/frozen/cross_regime/filter_small/ic2/apriori_reference_state/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_small/ic2/apriori_reference_state/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_small/ic2/apriori_reference_state/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "39816a1822e19bf13caf8dc6b1c95b0892e2082e80abe8e46f2182b5287a045a": [
+      "results/frozen/cross_regime/filter_small/ic2/free_running_continuation/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_small/ic2/free_running_continuation/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/filter_small/ic2/free_running_continuation/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "9da54566bf9f4b27dadeb361b45c63710d2c44f1a42af459057cbdd0bfdeefc3": [
+      "results/frozen/cross_regime/forced_strong/ic1/apriori_reference_state/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/forced_strong/ic1/apriori_reference_state/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/forced_strong/ic1/apriori_reference_state/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "2f92c13aa4c23c07f9420b0804aa35252d170458cd835f161f7bf154afa4e933": [
+      "results/frozen/cross_regime/forced_strong/ic1/free_running_continuation/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/forced_strong/ic1/free_running_continuation/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/forced_strong/ic1/free_running_continuation/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "6052c2a6ef81163653f8583a55af2936d8d67cba48012022147159d880abdd84": [
+      "results/frozen/cross_regime/half_Re/ic1/apriori_reference_state/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/half_Re/ic1/apriori_reference_state/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/half_Re/ic1/apriori_reference_state/mixed/seed_2027/per_time_metrics.csv"
+    ],
+    "fd38609db6ef1edf887aaa08de2fd964ad4123454f294aca470dff28902685b0": [
+      "results/frozen/cross_regime/half_Re/ic1/free_running_continuation/clark/deterministic/per_time_metrics.csv",
+      "results/frozen/cross_regime/half_Re/ic1/free_running_continuation/mixed/seed_2026/per_time_metrics.csv",
+      "results/frozen/cross_regime/half_Re/ic1/free_running_continuation/mixed/seed_2027/per_time_metrics.csv"
+    ]
+  },
+  "duplicate_note": "Retained only per-replicate evidence files with distinct scientific identities; reference/initial archives deduplicated",
+  "candidate_files": 995,
+  "candidate_bytes_excluding_git_outputs_caches": 429733846,
+  "full_local_tree_bytes_including_git_and_QA_outputs": 510495741,
+  "publication_authorized": false,
+  "no_git_push": true,
+  "no_formal_training_or_full_evaluation": true
+}

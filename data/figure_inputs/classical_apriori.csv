@@ -1,0 +1,105 @@
+ic,mode,model,replicate,replicate_type,metric,value,mean,sample_sd
+ic1,apriori_reference_state,leith,2026,sparse calibration split,div_relative_l2_physical,0.9314503324520963,0.9312782655961356,0.0005853844829365714
+ic1,apriori_reference_state,leith,2027,sparse calibration split,div_relative_l2_physical,0.9306261316994461,0.9312782655961356,0.0005853844829365714
+ic1,apriori_reference_state,leith,2028,sparse calibration split,div_relative_l2_physical,0.9317583326368645,0.9312782655961356,0.0005853844829365714
+ic1,apriori_reference_state,clark,deterministic,none,div_relative_l2_physical,0.2088790628486805,0.2088790628486805,
+ic1,apriori_reference_state,mixed,2026,sparse calibration split,div_relative_l2_physical,0.2088790628486805,0.2088082719178207,0.00012261348896427333
+ic1,apriori_reference_state,mixed,2027,sparse calibration split,div_relative_l2_physical,0.2088790628486805,0.2088082719178207,0.00012261348896427333
+ic1,apriori_reference_state,mixed,2028,sparse calibration split,div_relative_l2_physical,0.20866669005610108,0.2088082719178207,0.00012261348896427333
+ic1,apriori_reference_state,A0B1,2026,neural training seed,div_relative_l2_physical,0.8576810276748523,0.7866684643606684,0.06256860973977586
+ic1,apriori_reference_state,A0B1,2027,neural training seed,div_relative_l2_physical,0.7396407759565623,0.7866684643606684,0.06256860973977586
+ic1,apriori_reference_state,A0B1,2028,neural training seed,div_relative_l2_physical,0.7626835894505907,0.7866684643606684,0.06256860973977586
+ic1,apriori_reference_state,full,2026,neural training seed,div_relative_l2_physical,0.7893052493197296,0.7702474765196353,0.017013326184921868
+ic1,apriori_reference_state,full,2027,neural training seed,div_relative_l2_physical,0.7565889121903134,0.7702474765196353,0.017013326184921868
+ic1,apriori_reference_state,full,2028,neural training seed,div_relative_l2_physical,0.764848268048863,0.7702474765196353,0.017013326184921868
+ic1,apriori_reference_state,leith,2026,sparse calibration split,Pi_Pearson,0.2271538836113627,0.2271538839915095,3.5840413349663407e-10
+ic1,apriori_reference_state,leith,2027,sparse calibration split,Pi_Pearson,0.22715388432325095,0.2271538839915095,3.5840413349663407e-10
+ic1,apriori_reference_state,leith,2028,sparse calibration split,Pi_Pearson,0.2271538840399148,0.2271538839915095,3.5840413349663407e-10
+ic1,apriori_reference_state,clark,deterministic,none,Pi_Pearson,0.9957043696843703,0.9957043696843703,
+ic1,apriori_reference_state,mixed,2026,sparse calibration split,Pi_Pearson,0.9957043696843703,0.995706039931342,2.8929526163526437e-06
+ic1,apriori_reference_state,mixed,2027,sparse calibration split,Pi_Pearson,0.9957043696843703,0.995706039931342,2.8929526163526437e-06
+ic1,apriori_reference_state,mixed,2028,sparse calibration split,Pi_Pearson,0.9957093804252857,0.995706039931342,2.8929526163526437e-06
+ic1,apriori_reference_state,A0B1,2026,neural training seed,Pi_Pearson,0.933643728288998,0.933036190563087,0.008893003980101125
+ic1,apriori_reference_state,A0B1,2027,neural training seed,Pi_Pearson,0.9416098477473476,0.933036190563087,0.008893003980101125
+ic1,apriori_reference_state,A0B1,2028,neural training seed,Pi_Pearson,0.9238549956529154,0.933036190563087,0.008893003980101125
+ic1,apriori_reference_state,full,2026,neural training seed,Pi_Pearson,0.9312927353273877,0.942685201653588,0.026693930653577048
+ic1,apriori_reference_state,full,2027,neural training seed,Pi_Pearson,0.9731851586700287,0.942685201653588,0.026693930653577048
+ic1,apriori_reference_state,full,2028,neural training seed,Pi_Pearson,0.9235777109633477,0.942685201653588,0.026693930653577048
+ic1,apriori_reference_state,leith,2026,sparse calibration split,negative_F1,0.0,0.0,0.0
+ic1,apriori_reference_state,leith,2027,sparse calibration split,negative_F1,0.0,0.0,0.0
+ic1,apriori_reference_state,leith,2028,sparse calibration split,negative_F1,0.0,0.0,0.0
+ic1,apriori_reference_state,clark,deterministic,none,negative_F1,0.9321071163757965,0.9321071163757965,
+ic1,apriori_reference_state,mixed,2026,sparse calibration split,negative_F1,0.9321071163757965,0.9320702851282174,6.379359211302432e-05
+ic1,apriori_reference_state,mixed,2027,sparse calibration split,negative_F1,0.9321071163757965,0.9320702851282174,6.379359211302432e-05
+ic1,apriori_reference_state,mixed,2028,sparse calibration split,negative_F1,0.9319966226330594,0.9320702851282174,6.379359211302432e-05
+ic1,apriori_reference_state,A0B1,2026,neural training seed,negative_F1,0.8944040536848199,0.8895607688349058,0.004223061361675127
+ic1,apriori_reference_state,A0B1,2027,neural training seed,negative_F1,0.886648014242092,0.8895607688349058,0.004223061361675127
+ic1,apriori_reference_state,A0B1,2028,neural training seed,negative_F1,0.887630238577805,0.8895607688349058,0.004223061361675127
+ic1,apriori_reference_state,full,2026,neural training seed,negative_F1,0.8893134201527826,0.8917353972106606,0.014057437919184701
+ic1,apriori_reference_state,full,2027,neural training seed,negative_F1,0.9068464606027099,0.8917353972106606,0.014057437919184701
+ic1,apriori_reference_state,full,2028,neural training seed,negative_F1,0.8790463108764897,0.8917353972106606,0.014057437919184701
+ic1,apriori_reference_state,leith,2026,sparse calibration split,SGS_transfer_spectrum_L1_physical_k1_33,0.6665325146584858,0.6652205675030401,0.00424935185559363
+ic1,apriori_reference_state,leith,2027,sparse calibration split,SGS_transfer_spectrum_L1_physical_k1_33,0.6604699526481569,0.6652205675030401,0.00424935185559363
+ic1,apriori_reference_state,leith,2028,sparse calibration split,SGS_transfer_spectrum_L1_physical_k1_33,0.6686592352024776,0.6652205675030401,0.00424935185559363
+ic1,apriori_reference_state,clark,deterministic,none,SGS_transfer_spectrum_L1_physical_k1_33,0.11176567730546068,0.11176567730546068,
+ic1,apriori_reference_state,mixed,2026,sparse calibration split,SGS_transfer_spectrum_L1_physical_k1_33,0.11176567730546068,0.11146847377176912,0.0005147716205427809
+ic1,apriori_reference_state,mixed,2027,sparse calibration split,SGS_transfer_spectrum_L1_physical_k1_33,0.11176567730546068,0.11146847377176912,0.0005147716205427809
+ic1,apriori_reference_state,mixed,2028,sparse calibration split,SGS_transfer_spectrum_L1_physical_k1_33,0.11087406670438602,0.11146847377176912,0.0005147716205427809
+ic1,apriori_reference_state,A0B1,2026,neural training seed,SGS_transfer_spectrum_L1_physical_k1_33,0.8079882807541392,0.6686885454179272,0.12729457655824042
+ic1,apriori_reference_state,A0B1,2027,neural training seed,SGS_transfer_spectrum_L1_physical_k1_33,0.6396662179484072,0.6686885454179272,0.12729457655824042
+ic1,apriori_reference_state,A0B1,2028,neural training seed,SGS_transfer_spectrum_L1_physical_k1_33,0.5584111375512354,0.6686885454179272,0.12729457655824042
+ic1,apriori_reference_state,full,2026,neural training seed,SGS_transfer_spectrum_L1_physical_k1_33,0.6981911838183338,0.6782180266597283,0.1412073951296706
+ic1,apriori_reference_state,full,2027,neural training seed,SGS_transfer_spectrum_L1_physical_k1_33,0.8083754211372258,0.6782180266597283,0.1412073951296706
+ic1,apriori_reference_state,full,2028,neural training seed,SGS_transfer_spectrum_L1_physical_k1_33,0.5280874750236253,0.6782180266597283,0.1412073951296706
+ic2,apriori_reference_state,leith,2026,sparse calibration split,div_relative_l2_physical,0.9358512946034849,0.9357056927491302,0.000505725401509892
+ic2,apriori_reference_state,leith,2027,sparse calibration split,div_relative_l2_physical,0.9351431385608726,0.9357056927491302,0.000505725401509892
+ic2,apriori_reference_state,leith,2028,sparse calibration split,div_relative_l2_physical,0.936122645083033,0.9357056927491302,0.000505725401509892
+ic2,apriori_reference_state,clark,deterministic,none,div_relative_l2_physical,0.20534124870067152,0.20534124870067152,
+ic2,apriori_reference_state,mixed,2026,sparse calibration split,div_relative_l2_physical,0.20534124870067152,0.20527589933858958,0.00011318841536815132
+ic2,apriori_reference_state,mixed,2027,sparse calibration split,div_relative_l2_physical,0.20534124870067152,0.20527589933858958,0.00011318841536815132
+ic2,apriori_reference_state,mixed,2028,sparse calibration split,div_relative_l2_physical,0.20514520061442568,0.20527589933858958,0.00011318841536815132
+ic2,apriori_reference_state,A0B1,2026,neural training seed,div_relative_l2_physical,0.8340224313364295,0.7494824447753511,0.07489378386273017
+ic2,apriori_reference_state,A0B1,2027,neural training seed,div_relative_l2_physical,0.6914383630752913,0.7494824447753511,0.07489378386273017
+ic2,apriori_reference_state,A0B1,2028,neural training seed,div_relative_l2_physical,0.7229865399143326,0.7494824447753511,0.07489378386273017
+ic2,apriori_reference_state,full,2026,neural training seed,div_relative_l2_physical,0.7548110494106759,0.7497482355898363,0.017452755486170406
+ic2,apriori_reference_state,full,2027,neural training seed,div_relative_l2_physical,0.7303237942799461,0.7497482355898363,0.017452755486170406
+ic2,apriori_reference_state,full,2028,neural training seed,div_relative_l2_physical,0.7641098630788867,0.7497482355898363,0.017452755486170406
+ic2,apriori_reference_state,leith,2026,sparse calibration split,Pi_Pearson,0.22058692506969876,0.22058692543751224,3.3779441750281124e-10
+ic2,apriori_reference_state,leith,2027,sparse calibration split,Pi_Pearson,0.2205869255089912,0.22058692543751224,3.3779441750281124e-10
+ic2,apriori_reference_state,leith,2028,sparse calibration split,Pi_Pearson,0.22058692573384675,0.22058692543751224,3.3779441750281124e-10
+ic2,apriori_reference_state,clark,deterministic,none,Pi_Pearson,0.9954772239474251,0.9954772239474251,
+ic2,apriori_reference_state,mixed,2026,sparse calibration split,Pi_Pearson,0.9954772239474251,0.9954815078067526,7.419862007693758e-06
+ic2,apriori_reference_state,mixed,2027,sparse calibration split,Pi_Pearson,0.9954772239474251,0.9954815078067526,7.419862007693758e-06
+ic2,apriori_reference_state,mixed,2028,sparse calibration split,Pi_Pearson,0.9954900755254076,0.9954815078067526,7.419862007693758e-06
+ic2,apriori_reference_state,A0B1,2026,neural training seed,Pi_Pearson,0.9338605594171285,0.9340409831465176,0.010467483086580827
+ic2,apriori_reference_state,A0B1,2027,neural training seed,Pi_Pearson,0.9445975118240294,0.9340409831465176,0.010467483086580827
+ic2,apriori_reference_state,A0B1,2028,neural training seed,Pi_Pearson,0.9236648781983949,0.9340409831465176,0.010467483086580827
+ic2,apriori_reference_state,full,2026,neural training seed,Pi_Pearson,0.9294552142776817,0.9389678433069872,0.031175121921803925
+ic2,apriori_reference_state,full,2027,neural training seed,Pi_Pearson,0.9737910938735966,0.9389678433069872,0.031175121921803925
+ic2,apriori_reference_state,full,2028,neural training seed,Pi_Pearson,0.9136572217696833,0.9389678433069872,0.031175121921803925
+ic2,apriori_reference_state,leith,2026,sparse calibration split,negative_F1,0.0,0.0,0.0
+ic2,apriori_reference_state,leith,2027,sparse calibration split,negative_F1,0.0,0.0,0.0
+ic2,apriori_reference_state,leith,2028,sparse calibration split,negative_F1,0.0,0.0,0.0
+ic2,apriori_reference_state,clark,deterministic,none,negative_F1,0.9328113029056224,0.9328113029056224,
+ic2,apriori_reference_state,mixed,2026,sparse calibration split,negative_F1,0.9328113029056224,0.9328047834799778,1.129197645266972e-05
+ic2,apriori_reference_state,mixed,2027,sparse calibration split,negative_F1,0.9328113029056224,0.9328047834799778,1.129197645266972e-05
+ic2,apriori_reference_state,mixed,2028,sparse calibration split,negative_F1,0.9327917446286885,0.9328047834799778,1.129197645266972e-05
+ic2,apriori_reference_state,A0B1,2026,neural training seed,negative_F1,0.8965717575955614,0.8929010360980943,0.0034012051475732236
+ic2,apriori_reference_state,A0B1,2027,neural training seed,negative_F1,0.8898563163365348,0.8929010360980943,0.0034012051475732236
+ic2,apriori_reference_state,A0B1,2028,neural training seed,negative_F1,0.8922750343621867,0.8929010360980943,0.0034012051475732236
+ic2,apriori_reference_state,full,2026,neural training seed,negative_F1,0.8925417839677426,0.8947455589970569,0.01177444804707905
+ic2,apriori_reference_state,full,2027,neural training seed,negative_F1,0.9074661882047068,0.8947455589970569,0.01177444804707905
+ic2,apriori_reference_state,full,2028,neural training seed,negative_F1,0.884228704818721,0.8947455589970569,0.01177444804707905
+ic2,apriori_reference_state,leith,2026,sparse calibration split,SGS_transfer_spectrum_L1_physical_k1_33,0.704678073861741,0.7033312839150919,0.004241450690298554
+ic2,apriori_reference_state,leith,2027,sparse calibration split,SGS_transfer_spectrum_L1_physical_k1_33,0.6985799578991996,0.7033312839150919,0.004241450690298554
+ic2,apriori_reference_state,leith,2028,sparse calibration split,SGS_transfer_spectrum_L1_physical_k1_33,0.7067358199843351,0.7033312839150919,0.004241450690298554
+ic2,apriori_reference_state,clark,deterministic,none,SGS_transfer_spectrum_L1_physical_k1_33,0.1093144263919831,0.1093144263919831,
+ic2,apriori_reference_state,mixed,2026,sparse calibration split,SGS_transfer_spectrum_L1_physical_k1_33,0.1093144263919831,0.10912642341128936,0.0003256307145359583
+ic2,apriori_reference_state,mixed,2027,sparse calibration split,SGS_transfer_spectrum_L1_physical_k1_33,0.1093144263919831,0.10912642341128936,0.0003256307145359583
+ic2,apriori_reference_state,mixed,2028,sparse calibration split,SGS_transfer_spectrum_L1_physical_k1_33,0.10875041744990187,0.10912642341128936,0.0003256307145359583
+ic2,apriori_reference_state,A0B1,2026,neural training seed,SGS_transfer_spectrum_L1_physical_k1_33,0.7877363031835217,0.6368767980208317,0.1344417857801476
+ic2,apriori_reference_state,A0B1,2027,neural training seed,SGS_transfer_spectrum_L1_physical_k1_33,0.5931590469579396,0.6368767980208317,0.1344417857801476
+ic2,apriori_reference_state,A0B1,2028,neural training seed,SGS_transfer_spectrum_L1_physical_k1_33,0.5297350439210341,0.6368767980208317,0.1344417857801476
+ic2,apriori_reference_state,full,2026,neural training seed,SGS_transfer_spectrum_L1_physical_k1_33,0.668386600637072,0.6596205392941723,0.12596785949422748
+ic2,apriori_reference_state,full,2027,neural training seed,SGS_transfer_spectrum_L1_physical_k1_33,0.780976399789922,0.6596205392941723,0.12596785949422748
+ic2,apriori_reference_state,full,2028,neural training seed,SGS_transfer_spectrum_L1_physical_k1_33,0.5294986174555231,0.6596205392941723,0.12596785949422748

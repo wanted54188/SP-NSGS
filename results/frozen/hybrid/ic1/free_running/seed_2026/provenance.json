@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "ic": "ic1",
+  "mode": "free_running",
+  "seed": 2026,
+  "alpha": 0.5,
+  "device": "cuda",
+  "input_lock_sha256": "b25bf547370f91434ac1bdbdd7481ab1b6a916c7234a974619e0dd556c1fc6d8",
+  "torch": "2.5.1+cu121",
+  "tf32_matmul": false,
+  "tf32_cudnn": true,
+  "future_reference_to_integrator": false,
+  "adaptation": false,
+  "training": false,
+  "initialization": "one projected Gaussian-filtered state at t=0.1",
+  "selection_sha256": "249ab49bcdd349d0e4c44354c1dfa1a46a099a98366d67496fb51fbef66a763c",
+  "initial_source": "origin-file/XYZ_内部表_table_1.000000e-01.csv",
+  "initial_source_sha256": "c188811e401c31cb4e42832878cf956b6f01ca9952bde014492e0a88643fd557",
+  "elapsed_seconds": 9.745430500013754,
+  "outputs_sha256": {
+    "timewise.csv": "fe16a239eddcbd6114999c9b9bc6db2cce06ed725c5a0061c3d2eb56cfff35db",
+    "summary.json": "4f22765ec2f86f2199f10572a2f0767a16e13d99900cf3a3bd3eff5e595ec19b"
+  },
+  "original_provenance_sha256": "d7ed964bed079379572c8e61de17fc9c42837f42c889b83ba7871c507e37296f",
+  "original_outputs_not_distributed": [
+    "every_step.csv",
+    "every_step_spectra.npz",
+    "spectra.npz",
+    "states.npz"
+  ]
+}

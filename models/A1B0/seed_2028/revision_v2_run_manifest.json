@@ -1,0 +1,27 @@
+{
+  "variant": "A1B0",
+  "seed": 2028,
+  "device": "cuda",
+  "dataset_version": "revision_v2_refined_STAR_0p296m_0p005s",
+  "dataset_sha256": "c76a5fe030cbd2b827381d21b204fea62e22e2030959c7b1e7adab80c9afb904",
+  "split_manifest": "source:results/revision_v2/splits/seed_2028.json",
+  "split_sha256": "a0f16fbee8e1e402385c715cfbd27c90c9bf01990ac64d1b16ed0aa54bcfc259",
+  "base_config": "source:configs/main.json",
+  "base_config_sha256": "70ee51ad4cc659da418093c70df6434343bf16ff2cfea64fa95538a41927e929",
+  "overlay_config": "source:configs/revision_v2/ablation/A1B0.json",
+  "overlay_config_sha256": "80dd7ac54f5782195a936910026a07a4f5779f3572a5bf0b24724b7b0bea33b1",
+  "solver_source_sha256": "d4d49a41f42240f16d567bca3748155e9bacf9dc8738fcb0b677e7b91ebf9a28",
+  "trainer_source_sha256": "5833c1f6f9c83edf6eefb55760e306cc8085c6db7708ae09ad66b5f438846554",
+  "launcher_source_sha256": "f7b714159f272721f0e512d0b239cc85c58ddf325493e39f4d22531870298c81",
+  "capacity": {
+    "total_allocated_parameters": 80008,
+    "active_forward_path_parameters": 79140,
+    "active_output_channels": 4,
+    "inactive_output_channels_are_algebraically_masked": true,
+    "parameter_count_method": "shared CNN trunk + active 3x3 output filters + optional gamma scalar"
+  },
+  "initial_state_time_s": 0.1,
+  "official_checkpoint_selection": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+  "t0_export_available": false,
+  "smoke_only": false
+}

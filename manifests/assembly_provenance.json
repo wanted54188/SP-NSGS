@@ -1,0 +1,12 @@
+{
+  "previous_main_sha": "e88fbdc77369642a56fa89c923a8f7517ca9710a",
+  "source_candidate_file_count": 992,
+  "author_publication_authorized": true,
+  "license_selected": false,
+  "original_hybrid_implementation_sha256": "a20e147156bdc76e95c052df927f8e17798458065a1395ff0284274149cc1ae9",
+  "source_spectrum_code_sha256": "8d85bb88a7bdc0764cc8f3302f77bc7e816f18475c853ea59aa14d6af50772bf",
+  "manuscript_tex_sha256": "1268d97c208d77c58beedda529d1f6f29017c61959b1a564c325cd743384e797",
+  "supplement_tex_sha256": "5b057cde279009807ffc6838e78278723aa4743f9a812df361ae36afb51f70b0",
+  "original_formal_results_unchanged": true,
+  "unpublished_methods_excluded": true
+}

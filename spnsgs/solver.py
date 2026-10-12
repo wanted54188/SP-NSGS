@@ -64,11 +64,12 @@ class SPNSGSClosure(nn.Module):
         if self.experiment_variant not in {
             "full_sp_nsgs",
             "iso_dissipative",
+            "anisotropic_dissipative",
+            "isotropic_signed",
             "no_sgs",
         }:
             raise ValueError(
-                "experiment_variant must be 'full_sp_nsgs', "
-                "'iso_dissipative', or 'no_sgs'"
+                "unsupported experiment_variant: " + self.experiment_variant
             )
         channels = config.paper.closure_channels
         self.parameterization = config.paper.closure_parameterization.lower()
@@ -308,12 +309,12 @@ class SPNSGSClosure(nn.Module):
         a11 = 1.0 + anisotropy_scale * anisotropy_x
         a12 = anisotropy_scale * anisotropy_y
         a22 = 1.0 - anisotropy_scale * anisotropy_x
-        if self.experiment_variant == "iso_dissipative":
-            # Formal ISO baseline: retain the same positive diffusivity map,
-            # but enforce A=I exactly and remove q_b algebraically.
+        if self.experiment_variant in {"iso_dissipative", "isotropic_signed"}:
+            # A0: remove anisotropic degrees of freedom algebraically.
             a11 = torch.ones_like(a11)
             a12 = torch.zeros_like(a12)
             a22 = torch.ones_like(a22)
+            bounded_radius = torch.zeros_like(bounded_radius)
 
         qd_x = -nu_d * (a11 * omega_x + a12 * omega_y)
         qd_y = -nu_d * (a12 * omega_x + a22 * omega_y)
@@ -367,7 +368,7 @@ class SPNSGSClosure(nn.Module):
         effective_beta = (
             self.backscatter_factor * self.maximum_backscatter_ratio
         )
-        if self.experiment_variant == "iso_dissipative":
+        if self.experiment_variant in {"iso_dissipative", "anisotropic_dissipative"}:
             effective_beta = 0.0
         backscatter_amplitude = effective_beta * support_norm * backscatter_gate
         qb_x_raw = backscatter_amplitude * direction_x

@@ -1,0 +1,55 @@
+{
+  "original_vs_release_CPU_max_abs": {
+    "qx": 0.0,
+    "qy": 0.0,
+    "div_q": 0.0,
+    "pi": 0.0
+  },
+  "raw_IC1_first_frame_max_abs": {
+    "u": 0.0,
+    "v": 0.0,
+    "omega": 0.0,
+    "q_sgs_x": 0.0,
+    "q_sgs_y": 0.0,
+    "div_q_sgs": 0.0,
+    "pi_sgs": 0.0
+  },
+  "CPU_CUDA_note": "Frozen CUDA div relative L2=2.3934570760246725; original and release CPU=2.39335441587613. Original/release CPU fields identical; expected backend float32 difference, not refactor drift.",
+  "unchanged_training_protocol_evolution_definitions": [
+    "_sensor_loss",
+    "_heldout_reference_closure_score",
+    "_validation_score",
+    "_checkpoint",
+    "_sparse_closure_scale_proposal",
+    "_select_sparse_closure_scale",
+    "_write_discrete_consistency_report",
+    "_write_history",
+    "_capture_rng_state",
+    "_restore_rng_state",
+    "train_paper",
+    "_device",
+    "_dtype",
+    "_seed_everything",
+    "_select_sensor_indices",
+    "_prepare_reference",
+    "_time_varying_sparse_subset",
+    "_time_varying_sparse_subset_with_weights",
+    "_sensor_protocol",
+    "_periodic_nearest_sensor_pairs",
+    "_periodic_longitudinal_flux_pairs",
+    "_stable_weighted_correlation",
+    "_normalised_huber",
+    "_sign_balanced_transfer_loss",
+    "_periodic_fourier_quadrature_weights",
+    "_SparseVorticityNudger",
+    "_rollout",
+    "_assimilated_rollout"
+  ],
+  "exact_core_source_hashes": {
+    "config": "602352b5029d8e93dc17ed24638dbe657bebf5d14fef9d88fd051d876f270a31",
+    "data": "290562e9a215ad4de6e72c0186ca20d6ffbd923798f0a19d62c892b5a2e77826",
+    "filters": "c8a7063de84d751304b59f5e5d2d67b865fde06ff37ea71d4490bf15a0e17910",
+    "solver": "d4d49a41f42240f16d567bca3748155e9bacf9dc8738fcb0b677e7b91ebf9a28",
+    "classical_baselines": "e1e73dc164bf5d8747aa824d4f5e90007d28b963bb1a05039c782370e44ab83e"
+  }
+}

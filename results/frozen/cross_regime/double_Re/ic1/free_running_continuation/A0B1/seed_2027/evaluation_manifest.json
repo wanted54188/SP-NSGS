@@ -1,0 +1,28 @@
+{
+  "reference_manifest": "source:results/cross_regime_transfer_2026-10-08/references/double_Re/ic1/reference_provenance.json",
+  "reference_manifest_sha256": "783ec7a6fa017c0203c0dc6f99eb9fecb950b7e5f2a54592f3b4a59ab7128fb4",
+  "reference_sha256": "e8f637a3526ddc08a18248ecb334d71c933f788e43977d6517cf37944a30fb29",
+  "frozen_model_or_classical_calibration": {
+    "seed": 2027,
+    "checkpoint": "source:results/revision_v2/runs/A0B1/seed_2027/best_closure.pt",
+    "checkpoint_sha256": "77fd9ea9ef0411954cddfb6ce0381dfd133096c58f54d27a7d4691dd52c630bb",
+    "effective_config": "source:results/revision_v2/runs/A0B1/seed_2027/effective_config.json",
+    "effective_config_sha256": "34722d4500228e0c12d73ca4fe377668eaa738228429ec8f5579da08d99f0e2e",
+    "training_dataset_sha256": "c76a5fe030cbd2b827381d21b204fea62e22e2030959c7b1e7adab80c9afb904",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "solver_source_sha256": "d4d49a41f42240f16d567bca3748155e9bacf9dc8738fcb0b677e7b91ebf9a28"
+  },
+  "physical_runtime_mapping": {
+    "enabled": false,
+    "physical_kinematic_viscosity_m2_s": 5e-07,
+    "frozen_network_inputs_have_explicit_nu_or_Re": false
+  },
+  "delta_m": 0.25132741228718347,
+  "original_training_delta_m": 0.25132741228718347,
+  "future_reference_access_during_rollout": false,
+  "training_or_recalibration_performed": false,
+  "failure_time_s": null,
+  "per_time_metrics_sha256": "dae2da333e431d36010e94694ca9eba2f69a829250aecea99c8d679bde3fadb3",
+  "summary_sha256": "102f1d1d2e255e00671dad1a6b4ae42440135de71867530092ae2177bc1950b6",
+  "evaluator_sha256": "a6392d4406e928d82e7794aac3b16996f059f0a3b480d4b3be88524c09e7c72c"
+}

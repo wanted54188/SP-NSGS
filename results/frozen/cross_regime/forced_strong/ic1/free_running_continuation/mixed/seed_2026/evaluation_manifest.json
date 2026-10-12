@@ -1,0 +1,31 @@
+{
+  "reference_manifest": "source:results/cross_regime_transfer_2026-10-08/references/forced_strong/ic1/reference_provenance.json",
+  "reference_manifest_sha256": "766897f0583bfa73e485f141707b7e9091b1ff08a8619289f0a1ea0cf62126f4",
+  "reference_sha256": "fe06bd5bfcc3f39465349c9e07df82b661c64f21a7bf705242a2962f26cdf6cf",
+  "frozen_model_or_classical_calibration": {
+    "model": "mixed",
+    "coefficient": 0.0,
+    "seed": 2026,
+    "calibration_file": "source:results/revision_v2_classical_baselines/calibration/seed_2026.json",
+    "calibration_sha256": "a677d2d2f809865dd0063ae5944ebf03380d5641297b1291f64ceb25b621a462",
+    "calibration_filter_delta_m": 0.25132741228718347,
+    "recalibrated_on_test": false,
+    "shared_solver_config": "source:results/revision_v2/runs/A0B1/seed_2026/effective_config.json",
+    "shared_solver_config_sha256": "82e151213e0863058c1d82fa19542b3f4cccdea811ed95e689ddb8d972d56341"
+  },
+  "physical_runtime_mapping": {
+    "enabled": true,
+    "source_amplitude": 10.0,
+    "source_kind": "per_volume",
+    "filter_gain": 0.9587640114564283,
+    "lock_sha256": null
+  },
+  "delta_m": 0.25132741228718347,
+  "original_training_delta_m": 0.25132741228718347,
+  "future_reference_access_during_rollout": false,
+  "training_or_recalibration_performed": false,
+  "failure_time_s": null,
+  "per_time_metrics_sha256": "2f92c13aa4c23c07f9420b0804aa35252d170458cd835f161f7bf154afa4e933",
+  "summary_sha256": "356aceb6510be435a16869382fbc7b5b60dbb18edf3a73bff01d470eff1e786e",
+  "evaluator_sha256": "a6392d4406e928d82e7794aac3b16996f059f0a3b480d4b3be88524c09e7c72c"
+}
