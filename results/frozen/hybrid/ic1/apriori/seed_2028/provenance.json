@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "ic": "ic1",
+  "mode": "apriori",
+  "seed": 2028,
+  "alpha": 0.5,
+  "device": "cuda",
+  "input_lock_sha256": "b25bf547370f91434ac1bdbdd7481ab1b6a916c7234a974619e0dd556c1fc6d8",
+  "torch": "2.5.1+cu121",
+  "tf32_matmul": false,
+  "tf32_cudnn": true,
+  "future_reference_to_integrator": false,
+  "adaptation": false,
+  "training": false,
+  "initialization": "one projected Gaussian-filtered state at t=0.1",
+  "selection_sha256": "249ab49bcdd349d0e4c44354c1dfa1a46a099a98366d67496fb51fbef66a763c",
+  "elapsed_seconds": 1.2940713999560103,
+  "outputs_sha256": {
+    "timewise.csv": "1223cc2868e027331a750f37b9c8a681f31ee68e5e08a40201ba80297be540d8",
+    "summary.json": "3f25897d9649394dcaec1fb10de507382931f18cfd8bb33e001722c774807897"
+  },
+  "original_provenance_sha256": "d782d8d2f9c8da4788d04e2c1839b6db1e158a8cd0ae09670174edac73080078",
+  "original_outputs_not_distributed": [
+    "spectra.npz",
+    "states.npz"
+  ]
+}

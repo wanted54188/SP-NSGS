@@ -1,0 +1,13 @@
+panel,source_kind,seed,stratum,relative_l2,ISO_algebraic_relative_l2
+50-frame seed means,archived_50_frame_summary,2026,low,0.9980396665540296,1.0
+50-frame seed means,archived_50_frame_summary,2026,high,0.8692019258845143,1.0
+50-frame seed means,archived_50_frame_summary,2027,low,0.9974383340377244,1.0
+50-frame seed means,archived_50_frame_summary,2027,high,0.907220591209728,1.0
+50-frame seed means,archived_50_frame_summary,2028,low,1.0005159164477246,1.0
+50-frame seed means,archived_50_frame_summary,2028,high,0.9044042413703028,1.0
+Saved t=5.0-s field,saved_t5_spatial_snapshot,2026,low,0.9979425241484988,1.0
+Saved t=5.0-s field,saved_t5_spatial_snapshot,2026,high,0.7769917696936088,1.0
+Saved t=5.0-s field,saved_t5_spatial_snapshot,2027,low,1.000327517655062,1.0
+Saved t=5.0-s field,saved_t5_spatial_snapshot,2027,high,0.9685054193225188,1.0
+Saved t=5.0-s field,saved_t5_spatial_snapshot,2028,low,1.0017872032116686,1.0
+Saved t=5.0-s field,saved_t5_spatial_snapshot,2028,high,0.9287482980752504,1.0

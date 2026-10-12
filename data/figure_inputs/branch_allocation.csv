@@ -1,0 +1,46 @@
+panel,seed,region,comparison,metric,branch,value
+a,2026,all,flux_alloc,RMSqd_over_RMSqsgs,q_d,0.1555754958575128
+a,2027,all,flux_alloc,RMSqd_over_RMSqsgs,q_d,0.0893479217674445
+a,2028,all,flux_alloc,RMSqd_over_RMSqsgs,q_d,0.1643386884096844
+a,2026,all,flux_alloc,RMSqb_over_RMSqsgs,q_b,0.9578031045624495
+a,2027,all,flux_alloc,RMSqb_over_RMSqsgs,q_b,0.9759562632369142
+a,2028,all,flux_alloc,RMSqb_over_RMSqsgs,q_b,0.9579422813361228
+b,2026,all,qd_qb,angle,"Angle(q_d, q_b)",82.32105487926219
+b,2027,all,qd_qb,angle,"Angle(q_d, q_b)",81.30524216201616
+b,2028,all,qd_qb,angle,"Angle(q_d, q_b)",83.14253246836002
+c,2026,Pi>0,Pi_means,mean_Pid,Pi_d,3.4927689925164738
+c,2027,Pi>0,Pi_means,mean_Pid,Pi_d,2.9203641263957825
+c,2028,Pi>0,Pi_means,mean_Pid,Pi_d,3.240294819633964
+c,2026,Pi>0,Pi_means,mean_Pib,Pi_b,13.353300705292495
+c,2027,Pi>0,Pi_means,mean_Pib,Pi_b,18.20248425972629
+c,2028,Pi>0,Pi_means,mean_Pib,Pi_b,11.951033956897357
+c,2026,Pi>0,Pi_means,mean_Pit,Pi_total,16.84606969589212
+c,2027,Pi>0,Pi_means,mean_Pit,Pi_total,21.122848385878893
+c,2028,Pi>0,Pi_means,mean_Pit,Pi_total,15.19132877828709
+d,2026,Pi<0,Pi_means,mean_Pid,Pi_d,2.3409183485731595
+d,2027,Pi<0,Pi_means,mean_Pid,Pi_d,1.5340068887620373
+d,2028,Pi<0,Pi_means,mean_Pid,Pi_d,2.006455302429911
+d,2026,Pi<0,Pi_means,mean_Pib,Pi_b,-10.469954947746528
+d,2027,Pi<0,Pi_means,mean_Pib,Pi_b,-13.599549453282446
+d,2028,Pi<0,Pi_means,mean_Pib,Pi_b,-9.926220338310909
+d,2026,Pi<0,Pi_means,mean_Pit,Pi_total,-8.129036600638763
+d,2027,Pi<0,Pi_means,mean_Pit,Pi_total,-12.06554256387764
+d,2028,Pi<0,Pi_means,mean_Pit,Pi_total,-7.9197650356786
+e,2026,all,qd_vs_ref,relL2,q_d,0.9851305080636228
+e,2027,all,qd_vs_ref,relL2,q_d,0.9811175729807208
+e,2028,all,qd_vs_ref,relL2,q_d,0.9890894706586276
+e,2026,all,qb_vs_ref,relL2,q_b,0.2367368695229526
+e,2027,all,qb_vs_ref,relL2,q_b,0.4057124761447382
+e,2028,all,qb_vs_ref,relL2,q_b,0.2498411198284301
+e,2026,all,qtotal_vs_ref,relL2,total,0.3039519722080049
+e,2027,all,qtotal_vs_ref,relL2,total,0.4484319340971441
+e,2028,all,qtotal_vs_ref,relL2,total,0.2946940708754756
+f,2026,all,Pid_vs_ref,pearson,Pi_d,0.3104274892088716
+f,2027,all,Pid_vs_ref,pearson,Pi_d,0.407033209433117
+f,2028,all,Pid_vs_ref,pearson,Pi_d,0.3384991224877345
+f,2026,all,Pib_vs_ref,pearson,Pi_b,0.9711141117528777
+f,2027,all,Pib_vs_ref,pearson,Pi_b,0.985721456268298
+f,2028,all,Pib_vs_ref,pearson,Pi_b,0.9629708127782376
+f,2026,all,Pitot_vs_ref,pearson,Pi_total,0.931291509626106
+f,2027,all,Pitot_vs_ref,pearson,Pi_total,0.9731837900111924
+f,2028,all,Pitot_vs_ref,pearson,Pi_total,0.9235747420116894

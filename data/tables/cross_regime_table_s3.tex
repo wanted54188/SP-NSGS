@@ -1,0 +1,16 @@
+
+\begin{landscape}
+\begin{table}[p]\centering\scriptsize
+\caption{IC-1 frozen A0B1 cross-regime transfer, $0.1$--$5.0$~s, three paired training seeds. Density is 1000~kg~m$^{-3}$ in every case; $\mu$ is in Pa~s and $\nu$ in m$^2$~s$^{-1}$. $Re/Re_0=\nu_0/\nu$ uses the fixed unfiltered analytic IC-1 RMS speed $U_*=0.15\sqrt{70}$~m~s$^{-1}$ and domain side $L_*=2\pi$~m, giving $Re_0\simeq7.88533\times10^6$. No new-regime fitting, normalization or checkpoint selection was used. Entries are mean $\pm$ sample SD over seeds. Baseline vector-flux error is recombined from frozen framewise component errors and the archived physical reference, then averaged over frames.\label{tab:cross_regime}}
+\par\smallskip\noindent\textit{Alt text: Six rows compare the original case with two new filter widths, two viscosity settings and a sinusoidal forcing case. Columns list physical settings, three evaluated seeds, three reference-state SGS metrics and no-observation trajectory error. Values include sample standard deviations.}
+\begin{tabular}{lccccclccccc}\toprule
+Regime & $\delta$ (m) & $\mu$ & $\nu$ & $Re/Re_0$ & Source & $n$ & $\epsilon_q$ & $r(\Pi)$ & F1$_-$ & $\epsilon_\omega$ \\\midrule
+Baseline & 0.2513 & 0.001 & $10^{-6}$ & 1 & none & 3 & $0.296\pm0.023$ & $0.933\pm0.009$ & $0.890\pm0.004$ & $0.589\pm0.009$ \\
+Small $\delta$ & 0.1885 & 0.001 & $10^{-6}$ & 1 & none & 3 & $0.300\pm0.022$ & $0.920\pm0.012$ & $0.869\pm0.004$ & $0.522\pm0.009$ \\
+Large $\delta$ & 0.3770 & 0.001 & $10^{-6}$ & 1 & none & 3 & $0.359\pm0.023$ & $0.929\pm0.009$ & $0.872\pm0.012$ & $0.810\pm0.040$ \\
+$0.5Re_0$ & 0.2513 & 0.002 & $2\times10^{-6}$ & 0.5 & none & 3 & $0.296\pm0.023$ & $0.933\pm0.009$ & $0.890\pm0.004$ & $0.589\pm0.010$ \\
+$2Re_0$ & 0.2513 & 0.0005 & $5\times10^{-7}$ & 2 & none & 3 & $0.296\pm0.023$ & $0.933\pm0.009$ & $0.889\pm0.004$ & $0.589\pm0.009$ \\
+Strong force & 0.2513 & 0.001 & $10^{-6}$ & 1 & $10\sin(k_f y)$ N m$^{-3}$ & 3 & $0.290\pm0.021$ & $0.933\pm0.007$ & $0.889\pm0.004$ & $0.595\pm0.009$ \\
+\bottomrule\end{tabular}
+\end{table}
+\end{landscape}

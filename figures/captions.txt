@@ -1,0 +1,62 @@
+Fig01_method_information_access.pdf
+Closure structure and evaluation-mode information access. The dissipative branch guarantees $\Pi_d\ge0$ pointwise, while the bounded sign-indefinite correction can produce local reverse SGS enstrophy transfer. A-priori tests receive each reference state; no-observation continuations receive one state at $t=0.1$~s; assisted reconstruction receives future observations at 400 fixed sites every 0.1~s.
+
+Fig02_reference_credibility.pdf
+Numerical-reference credibility. Mesh-base-size refinement at $\Delta t=0.005$~s and the separate temporal check are not conflated. Physical SGS comparisons use matched filtering; the shell transfer-budget identity is checked. The displayed IC-1 fields are the predeclared $t=5$~s snapshot at shared physical color scales. These checks support a grid-refined numerical reference, not DNS or an exact solution.
+
+Fig03_factorial_attribution.png
+Paired $2\times2$ factorial on IC-1 and IC-2. Small hollow symbols retain every seed 2026--2028; larger markers and whiskers denote mean $\pm$ sample SD. The first two panels use a-priori reference states; the vorticity panel is a genuine $0.1$--$5$~s no-observation continuation. The signed correction gives the principal reproducible increment; learned anisotropy has a smaller and seed-sensitive effect. Full/2027 is included, and no significance test is implied by $n=3$.
+
+Fig04_signed_transfer_structure.pdf
+IC-1 a-priori local SGS enstrophy transfer at the predeclared $t=5$~s snapshot, seed 2026. Top: native $\Pi_\omega$ for reference, ISO, A0B1 and Full under one shared zero-centred physical scale. Bottom: each field is centred by its own spatial mean and divided by its own centred RMS, with identical $[-3,3]$ saturation. The bottom row removes amplitude to isolate pattern fidelity. Reported correlations and negative-event F1 in the text are official 50-frame results, not snapshot scores.
+
+Fig05_classical_neural_tradeoff.pdf
+A-priori physical $\nabla\cdot\boldsymbol q$ relative $L^2$ error versus genuine free-running mean vorticity relative $L^2$ error on IC-1 and IC-2. Hollow symbols are three neural training seeds or three classical sparse calibration splits; solid symbols and bars are their mean $\pm$ sample SD. Clark is deterministic and has no artificial SD. Lower is better on both axes. Clark and Mixed have superior local instantaneous source fidelity, while A0B1 has the lowest mean closed-loop vorticity error among the displayed comparators. Neither axis is an observation-assisted result.
+
+Fig06_free_running_full_scale.pdf
+Genuine free-running vorticity error curves for frozen neural models and classical comparators on IC-1 and IC-2. All runs start once from their filtered reference at $t=0.1$~s; subsequent reference fields are scoring targets only. The left panels retain the complete classical error scale, while the right panels are a labelled enlarged view of the same data. Thin curves show individual neural seeds or classical calibration splits; mean ribbons represent sample SD across three values. Clark is one deterministic run.
+
+Fig07_observation_assisted_10s.pdf
+Extended-time sparse-observation-assisted reconstruction on IC-1 and IC-2. Seeds 2026 and 2028 are shown separately from 2027 so that the Full outlier remains visible; all three seeds enter reported aggregate statistics. The vertical line marks the end of the original 0.1--5-s interval. Future $\{\omega,u,v\}$ observations from 400 fixed sites enter every 0.1~s; these curves are not autonomous predictions.
+
+Fig08_classical_neural_cross_regime.pdf
+Classical versus neural SGS behavior under unseen IC-1 regimes. Columns compare baseline with two filter widths, two fixed-scale Reynolds-number ratios, and one periodic-force case; rows show a-priori $r(\Pi_\omega)$ and genuine free-running time-mean vorticity relative $L^2$. Hollow markers are individual IC-1 calibration splits for Leith/Mixed or training seeds for A0B1; solid markers and bars show mean $\pm$ sample SD. Clark is a single deterministic diamond without an uncertainty bar. Each row uses the same complete vertical scale across columns; Supplement Fig.~S13 enlarges the low-error range without replacing the full-scale view. All coefficients and checkpoints were frozen before the new-regime evaluations.
+
+Supplement
+\suppfigwide{FigS01_classical_a_priori_metrics}{Frozen classical and neural a-priori metrics. Leith and Mixed have three sparse calibration splits; A0B1 and Full have three training seeds; Clark is deterministic. This is the available statistical panel, without a two-dimensional field-map claim. The amplitude diagnostics are reported separately in Table~\ref{tab:supp_metrics}.}{fig:s1}{Comparison plots summarize frozen reference-state flux, source and transfer metrics. Clark and Mixed have low instantaneous source error, while signed neural variants better identify local negative transfer.}
+
+Supplement
+\suppfig{FigS02_source_fields_with_clark}{IC-1 a-priori $-\nabla\cdot q$ at the fixed $t=5$~s frame. Raw fields share a physical scale; separately centred and RMS-scaled fields remove amplitude. Clark's strong instantaneous source fidelity and neural local overshoot remain visible. Density annotations use the official 50-frame scores.}{fig:s2}{Maps compare the reference SGS source with Clark and neural estimates at one fixed IC-1 time. Clark reproduces much of the raw source structure; normalized maps show pattern independently of amplitude.}
+
+Supplement
+\suppfigwide{FigS03_free_running_field_maps}{IC-1 genuine no-observation vorticity fields at the fixed $t=3$ and $5$~s frames, including deterministic Clark, Leith split 2026, and neural seed 2026. All raw maps share one symmetric color scale; individual seed statistics appear elsewhere.}{fig:s3}{Vorticity maps at three and five seconds compare a reference field with free-running classical and neural states. Spatial mismatch increases at the later time, even without numerical blowup.}
+
+Supplement
+\suppfig{FigS05_branch_allocation}{IC-1 Full branch-allocation audit across all three seeds. $q_d$ carries the algebraic nonnegative-transfer guarantee; $q_b$ contributes most flux magnitude, non-collinear transport and all negative total transfer. Allocation is descriptive, not an independently trained branch ablation.}{fig:s4}{Branch-allocation plots show that the signed correction supplies most modeled flux magnitude and the negative-transfer events. The smaller dissipative branch retains the explicit pointwise nonnegative-transfer property.}
+
+Supplement
+\suppfigwide{FigS06_spd_anisotropy}{Frozen IC-1 learned SPD-tensor audit. $A_\theta$ differs from identity and yields non-collinear dissipative flux, but this does not show that $q_d$ reconstructs the dominant perpendicular reference flux.}{fig:s5}{Tensor diagnostics show learned directional diffusivity different from an identity tensor and corresponding non-collinear dissipative flux. They do not establish dominant reference-flux fidelity for that branch.}
+
+Supplement
+\suppfigwide{FigS07_directional_anisotropy_utility}{IC-1 directional audit on predeclared anisotropy-index strata. A1B0 improves the reference perpendicular flux component relative to the isotropic algebraic zero in the high-index decile for all three seeds, but remains under-amplitude. This local result does not establish total-flux or source superiority.}{fig:s6}{Stratified directional plots compare anisotropy-only and isotropic flux components. In high-anisotropy regions, the anisotropic component aligns better with the reference perpendicular flux but remains smaller in magnitude.}
+
+Supplement
+\suppfig{FigS08_ic_1_ic_2_independence}{The independently phased IC-2 has matched modal content and near-identical initial spectra, while the first-stored vorticity fields have spatial Pearson $-0.5277$. Paired seed free-running errors are shown for both ICs. This is same-configuration initial-condition transfer only.}{fig:s7}{Initial spectra for the two cases nearly overlap despite different spatial vorticity realizations. Paired free-running summaries show similar component rankings under the shared physical and numerical configuration.}
+
+Supplement
+\suppfigwide{FigS09_checkpoint_audit}{Representative frozen checkpoint histories. Best-closure selection uses the predeclared sparse held-out reference-state score, with no final-test or rollout re-ranking. Curriculum changes over epochs; an early selected epoch is not claimed to be full convergence.}{fig:s8}{Training-history plots identify the predeclared sparse validation score and selected checkpoint epochs. They show the fixed curriculum and do not use final dense tests or rollouts for checkpoint selection.}
+
+Supplement
+\suppfigwide{FigS10_assisted_late_window_fidelity}{Paired $0.1$--$5$ and $5$--$10$~s closure metrics under the unchanged 4\% sparse-observation-assisted protocol. The windows share the $t=5$~s boundary frame. Later degradation and Full/2027 sensitivity are retained.}{fig:s9}{Early and late assisted-reconstruction metrics are compared for both initial conditions and all three seeds. Transfer and trajectory fidelity decline in the later interval; Full seed 2027 remains an outlier.}
+
+Supplement
+\suppfigwide{FigS12_normalized_pi_density}{IC-1 a-priori centred/RMS-normalized $\Pi_\omega$ reference-versus-model density at the fixed $t=5$~s frame. The normalization removes amplitude. Annotated Pearson and negative F1 are official 50-frame metrics and are not computed from the displayed snapshot alone.}{fig:s10}{Density plots compare spatial patterns of normalized local SGS enstrophy transfer for reference and modeled fields. Signed models cluster more closely around the identity relation than the isotropic dissipative model.}
+
+Supplement
+\suppfigwide{FigS11_reference_regime_differences}{IC-1 filtered reference vorticity at $t=5$~s for the baseline and differences from it for five discrete regime changes, with reference kinetic energy and enstrophy over time below. A common symmetric scale is used for all difference maps; the baseline map has its own stated scale. Filter changes alter the resolved representation of one decaying trajectory, whereas viscosity and forcing changes use new STAR trajectories.}{fig:cross_ref}{Six maps show baseline filtered vorticity and its differences from the two filter-width, two viscosity and strong-forcing references at five seconds. All five difference maps use one shared diverging color scale.}
+
+Supplement
+\suppfigwide{FigS12_cross_regime_free_running}{Genuine no-observation vorticity relative-$L^2$ trajectories for every official A0B1 seed in the baseline and five zero-shot IC-1 tests. Each panel shows seeds 2026, 2027 and 2028 separately; no reference reset or later observation is used.}{fig:cross_rollout}{Six time-curve panels show the vorticity relative error of all three frozen neural seeds for the baseline and each changed regime. The full time interval and seed spread remain visible.}
+
+Supplement
+\suppfigwide{FigS13_cross_regime_free_running_zoom}{Magnified lower-row genuine free-running scores from Fig.~\ref{fig:cross_rollout} and main Fig.~8, retaining every classical calibration split and neural seed. The main Fig.~8 shows the complete $0$--$4.05$ error range, including the high Clark and Mixed wide-filter values.}{fig:cross_zoom}{Six panels enlarge only the low-error range to distinguish nearby points while retaining the same underlying scores. The full-range main figure displays all high-error cases.}

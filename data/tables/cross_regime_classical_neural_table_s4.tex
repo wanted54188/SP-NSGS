@@ -1,0 +1,60 @@
+\begin{landscape}
+\small
+\begin{longtable}{llccccccc}
+\caption{Frozen classical-versus-neural cross-regime comparison on IC-1 over $t=0.1$--$5.0$~s. Every regime has 50 scored frames. A-priori $r(\Pi_\omega)$ and genuine free-running time-mean vorticity relative $L^2$ are separate protocols. Entries are mean $\pm$ sample SD for three sparse calibration splits (Leith, Mixed) or three neural training seeds (A0B1). Clark is a single deterministic result. Deltas are computed per matched replicate against the same model's baseline, then summarized. The 10~N~m$^{-3}$ strong-forcing case is used; the exploratory 0.01~N~m$^{-3}$ case is excluded.\label{tab:classical_transfer}}\\
+\multicolumn{9}{p{0.96\linewidth}}{\textit{Alt text: Rows for Leith, Clark, Mixed and A0B1 compare the baseline with two filter widths, two viscosity settings and one periodic-force case. Separate columns give absolute baseline and changed-regime local-transfer correlations, their differences, and corresponding no-observation vorticity errors. Clark has no artificial standard deviation.}}\\
+\toprule Method & Regime & $r_0$ & $r$ & $\Delta r$ & $\epsilon_{\omega,0}$ & $\epsilon_\omega$ & $\Delta\epsilon_\omega$ & Rep. \\\midrule\endfirsthead
+\toprule Method & Regime & $r_0$ & $r$ & $\Delta r$ & $\epsilon_{\omega,0}$ & $\epsilon_\omega$ & $\Delta\epsilon_\omega$ & Rep. \\\midrule\endhead
+leith & Baseline & $0.227\pm0.000$ & $0.227\pm0.000$ & $0.000\pm0.000$ & $0.766\pm0.001$ & $0.766\pm0.001$ & $0.000\pm0.000$ & 3 cal. \\
+leith & 0.75 $\delta_0$ & $0.227\pm0.000$ & $0.274\pm0.000$ & $0.047\pm0.000$ & $0.766\pm0.001$ & $0.694\pm0.000$ & $-0.072\pm0.002$ & 3 cal. \\
+leith & 1.50 $\delta_0$ & $0.227\pm0.000$ & $0.187\pm0.000$ & $-0.040\pm0.000$ & $0.766\pm0.001$ & $0.873\pm0.001$ & $0.107\pm0.002$ & 3 cal. \\
+leith & 0.5 $Re_0$ & $0.227\pm0.000$ & $0.226\pm0.000$ & $-0.001\pm0.000$ & $0.766\pm0.001$ & $0.767\pm0.001$ & $0.000\pm0.000$ & 3 cal. \\
+leith & 2 $Re_0$ & $0.227\pm0.000$ & $0.228\pm0.000$ & $0.001\pm0.000$ & $0.766\pm0.001$ & $0.766\pm0.001$ & $0.000\pm0.000$ & 3 cal. \\
+leith & Forced & $0.227\pm0.000$ & $0.222\pm0.000$ & $-0.005\pm0.000$ & $0.766\pm0.001$ & $0.764\pm0.001$ & $-0.002\pm0.000$ & 3 cal. \\
+clark & Baseline & $0.996$ & $0.996$ & $0.000$ & $1.870$ & $1.870$ & $0.000$ & 1 det. \\
+clark & 0.75 $\delta_0$ & $0.996$ & $0.992$ & $-0.003$ & $1.870$ & $0.651$ & $-1.219$ & 1 det. \\
+clark & 1.50 $\delta_0$ & $0.996$ & $0.991$ & $-0.005$ & $1.870$ & $3.793$ & $1.923$ & 1 det. \\
+clark & 0.5 $Re_0$ & $0.996$ & $0.996$ & $0.000$ & $1.870$ & $1.872$ & $0.001$ & 1 det. \\
+clark & 2 $Re_0$ & $0.996$ & $0.996$ & $-0.000$ & $1.870$ & $1.886$ & $0.016$ & 1 det. \\
+clark & Forced & $0.996$ & $0.995$ & $-0.000$ & $1.870$ & $1.966$ & $0.095$ & 1 det. \\
+mixed & Baseline & $0.996\pm0.000$ & $0.996\pm0.000$ & $0.000\pm0.000$ & $1.790\pm0.140$ & $1.790\pm0.140$ & $0.000\pm0.000$ & 3 cal. \\
+mixed & 0.75 $\delta_0$ & $0.996\pm0.000$ & $0.992\pm0.000$ & $-0.003\pm0.000$ & $1.790\pm0.140$ & $0.650\pm0.002$ & $-1.140\pm0.138$ & 3 cal. \\
+mixed & 1.50 $\delta_0$ & $0.996\pm0.000$ & $0.991\pm0.000$ & $-0.005\pm0.000$ & $1.790\pm0.140$ & $3.198\pm1.031$ & $1.408\pm0.891$ & 3 cal. \\
+mixed & 0.5 $Re_0$ & $0.996\pm0.000$ & $0.996\pm0.000$ & $0.000\pm0.000$ & $1.790\pm0.140$ & $1.784\pm0.152$ & $-0.006\pm0.012$ & 3 cal. \\
+mixed & 2 $Re_0$ & $0.996\pm0.000$ & $0.996\pm0.000$ & $-0.000\pm0.000$ & $1.790\pm0.140$ & $1.802\pm0.146$ & $0.012\pm0.006$ & 3 cal. \\
+mixed & Forced & $0.996\pm0.000$ & $0.995\pm0.000$ & $-0.000\pm0.000$ & $1.790\pm0.140$ & $1.853\pm0.196$ & $0.063\pm0.056$ & 3 cal. \\
+A0B1 & Baseline & $0.933\pm0.009$ & $0.933\pm0.009$ & $0.000\pm0.000$ & $0.589\pm0.009$ & $0.589\pm0.009$ & $0.000\pm0.000$ & 3 train \\
+A0B1 & 0.75 $\delta_0$ & $0.933\pm0.009$ & $0.920\pm0.012$ & $-0.013\pm0.003$ & $0.589\pm0.009$ & $0.522\pm0.009$ & $-0.067\pm0.003$ & 3 train \\
+A0B1 & 1.50 $\delta_0$ & $0.933\pm0.009$ & $0.929\pm0.009$ & $-0.004\pm0.006$ & $0.589\pm0.009$ & $0.810\pm0.040$ & $0.221\pm0.030$ & 3 train \\
+A0B1 & 0.5 $Re_0$ & $0.933\pm0.009$ & $0.933\pm0.009$ & $0.000\pm0.000$ & $0.589\pm0.009$ & $0.589\pm0.010$ & $0.000\pm0.000$ & 3 train \\
+A0B1 & 2 $Re_0$ & $0.933\pm0.009$ & $0.933\pm0.009$ & $-0.000\pm0.000$ & $0.589\pm0.009$ & $0.589\pm0.009$ & $-0.001\pm0.000$ & 3 train \\
+A0B1 & Forced & $0.933\pm0.009$ & $0.933\pm0.007$ & $0.000\pm0.003$ & $0.589\pm0.009$ & $0.595\pm0.009$ & $0.006\pm0.001$ & 3 train \\
+\bottomrule
+\end{longtable}
+\normalsize
+\end{landscape}
+\noindent\textbf{Frozen calibration and checkpoint ledger.} The Clark gradient coefficient is analytically one and is not fitted. The Leith and Mixed coefficients below were fitted once on original IC-1 sparse SGS labels and reused without regime-specific calibration. The full SHA-256 values identify frozen calibration files or neural checkpoints; all regime evaluation manifests record the same hashes.\par
+
+\par\noindent\textbf{Seed/split 2026:} $c_L=0.00251058831558$, $c_{LC}=0$.\par
+\noindent Calibration file SHA-256:\par
+\noindent\texttt{a677d2d2f809865dd0063ae5944ebf03}\par
+\noindent\texttt{380d5641297b1291f64ceb25b621a462}\par
+\noindent A0B1 \texttt{best\_closure.pt} SHA-256:\par
+\noindent\texttt{c1842f5b90c227b3574f6e7122fce536}\par
+\noindent\texttt{b231a7314de8707e856f0f1a831b164e}\par
+
+\par\noindent\textbf{Seed/split 2027:} $c_L=0.00266965804516$, $c_{LC}=0$.\par
+\noindent Calibration file SHA-256:\par
+\noindent\texttt{8a7ad6717a6323cd7ee373759b075923}\par
+\noindent\texttt{5ca9db2996605539dfddeb8e36a4b72f}\par
+\noindent A0B1 \texttt{best\_closure.pt} SHA-256:\par
+\noindent\texttt{77fd9ea9ef0411954cddfb6ce0381dfd}\par
+\noindent\texttt{133096c58f54d27a7d4691dd52c630bb}\par
+
+\par\noindent\textbf{Seed/split 2028:} $c_L=0.00246578551311$, $c_{LC}=2.73072871038e-05$.\par
+\noindent Calibration file SHA-256:\par
+\noindent\texttt{1e22ba7a00086fa156cc19800e91577a}\par
+\noindent\texttt{4053fbf1a5b92feceb341d187432eb85}\par
+\noindent A0B1 \texttt{best\_closure.pt} SHA-256:\par
+\noindent\texttt{142025fa0d0849d6bab5551c39a1bc9f}\par
+\noindent\texttt{40bdcc92f8c53ec27e7261032f035ad3}\par

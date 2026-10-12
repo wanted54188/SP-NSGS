@@ -1,0 +1,1559 @@
+{
+  "main_sha": "e88fbdc77369642a56fa89c923a8f7517ca9710a",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "oid": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "size": 66
+    },
+    {
+      "path": ".gitignore",
+      "oid": "03435b19f4782cc2e1088612a4ce078047ec9c31",
+      "size": 329
+    },
+    {
+      "path": "README.md",
+      "oid": "6fd606d25968a33a627f01dafa1b2c99045b4594",
+      "size": 2472
+    },
+    {
+      "path": "checkpoints/full_sp_nsgs.pt",
+      "oid": "5c71cfb546bdbdf76f8bf1aa1297c10acdd9d876",
+      "size": 399460
+    },
+    {
+      "path": "checkpoints/iso_dissipative.pt",
+      "oid": "7113a6eaa31e1df83f64849a33fb412f05dce585",
+      "size": 369614
+    },
+    {
+      "path": "configs/iso.json",
+      "oid": "63df5c65786b6202e43dec5704a6b088e3345565",
+      "size": 5482
+    },
+    {
+      "path": "configs/main.json",
+      "oid": "a2eb3d15111a002fa90da159834eed6fc69b9a2b",
+      "size": 5476
+    },
+    {
+      "path": "configs/sparse.json",
+      "oid": "2d37aa5cf7778859fb829a05b4e6f2a9d9b8da5e",
+      "size": 5470
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_0.000000e+00.csv",
+      "oid": "11e09d0a4123047ac4b620f1faa4fa1d63784d9a",
+      "size": 2034749
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_1.000000e+00.csv",
+      "oid": "899d00e8c9de6c6ccafdebf712fba7948c6933a8",
+      "size": 2039438
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_1.000000e+01.csv",
+      "oid": "c2243bf0172767b095e9bc4429ca12607b59635d",
+      "size": 2046819
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_1.000000e-01.csv",
+      "oid": "1dc469bca9834810d6a7689e067ae85bac1c54c1",
+      "size": 2034712
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_1.100000e+00.csv",
+      "oid": "143a1314150df075edd549ec786b038f836e42f5",
+      "size": 2040113
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_1.200000e+00.csv",
+      "oid": "2b9d0bb45ff302a50d4add0a4fc2ea4aa452fc38",
+      "size": 2040637
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_1.300000e+00.csv",
+      "oid": "f63ef896aedb98659e124704e5c8b530c73eff06",
+      "size": 2040891
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_1.400000e+00.csv",
+      "oid": "98129f6852e380f3cb879fa66351edfd88ab24cf",
+      "size": 2041014
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_1.500000e+00.csv",
+      "oid": "e8a9ff2c0c4cba869dee9fa201709e9240dbebab",
+      "size": 2041215
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_1.600000e+00.csv",
+      "oid": "8da8c8561fb22972303d0a7220332470aeae4f0f",
+      "size": 2041294
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_1.700000e+00.csv",
+      "oid": "b50755bc45cb721692795f1ead0f1a1a126e90cf",
+      "size": 2041355
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_1.800000e+00.csv",
+      "oid": "e5688fd0b1d3d37f2ad6995d9fc143efa11fe076",
+      "size": 2041178
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_1.900000e+00.csv",
+      "oid": "9295d651e665dfd1387269d2b08cbebf1e468189",
+      "size": 2041105
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_2.000000e+00.csv",
+      "oid": "eb54aaf841398dd5d21506a60ebdfc44717b9271",
+      "size": 2041228
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_2.000000e-01.csv",
+      "oid": "661fb2ebb2000172a418fe9e58c21088ed1d493b",
+      "size": 2034291
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_2.100000e+00.csv",
+      "oid": "debe3ab4ee7c6785b43918ff2580f168680c74fe",
+      "size": 2041261
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_2.200000e+00.csv",
+      "oid": "dbdae7086bb0fe725adb31648187c720b95b27c5",
+      "size": 2041228
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_2.300000e+00.csv",
+      "oid": "75e8857b3ddfd5eb1dda363fe51441eb043a8dfe",
+      "size": 2040934
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_2.400000e+00.csv",
+      "oid": "f6a516289740b437caf1df70ecc7a485548e7146",
+      "size": 2040718
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_2.500000e+00.csv",
+      "oid": "12d14ce176bf623fb5b37856031007d9bda92ae6",
+      "size": 2040253
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_2.600000e+00.csv",
+      "oid": "cbcb630231c36f27be596625134cfe185d79495b",
+      "size": 2039988
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_2.700000e+00.csv",
+      "oid": "44626d9a84b7fb3300fea3416197f6f7e3832304",
+      "size": 2039540
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_2.800000e+00.csv",
+      "oid": "a9e14fec49dd33124d5c656d512fd7dd859c2c01",
+      "size": 2039046
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_2.900000e+00.csv",
+      "oid": "28d1abd617148f63ce45080d36902636e87f8b6c",
+      "size": 2038718
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_3.000000e+00.csv",
+      "oid": "09caa66197edc9421440b711888b46893da2d08b",
+      "size": 2038284
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_3.000000e-01.csv",
+      "oid": "64914b54808a81a0d73a45582b232eb21787ce46",
+      "size": 2033956
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_3.100000e+00.csv",
+      "oid": "a8d3ec2de3c840cc1b212f212058547b368b7bac",
+      "size": 2038213
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_3.200000e+00.csv",
+      "oid": "d793d3648a1b267441a32a3a4696c78aec396276",
+      "size": 2037627
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_3.300000e+00.csv",
+      "oid": "3177980b518a253a02b3d9507ddbe0c582a77f3a",
+      "size": 2037109
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_3.400000e+00.csv",
+      "oid": "e5e029e5f49f18f2005e9d2eac8a251715e1878d",
+      "size": 2036395
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_3.500000e+00.csv",
+      "oid": "65754bcf715e4c2fcfdbd8578768968d9aa2be3a",
+      "size": 2036383
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_3.600000e+00.csv",
+      "oid": "89d617c94157b84c9555fb0cec1eff3a7d292c83",
+      "size": 2036603
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_3.700000e+00.csv",
+      "oid": "3c9c41b3a702f9368e2fcc4ab3a438455e7cee2e",
+      "size": 2037809
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_3.800000e+00.csv",
+      "oid": "c03b8446d1e60b7b990be04a9b34bc0904e0e72b",
+      "size": 2039144
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_3.900000e+00.csv",
+      "oid": "7d1c6bcc34e9d46249ecdcb1d18d3518e8f25cb0",
+      "size": 2039889
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_4.000000e+00.csv",
+      "oid": "e6cb3e6bdddf5aeef1cadc5eef2fa326f34ccf69",
+      "size": 2040476
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_4.000000e-01.csv",
+      "oid": "b8c27494b097ae9e51fdb51d6fb30a7249582feb",
+      "size": 2033917
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_4.100000e+00.csv",
+      "oid": "2648b7fcee337fa25b22f5f7946931fffa72323c",
+      "size": 2041455
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_4.200000e+00.csv",
+      "oid": "eda0f11abd4a9aa40a14df2200a3bdfcafa832ce",
+      "size": 2041698
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_4.300000e+00.csv",
+      "oid": "909a247c5eb1068c9642bdf98094ecb3049a282d",
+      "size": 2041760
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_4.400000e+00.csv",
+      "oid": "27a6e335ef5704a0ccaa093762c68a3ef4322de1",
+      "size": 2041530
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_4.500000e+00.csv",
+      "oid": "3575fefaac4ef4b20efc4a664695b60d8007271f",
+      "size": 2040913
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_4.600000e+00.csv",
+      "oid": "590f0177c5142c248711e215229e4233b335b9d0",
+      "size": 2039571
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_4.700000e+00.csv",
+      "oid": "2c15fd48d90062703f77175c8fabcb50be907965",
+      "size": 2038374
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_4.800000e+00.csv",
+      "oid": "af09159c79e56e6a11ca00a2614a585495d08b1d",
+      "size": 2037204
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_4.900000e+00.csv",
+      "oid": "53ea37cb89fb36f5f73dd0097c8efb8c4291af2e",
+      "size": 2036427
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_5.000000e+00.csv",
+      "oid": "dbea2a297f8fa122669b89cea4517b13e5c7344a",
+      "size": 2035896
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_5.000000e-01.csv",
+      "oid": "35749cbeb5fa3257af78ba55546a065aa7546714",
+      "size": 2034462
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_5.100000e+00.csv",
+      "oid": "d9762bf95a2d6ab9d62de07f85b54478c6a129de",
+      "size": 2035833
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_5.200000e+00.csv",
+      "oid": "c48d5e03ec6a2a10ecde534293579d250a745898",
+      "size": 2035860
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_5.300000e+00.csv",
+      "oid": "1636ec41e14592cd01b2d94ae555c53308ba8c6f",
+      "size": 2035936
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_5.400000e+00.csv",
+      "oid": "d6814c40c27492c57b0dcad1fcd336178840b151",
+      "size": 2035620
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_5.500000e+00.csv",
+      "oid": "8a7c55039c8f747e8ec6aba998def4df258699f0",
+      "size": 2035414
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_5.600000e+00.csv",
+      "oid": "6c46238d0d13e74da6ebdafee31c442a9091a058",
+      "size": 2035555
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_5.700000e+00.csv",
+      "oid": "4a3d0a5604f7a1af4c2bc658d42cf4fbad0ee8d2",
+      "size": 2035431
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_5.800000e+00.csv",
+      "oid": "f1ee6662a910f63f55408ac5027e5afd07fd2a3c",
+      "size": 2035309
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_5.900000e+00.csv",
+      "oid": "7030170fd83d3db667ae7d2cc60b84439e07c937",
+      "size": 2035167
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_6.000000e+00.csv",
+      "oid": "f87dcecc76f2febf87fc88f870406604e9ccc92d",
+      "size": 2035072
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_6.000000e-01.csv",
+      "oid": "e995843d3246a6a12e74bd3a5598c622414f5dc2",
+      "size": 2035123
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_6.100000e+00.csv",
+      "oid": "22d95fdaa2d70d312ca3b8ed153ebd0065e22621",
+      "size": 2034862
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_6.200000e+00.csv",
+      "oid": "0e8788d12cd4bebdf7cf406f09a7465a42e55344",
+      "size": 2035006
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_6.300000e+00.csv",
+      "oid": "a06c40ee9199b19aaf1ce17503008b14838d3d5a",
+      "size": 2034832
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_6.400000e+00.csv",
+      "oid": "bc0166b2323df11dfe45bb7e920b95542f9cbf9d",
+      "size": 2035060
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_6.500000e+00.csv",
+      "oid": "6160702e157d764f1c3312160d7173434943fc16",
+      "size": 2035136
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_6.600000e+00.csv",
+      "oid": "5b3050402949efe27af7ab8f11109aaaf36d5abd",
+      "size": 2035172
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_6.700000e+00.csv",
+      "oid": "cf99f806861fb45b6482be6e7b1ab1aa9ac29d7b",
+      "size": 2035424
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_6.800000e+00.csv",
+      "oid": "72d79d2e40156977092e0fd14badafc993292764",
+      "size": 2035703
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_6.900000e+00.csv",
+      "oid": "6e55cbe60ea1b72de00191324a5d5b4a73a038a8",
+      "size": 2035616
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_7.000000e+00.csv",
+      "oid": "3ca107d0edfb5a86df7e418a47ec8cbe76bd2caf",
+      "size": 2035821
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_7.000000e-01.csv",
+      "oid": "0330df707300722358f7c2e6c0ef72e264e95c2c",
+      "size": 2036163
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_7.100000e+00.csv",
+      "oid": "a0f032c8c40f8ca19ffeb2ef7f24523f14e344d1",
+      "size": 2036185
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_7.200000e+00.csv",
+      "oid": "c9dfd4c2eb424f992640806450be86a368d42792",
+      "size": 2036322
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_7.300000e+00.csv",
+      "oid": "d82b5cb526aa91f1bff151283c2bf674f667fe15",
+      "size": 2036773
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_7.400000e+00.csv",
+      "oid": "75be65fff24f44a59eef5de7f4747617c6da3e39",
+      "size": 2037392
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_7.500000e+00.csv",
+      "oid": "a0bcf8b33d89161c53cc8a07dddbab49a5fbc216",
+      "size": 2038045
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_7.600000e+00.csv",
+      "oid": "a69a2275c6db361df2bdce80fe5f50734f97aae8",
+      "size": 2038778
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_7.700000e+00.csv",
+      "oid": "79d81716d733850ec6b50279c03fe72b8699e172",
+      "size": 2040157
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_7.800000e+00.csv",
+      "oid": "00f85d944ab01b29c5c19223bfd3369c24a570e8",
+      "size": 2041053
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_7.900000e+00.csv",
+      "oid": "5e3bfe14f6f52ce2c84fa16cf9958c4d59128d23",
+      "size": 2042289
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_8.000000e+00.csv",
+      "oid": "fbefb8b6df74f318df414a44ce7e33971e54929d",
+      "size": 2043128
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_8.000000e-01.csv",
+      "oid": "4b474a323dd96998a1bb2214ba6b152413e1087b",
+      "size": 2037256
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_8.100000e+00.csv",
+      "oid": "b02d6611b525ff6d0f029f00f86143d7904c9acc",
+      "size": 2043626
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_8.200000e+00.csv",
+      "oid": "a1c4bbe8974fa088a63d2c4ba56d23a4ad5e13f7",
+      "size": 2044060
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_8.300000e+00.csv",
+      "oid": "d87bd09d0bc9661520f07914f4e3448d7a9055e4",
+      "size": 2044434
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_8.400000e+00.csv",
+      "oid": "5a9e5bdb71410b18359c8f93f53b33f2edbea89e",
+      "size": 2044494
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_8.500000e+00.csv",
+      "oid": "a8a0fcee8f6c6442c5a63f2e6df3557bfad817bd",
+      "size": 2044999
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_8.600000e+00.csv",
+      "oid": "15045643d85d8c117870ecc14753323ef1722d7b",
+      "size": 2045047
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_8.700000e+00.csv",
+      "oid": "bded4cb7aa1893fcbef6267e7313a5ff7a4aca74",
+      "size": 2045459
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_8.800000e+00.csv",
+      "oid": "4f069a579a3dcbd8fbd0d84d4fcd324872af72ca",
+      "size": 2045796
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_8.900000e+00.csv",
+      "oid": "2f8cf2162a967079df14e11042456fff7e3499eb",
+      "size": 2045886
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_9.000000e+00.csv",
+      "oid": "14127f004c80f110efd95d4080bf42214cdf3490",
+      "size": 2045983
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_9.000000e-01.csv",
+      "oid": "27fcfd31cee0d6f4151ed7d0a81a6991398abd9d",
+      "size": 2038496
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_9.100000e+00.csv",
+      "oid": "649669a6ac28ae6609b79f9f26f0344d0a6e8591",
+      "size": 2045916
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_9.200000e+00.csv",
+      "oid": "fe10833b57d1f735e9224c046ded9cc794cd2e0a",
+      "size": 2046038
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_9.300000e+00.csv",
+      "oid": "6f16375069c6efe6ccc8252c73f09ca608f6649b",
+      "size": 2046295
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_9.400000e+00.csv",
+      "oid": "6f27c4f88e9c1f9962f6cd28840fb409d12f2248",
+      "size": 2046261
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_9.500000e+00.csv",
+      "oid": "483466f3c0542d0161c87b083255975d9880b1de",
+      "size": 2046578
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_9.600000e+00.csv",
+      "oid": "26b6fc907c855c04254ef89b2507c538a1501432",
+      "size": 2046454
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_9.700000e+00.csv",
+      "oid": "030a3b857d3f16870ec97417f4187458c7e1dad1",
+      "size": 2046724
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_9.800000e+00.csv",
+      "oid": "3bfe69e3e62c52fdf814cdbca8a8628e4b87eee8",
+      "size": 2046691
+    },
+    {
+      "path": "reference_data/XYZ_内部表_table_9.900000e+00.csv",
+      "oid": "474802cce9101b3f3ca641c7bb474961862fc4db",
+      "size": 2046606
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_0.000000e+00.csv",
+      "oid": "11e09d0a4123047ac4b620f1faa4fa1d63784d9a",
+      "size": 2034749
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_1.000000e+00.csv",
+      "oid": "899d00e8c9de6c6ccafdebf712fba7948c6933a8",
+      "size": 2039438
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_1.000000e+01.csv",
+      "oid": "c2243bf0172767b095e9bc4429ca12607b59635d",
+      "size": 2046819
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_1.000000e-01.csv",
+      "oid": "1dc469bca9834810d6a7689e067ae85bac1c54c1",
+      "size": 2034712
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_1.100000e+00.csv",
+      "oid": "143a1314150df075edd549ec786b038f836e42f5",
+      "size": 2040113
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_1.200000e+00.csv",
+      "oid": "2b9d0bb45ff302a50d4add0a4fc2ea4aa452fc38",
+      "size": 2040637
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_1.300000e+00.csv",
+      "oid": "f63ef896aedb98659e124704e5c8b530c73eff06",
+      "size": 2040891
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_1.400000e+00.csv",
+      "oid": "98129f6852e380f3cb879fa66351edfd88ab24cf",
+      "size": 2041014
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_1.500000e+00.csv",
+      "oid": "e8a9ff2c0c4cba869dee9fa201709e9240dbebab",
+      "size": 2041215
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_1.600000e+00.csv",
+      "oid": "8da8c8561fb22972303d0a7220332470aeae4f0f",
+      "size": 2041294
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_1.700000e+00.csv",
+      "oid": "b50755bc45cb721692795f1ead0f1a1a126e90cf",
+      "size": 2041355
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_1.800000e+00.csv",
+      "oid": "e5688fd0b1d3d37f2ad6995d9fc143efa11fe076",
+      "size": 2041178
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_1.900000e+00.csv",
+      "oid": "9295d651e665dfd1387269d2b08cbebf1e468189",
+      "size": 2041105
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_2.000000e+00.csv",
+      "oid": "eb54aaf841398dd5d21506a60ebdfc44717b9271",
+      "size": 2041228
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_2.000000e-01.csv",
+      "oid": "661fb2ebb2000172a418fe9e58c21088ed1d493b",
+      "size": 2034291
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_2.100000e+00.csv",
+      "oid": "debe3ab4ee7c6785b43918ff2580f168680c74fe",
+      "size": 2041261
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_2.200000e+00.csv",
+      "oid": "dbdae7086bb0fe725adb31648187c720b95b27c5",
+      "size": 2041228
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_2.300000e+00.csv",
+      "oid": "75e8857b3ddfd5eb1dda363fe51441eb043a8dfe",
+      "size": 2040934
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_2.400000e+00.csv",
+      "oid": "f6a516289740b437caf1df70ecc7a485548e7146",
+      "size": 2040718
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_2.500000e+00.csv",
+      "oid": "12d14ce176bf623fb5b37856031007d9bda92ae6",
+      "size": 2040253
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_2.600000e+00.csv",
+      "oid": "cbcb630231c36f27be596625134cfe185d79495b",
+      "size": 2039988
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_2.700000e+00.csv",
+      "oid": "44626d9a84b7fb3300fea3416197f6f7e3832304",
+      "size": 2039540
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_2.800000e+00.csv",
+      "oid": "a9e14fec49dd33124d5c656d512fd7dd859c2c01",
+      "size": 2039046
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_2.900000e+00.csv",
+      "oid": "28d1abd617148f63ce45080d36902636e87f8b6c",
+      "size": 2038718
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_3.000000e+00.csv",
+      "oid": "09caa66197edc9421440b711888b46893da2d08b",
+      "size": 2038284
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_3.000000e-01.csv",
+      "oid": "64914b54808a81a0d73a45582b232eb21787ce46",
+      "size": 2033956
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_3.100000e+00.csv",
+      "oid": "a8d3ec2de3c840cc1b212f212058547b368b7bac",
+      "size": 2038213
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_3.200000e+00.csv",
+      "oid": "d793d3648a1b267441a32a3a4696c78aec396276",
+      "size": 2037627
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_3.300000e+00.csv",
+      "oid": "3177980b518a253a02b3d9507ddbe0c582a77f3a",
+      "size": 2037109
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_3.400000e+00.csv",
+      "oid": "e5e029e5f49f18f2005e9d2eac8a251715e1878d",
+      "size": 2036395
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_3.500000e+00.csv",
+      "oid": "65754bcf715e4c2fcfdbd8578768968d9aa2be3a",
+      "size": 2036383
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_3.600000e+00.csv",
+      "oid": "89d617c94157b84c9555fb0cec1eff3a7d292c83",
+      "size": 2036603
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_3.700000e+00.csv",
+      "oid": "3c9c41b3a702f9368e2fcc4ab3a438455e7cee2e",
+      "size": 2037809
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_3.800000e+00.csv",
+      "oid": "c03b8446d1e60b7b990be04a9b34bc0904e0e72b",
+      "size": 2039144
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_3.900000e+00.csv",
+      "oid": "7d1c6bcc34e9d46249ecdcb1d18d3518e8f25cb0",
+      "size": 2039889
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_4.000000e+00.csv",
+      "oid": "e6cb3e6bdddf5aeef1cadc5eef2fa326f34ccf69",
+      "size": 2040476
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_4.000000e-01.csv",
+      "oid": "b8c27494b097ae9e51fdb51d6fb30a7249582feb",
+      "size": 2033917
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_4.100000e+00.csv",
+      "oid": "2648b7fcee337fa25b22f5f7946931fffa72323c",
+      "size": 2041455
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_4.200000e+00.csv",
+      "oid": "eda0f11abd4a9aa40a14df2200a3bdfcafa832ce",
+      "size": 2041698
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_4.300000e+00.csv",
+      "oid": "909a247c5eb1068c9642bdf98094ecb3049a282d",
+      "size": 2041760
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_4.400000e+00.csv",
+      "oid": "27a6e335ef5704a0ccaa093762c68a3ef4322de1",
+      "size": 2041530
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_4.500000e+00.csv",
+      "oid": "3575fefaac4ef4b20efc4a664695b60d8007271f",
+      "size": 2040913
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_4.600000e+00.csv",
+      "oid": "590f0177c5142c248711e215229e4233b335b9d0",
+      "size": 2039571
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_4.700000e+00.csv",
+      "oid": "2c15fd48d90062703f77175c8fabcb50be907965",
+      "size": 2038374
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_4.800000e+00.csv",
+      "oid": "af09159c79e56e6a11ca00a2614a585495d08b1d",
+      "size": 2037204
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_4.900000e+00.csv",
+      "oid": "53ea37cb89fb36f5f73dd0097c8efb8c4291af2e",
+      "size": 2036427
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_5.000000e+00.csv",
+      "oid": "dbea2a297f8fa122669b89cea4517b13e5c7344a",
+      "size": 2035896
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_5.000000e-01.csv",
+      "oid": "35749cbeb5fa3257af78ba55546a065aa7546714",
+      "size": 2034462
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_5.100000e+00.csv",
+      "oid": "d9762bf95a2d6ab9d62de07f85b54478c6a129de",
+      "size": 2035833
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_5.200000e+00.csv",
+      "oid": "c48d5e03ec6a2a10ecde534293579d250a745898",
+      "size": 2035860
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_5.300000e+00.csv",
+      "oid": "1636ec41e14592cd01b2d94ae555c53308ba8c6f",
+      "size": 2035936
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_5.400000e+00.csv",
+      "oid": "d6814c40c27492c57b0dcad1fcd336178840b151",
+      "size": 2035620
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_5.500000e+00.csv",
+      "oid": "8a7c55039c8f747e8ec6aba998def4df258699f0",
+      "size": 2035414
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_5.600000e+00.csv",
+      "oid": "6c46238d0d13e74da6ebdafee31c442a9091a058",
+      "size": 2035555
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_5.700000e+00.csv",
+      "oid": "4a3d0a5604f7a1af4c2bc658d42cf4fbad0ee8d2",
+      "size": 2035431
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_5.800000e+00.csv",
+      "oid": "f1ee6662a910f63f55408ac5027e5afd07fd2a3c",
+      "size": 2035309
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_5.900000e+00.csv",
+      "oid": "7030170fd83d3db667ae7d2cc60b84439e07c937",
+      "size": 2035167
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_6.000000e+00.csv",
+      "oid": "f87dcecc76f2febf87fc88f870406604e9ccc92d",
+      "size": 2035072
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_6.000000e-01.csv",
+      "oid": "e995843d3246a6a12e74bd3a5598c622414f5dc2",
+      "size": 2035123
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_6.100000e+00.csv",
+      "oid": "22d95fdaa2d70d312ca3b8ed153ebd0065e22621",
+      "size": 2034862
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_6.200000e+00.csv",
+      "oid": "0e8788d12cd4bebdf7cf406f09a7465a42e55344",
+      "size": 2035006
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_6.300000e+00.csv",
+      "oid": "a06c40ee9199b19aaf1ce17503008b14838d3d5a",
+      "size": 2034832
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_6.400000e+00.csv",
+      "oid": "bc0166b2323df11dfe45bb7e920b95542f9cbf9d",
+      "size": 2035060
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_6.500000e+00.csv",
+      "oid": "6160702e157d764f1c3312160d7173434943fc16",
+      "size": 2035136
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_6.600000e+00.csv",
+      "oid": "5b3050402949efe27af7ab8f11109aaaf36d5abd",
+      "size": 2035172
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_6.700000e+00.csv",
+      "oid": "cf99f806861fb45b6482be6e7b1ab1aa9ac29d7b",
+      "size": 2035424
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_6.800000e+00.csv",
+      "oid": "72d79d2e40156977092e0fd14badafc993292764",
+      "size": 2035703
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_6.900000e+00.csv",
+      "oid": "6e55cbe60ea1b72de00191324a5d5b4a73a038a8",
+      "size": 2035616
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_7.000000e+00.csv",
+      "oid": "3ca107d0edfb5a86df7e418a47ec8cbe76bd2caf",
+      "size": 2035821
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_7.000000e-01.csv",
+      "oid": "0330df707300722358f7c2e6c0ef72e264e95c2c",
+      "size": 2036163
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_7.100000e+00.csv",
+      "oid": "a0f032c8c40f8ca19ffeb2ef7f24523f14e344d1",
+      "size": 2036185
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_7.200000e+00.csv",
+      "oid": "c9dfd4c2eb424f992640806450be86a368d42792",
+      "size": 2036322
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_7.300000e+00.csv",
+      "oid": "d82b5cb526aa91f1bff151283c2bf674f667fe15",
+      "size": 2036773
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_7.400000e+00.csv",
+      "oid": "75be65fff24f44a59eef5de7f4747617c6da3e39",
+      "size": 2037392
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_7.500000e+00.csv",
+      "oid": "a0bcf8b33d89161c53cc8a07dddbab49a5fbc216",
+      "size": 2038045
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_7.600000e+00.csv",
+      "oid": "a69a2275c6db361df2bdce80fe5f50734f97aae8",
+      "size": 2038778
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_7.700000e+00.csv",
+      "oid": "79d81716d733850ec6b50279c03fe72b8699e172",
+      "size": 2040157
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_7.800000e+00.csv",
+      "oid": "00f85d944ab01b29c5c19223bfd3369c24a570e8",
+      "size": 2041053
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_7.900000e+00.csv",
+      "oid": "5e3bfe14f6f52ce2c84fa16cf9958c4d59128d23",
+      "size": 2042289
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_8.000000e+00.csv",
+      "oid": "fbefb8b6df74f318df414a44ce7e33971e54929d",
+      "size": 2043128
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_8.000000e-01.csv",
+      "oid": "4b474a323dd96998a1bb2214ba6b152413e1087b",
+      "size": 2037256
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_8.100000e+00.csv",
+      "oid": "b02d6611b525ff6d0f029f00f86143d7904c9acc",
+      "size": 2043626
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_8.200000e+00.csv",
+      "oid": "a1c4bbe8974fa088a63d2c4ba56d23a4ad5e13f7",
+      "size": 2044060
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_8.300000e+00.csv",
+      "oid": "d87bd09d0bc9661520f07914f4e3448d7a9055e4",
+      "size": 2044434
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_8.400000e+00.csv",
+      "oid": "5a9e5bdb71410b18359c8f93f53b33f2edbea89e",
+      "size": 2044494
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_8.500000e+00.csv",
+      "oid": "a8a0fcee8f6c6442c5a63f2e6df3557bfad817bd",
+      "size": 2044999
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_8.600000e+00.csv",
+      "oid": "15045643d85d8c117870ecc14753323ef1722d7b",
+      "size": 2045047
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_8.700000e+00.csv",
+      "oid": "bded4cb7aa1893fcbef6267e7313a5ff7a4aca74",
+      "size": 2045459
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_8.800000e+00.csv",
+      "oid": "4f069a579a3dcbd8fbd0d84d4fcd324872af72ca",
+      "size": 2045796
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_8.900000e+00.csv",
+      "oid": "2f8cf2162a967079df14e11042456fff7e3499eb",
+      "size": 2045886
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_9.000000e+00.csv",
+      "oid": "14127f004c80f110efd95d4080bf42214cdf3490",
+      "size": 2045983
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_9.000000e-01.csv",
+      "oid": "27fcfd31cee0d6f4151ed7d0a81a6991398abd9d",
+      "size": 2038496
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_9.100000e+00.csv",
+      "oid": "649669a6ac28ae6609b79f9f26f0344d0a6e8591",
+      "size": 2045916
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_9.200000e+00.csv",
+      "oid": "fe10833b57d1f735e9224c046ded9cc794cd2e0a",
+      "size": 2046038
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_9.300000e+00.csv",
+      "oid": "6f16375069c6efe6ccc8252c73f09ca608f6649b",
+      "size": 2046295
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_9.400000e+00.csv",
+      "oid": "6f27c4f88e9c1f9962f6cd28840fb409d12f2248",
+      "size": 2046261
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_9.500000e+00.csv",
+      "oid": "483466f3c0542d0161c87b083255975d9880b1de",
+      "size": 2046578
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_9.600000e+00.csv",
+      "oid": "26b6fc907c855c04254ef89b2507c538a1501432",
+      "size": 2046454
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_9.700000e+00.csv",
+      "oid": "030a3b857d3f16870ec97417f4187458c7e1dad1",
+      "size": 2046724
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_9.800000e+00.csv",
+      "oid": "3bfe69e3e62c52fdf814cdbca8a8628e4b87eee8",
+      "size": 2046691
+    },
+    {
+      "path": "reference_data/数据/XYZ_内部表_table_9.900000e+00.csv",
+      "oid": "474802cce9101b3f3ca641c7bb474961862fc4db",
+      "size": 2046606
+    },
+    {
+      "path": "requirements.txt",
+      "oid": "1e5f1314019731c407c41235f068efff338d3c43",
+      "size": 51
+    },
+    {
+      "path": "scripts/_worker.py",
+      "oid": "1eab718c157290b0e593590938fb2b2672e89b62",
+      "size": 3593
+    },
+    {
+      "path": "scripts/evaluate.py",
+      "oid": "5df3877a45611584b80e2eec43ca9b2f3901eb00",
+      "size": 813
+    },
+    {
+      "path": "scripts/run_experiments.py",
+      "oid": "cb12021dc1e829a83b32c554420ceb7c3701a921",
+      "size": 13278
+    },
+    {
+      "path": "scripts/train.py",
+      "oid": "7c590b1401371b8df1f58beec76f35121a269faf",
+      "size": 917
+    },
+    {
+      "path": "spnsgs/__init__.py",
+      "oid": "ebbefe69f4e9e2102ba6fc808237f58e29c9a8b4",
+      "size": 104
+    },
+    {
+      "path": "spnsgs/__main__.py",
+      "oid": "e55e7d35b5ea3fc48071b8402db53ec369582246",
+      "size": 31
+    },
+    {
+      "path": "spnsgs/cli.py",
+      "oid": "94a67090a836d1c565444241576365fd483334a6",
+      "size": 1019
+    },
+    {
+      "path": "spnsgs/config.py",
+      "oid": "e5e31b43a8b32dc736d22241a47e09d4b16e5194",
+      "size": 21275
+    },
+    {
+      "path": "spnsgs/data.py",
+      "oid": "ac3600352bd47d1fe7c9e40d571769a3409d0082",
+      "size": 26118
+    },
+    {
+      "path": "spnsgs/filters.py",
+      "oid": "5015d7c87a61ece5336a209363d24e8b3ecce518",
+      "size": 4047
+    },
+    {
+      "path": "spnsgs/paper.py",
+      "oid": "0aa7136aeccbc44d388485439af3acc636c851ee",
+      "size": 167112
+    },
+    {
+      "path": "spnsgs/solver.py",
+      "oid": "588757d28c9dd78b2118b18c339730729d7827c0",
+      "size": 28178
+    },
+    {
+      "path": "spnsgs/validation.py",
+      "oid": "80f7c0c59cd87f77dac96ac0b68f10e313b1bf52",
+      "size": 52011
+    },
+    {
+      "path": "tables/ablation_results.csv",
+      "oid": "1a0d98f049666371cd27dca71f6eb7321fa2b142",
+      "size": 395
+    },
+    {
+      "path": "tables/sparse_results.csv",
+      "oid": "14e684776565386d52bfc2a67ec0b52a99511d12",
+      "size": 1285
+    },
+    {
+      "path": "tables/table_1_apriori_closure_metrics.csv",
+      "oid": "2ebd50de1b8c44dd2acfa75900ef42ac17c08254",
+      "size": 227
+    },
+    {
+      "path": "tables/table_2_aposteriori_and_transfer_metrics.csv",
+      "oid": "14272a45c5dc77787718b17b359ca7d3b68dec1b",
+      "size": 278
+    },
+    {
+      "path": "tests/test_solver.py",
+      "oid": "ba8b03eb1c00d8741cfc6f42b5758cb371af0bb8",
+      "size": 23654
+    }
+  ],
+  "duplicate_csv_groups": [
+    [
+      "reference_data/XYZ_内部表_table_0.000000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_0.000000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_1.000000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_1.000000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_1.000000e+01.csv",
+      "reference_data/数据/XYZ_内部表_table_1.000000e+01.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_1.000000e-01.csv",
+      "reference_data/数据/XYZ_内部表_table_1.000000e-01.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_1.100000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_1.100000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_1.200000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_1.200000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_1.300000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_1.300000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_1.400000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_1.400000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_1.500000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_1.500000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_1.600000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_1.600000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_1.700000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_1.700000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_1.800000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_1.800000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_1.900000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_1.900000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_2.000000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_2.000000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_2.000000e-01.csv",
+      "reference_data/数据/XYZ_内部表_table_2.000000e-01.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_2.100000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_2.100000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_2.200000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_2.200000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_2.300000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_2.300000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_2.400000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_2.400000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_2.500000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_2.500000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_2.600000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_2.600000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_2.700000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_2.700000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_2.800000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_2.800000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_2.900000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_2.900000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_3.000000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_3.000000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_3.000000e-01.csv",
+      "reference_data/数据/XYZ_内部表_table_3.000000e-01.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_3.100000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_3.100000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_3.200000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_3.200000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_3.300000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_3.300000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_3.400000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_3.400000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_3.500000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_3.500000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_3.600000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_3.600000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_3.700000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_3.700000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_3.800000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_3.800000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_3.900000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_3.900000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_4.000000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_4.000000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_4.000000e-01.csv",
+      "reference_data/数据/XYZ_内部表_table_4.000000e-01.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_4.100000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_4.100000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_4.200000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_4.200000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_4.300000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_4.300000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_4.400000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_4.400000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_4.500000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_4.500000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_4.600000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_4.600000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_4.700000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_4.700000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_4.800000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_4.800000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_4.900000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_4.900000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_5.000000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_5.000000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_5.000000e-01.csv",
+      "reference_data/数据/XYZ_内部表_table_5.000000e-01.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_5.100000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_5.100000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_5.200000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_5.200000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_5.300000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_5.300000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_5.400000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_5.400000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_5.500000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_5.500000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_5.600000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_5.600000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_5.700000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_5.700000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_5.800000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_5.800000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_5.900000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_5.900000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_6.000000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_6.000000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_6.000000e-01.csv",
+      "reference_data/数据/XYZ_内部表_table_6.000000e-01.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_6.100000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_6.100000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_6.200000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_6.200000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_6.300000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_6.300000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_6.400000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_6.400000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_6.500000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_6.500000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_6.600000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_6.600000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_6.700000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_6.700000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_6.800000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_6.800000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_6.900000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_6.900000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_7.000000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_7.000000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_7.000000e-01.csv",
+      "reference_data/数据/XYZ_内部表_table_7.000000e-01.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_7.100000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_7.100000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_7.200000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_7.200000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_7.300000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_7.300000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_7.400000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_7.400000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_7.500000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_7.500000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_7.600000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_7.600000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_7.700000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_7.700000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_7.800000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_7.800000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_7.900000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_7.900000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_8.000000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_8.000000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_8.000000e-01.csv",
+      "reference_data/数据/XYZ_内部表_table_8.000000e-01.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_8.100000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_8.100000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_8.200000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_8.200000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_8.300000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_8.300000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_8.400000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_8.400000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_8.500000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_8.500000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_8.600000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_8.600000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_8.700000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_8.700000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_8.800000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_8.800000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_8.900000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_8.900000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_9.000000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_9.000000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_9.000000e-01.csv",
+      "reference_data/数据/XYZ_内部表_table_9.000000e-01.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_9.100000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_9.100000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_9.200000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_9.200000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_9.300000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_9.300000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_9.400000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_9.400000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_9.500000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_9.500000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_9.600000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_9.600000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_9.700000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_9.700000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_9.800000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_9.800000e+00.csv"
+    ],
+    [
+      "reference_data/XYZ_内部表_table_9.900000e+00.csv",
+      "reference_data/数据/XYZ_内部表_table_9.900000e+00.csv"
+    ]
+  ],
+  "README_data_exclusion_statement_found": true,
+  "old_raw_csv_paths": 202,
+  "history_preserved": true
+}

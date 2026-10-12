@@ -8,7 +8,7 @@ from typing import Any
 
 @dataclass
 class DataConfig:
-    data_dir: Path = Path("data")
+    data_dir: Path = Path("../star/数据")
     file_glob: str = "XYZ_内部表_table_*.csv"
     grid_points_x: int = 101
     grid_points_y: int = 101
@@ -240,6 +240,10 @@ class PaperConfig:
     # SP-NSGS physics or permits a post-training switch-off to be reported as
     # an independent baseline.
     experiment_variant: str = "full_sp_nsgs"
+    # Revision-v2 opt-in: rank the official checkpoint exclusively by
+    # held-out SGS closure metrics evaluated on the supplied reference state.
+    # Legacy runs retain their existing composite selection semantics.
+    primary_checkpoint_rule: str = "legacy_composite"
     # ``normalised`` is the historical seven-channel input.  ``invariant_v2``
     # appends three dimensionless, spatially constant state descriptors so a
     # closure can distinguish spectra with similar normalised morphology but
@@ -450,4 +454,3 @@ def load_config(path: str | Path) -> Config:
         training=_construct(TrainingConfig, train_values),
         paper=_construct(PaperConfig, raw.get("paper", {})),
     )
-

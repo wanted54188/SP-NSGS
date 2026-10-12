@@ -1,0 +1,23 @@
+{
+  "model_variant": "full_sp_nsgs",
+  "variant_alias": "full",
+  "seed": 2028,
+  "checkpoint": "source:results/revision_v2/runs/full/seed_2028/best_closure.pt",
+  "checkpoint_sha256": "c21b7a7fca17848c843604f91af8efd5bada77e55ca2f71de309199ea1e40365",
+  "checkpoint_rule": "original best_closure.pt; selected without IC-2",
+  "effective_config": "source:results/revision_v2/runs/full/seed_2028/effective_config.json",
+  "effective_config_sha256": "1defc299169287889bd981f3dfabcfae8e67dcf8912d63879590603f1337304c",
+  "training_dataset_sha256": "c76a5fe030cbd2b827381d21b204fea62e22e2030959c7b1e7adab80c9afb904",
+  "dataset_version": "revision_v2_ic2",
+  "dataset_sha256": "a01dd339708261e9baf8171c9c941c280a5870e042310aae8f4df2be74ae8696",
+  "reference_case": "IC-2",
+  "filter_delta_m": 0.25132741228718347,
+  "generalization_type": "independent_initial_condition",
+  "training_exposure": "unseen_trajectory",
+  "evaluation_mode": "free_running_continuation",
+  "initial_state_time_s": 0.1,
+  "future_observations_accessible": false,
+  "adaptation": false,
+  "initial_state_source": "source:数据/XYZ_内部表_table_1.000000e-01.csv",
+  "operator_mode": "physical target plus separately reported two-thirds solver-matched diagnostic"
+}

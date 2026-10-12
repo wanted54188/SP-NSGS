@@ -1,0 +1,72 @@
+{
+  "reference/1": {
+    "path": "data/snapshots/ic1/reference/fields_t1.0.npz",
+    "sha256": "55047a19b3dbe6598c59e6da8371de8bc24bc1de1c21b368a933d43a7c753d54",
+    "original_sha256": "55047a19b3dbe6598c59e6da8371de8bc24bc1de1c21b368a933d43a7c753d54",
+    "origin": "results/pof_field_export_only_2026-10-03/ic1_apriori_reference_state_reference/fields_t1.0.npz",
+    "role": "fixed physical negative-event snapshot"
+  },
+  "reference/5": {
+    "path": "data/snapshots/ic1/reference/fields_t5.0.npz",
+    "sha256": "6e7aa84cdcc48c765404fda074aeec9733438fde4a496bf9c0c30b097bad359f",
+    "original_sha256": "6e7aa84cdcc48c765404fda074aeec9733438fde4a496bf9c0c30b097bad359f",
+    "origin": "results/pof_field_export_only_2026-10-03/ic1_apriori_reference_state_reference/fields_t5.0.npz",
+    "role": "fixed physical negative-event snapshot"
+  },
+  "iso/1": {
+    "path": "data/snapshots/ic1/iso/fields_t1.0.npz",
+    "sha256": "ea98704432598c9084410b34f7eedd8f7f1ca5d9b8fcea356f6d7521c2f6d560",
+    "original_sha256": "ea98704432598c9084410b34f7eedd8f7f1ca5d9b8fcea356f6d7521c2f6d560",
+    "origin": "results/pof_field_export_only_2026-10-03/ic1_apriori_reference_state_iso_2026/fields_t1.0.npz",
+    "role": "fixed physical negative-event snapshot"
+  },
+  "iso/5": {
+    "path": "data/snapshots/ic1/iso/fields_t5.0.npz",
+    "sha256": "5ceb1eab4aaaad6e99f307a6173d89c89d4127e1e07ae2b91508cafabbd2427d",
+    "original_sha256": "5ceb1eab4aaaad6e99f307a6173d89c89d4127e1e07ae2b91508cafabbd2427d",
+    "origin": "results/pof_field_export_only_2026-10-03/ic1_apriori_reference_state_iso_2026/fields_t5.0.npz",
+    "role": "fixed physical negative-event snapshot"
+  },
+  "clark/1": {
+    "path": "data/snapshots/ic1/clark/fields_t1.0.npz",
+    "sha256": "47e283c8f589ef0cbde04aa97abf595904b31ad184e6ef0e38d1148fb1d70075",
+    "original_sha256": "47e283c8f589ef0cbde04aa97abf595904b31ad184e6ef0e38d1148fb1d70075",
+    "origin": "results/pof_field_export_only_2026-10-03/ic1_apriori_reference_state_clark/fields_t1.0.npz",
+    "role": "fixed physical negative-event snapshot"
+  },
+  "clark/5": {
+    "path": "data/snapshots/ic1/clark/fields_t5.0.npz",
+    "sha256": "5b211fd82d8b939359d691e800b523ae0d48f9256bc42076111b8e0d7db0194a",
+    "original_sha256": "5b211fd82d8b939359d691e800b523ae0d48f9256bc42076111b8e0d7db0194a",
+    "origin": "results/pof_field_export_only_2026-10-03/ic1_apriori_reference_state_clark/fields_t5.0.npz",
+    "role": "fixed physical negative-event snapshot"
+  },
+  "A0B1/1": {
+    "path": "data/snapshots/ic1/A0B1/fields_t1.0.npz",
+    "sha256": "de3a75cd3fe2a05c414d0638da8b7e6d4a9745844dd43e52dc7514d6545ce49d",
+    "original_sha256": "de3a75cd3fe2a05c414d0638da8b7e6d4a9745844dd43e52dc7514d6545ce49d",
+    "origin": "results/pof_field_export_only_2026-10-03/ic1_apriori_reference_state_A0B1_2026/fields_t1.0.npz",
+    "role": "fixed physical negative-event snapshot"
+  },
+  "A0B1/5": {
+    "path": "data/snapshots/ic1/A0B1/fields_t5.0.npz",
+    "sha256": "5e139a2a27bc7a91bc2b38fa0be646eb15849dd9d59c50f53be2d7ceef694169",
+    "original_sha256": "5e139a2a27bc7a91bc2b38fa0be646eb15849dd9d59c50f53be2d7ceef694169",
+    "origin": "results/pof_field_export_only_2026-10-03/ic1_apriori_reference_state_A0B1_2026/fields_t5.0.npz",
+    "role": "fixed physical negative-event snapshot"
+  },
+  "full/1": {
+    "path": "data/snapshots/ic1/full/fields_t1.0.npz",
+    "sha256": "5b1b5360ae57a0a5be85885dc702ce6c776abd23f5b0f3fc0b7a3514689a44ea",
+    "original_sha256": "5b1b5360ae57a0a5be85885dc702ce6c776abd23f5b0f3fc0b7a3514689a44ea",
+    "origin": "results/pof_field_export_only_2026-10-03/ic1_apriori_reference_state_full_2026/fields_t1.0.npz",
+    "role": "fixed physical negative-event snapshot"
+  },
+  "full/5": {
+    "path": "data/snapshots/ic1/full/fields_t5.0.npz",
+    "sha256": "168ec799c14f7d21b3519727a8bc85465038ba33017cc9d6a3130b28779d671f",
+    "original_sha256": "168ec799c14f7d21b3519727a8bc85465038ba33017cc9d6a3130b28779d671f",
+    "origin": "results/pof_field_export_only_2026-10-03/ic1_apriori_reference_state_full_2026/fields_t5.0.npz",
+    "role": "fixed physical negative-event snapshot"
+  }
+}

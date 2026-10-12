@@ -1,0 +1,11 @@
+{
+  "raw_STAR_sim": "Excluded: commercial/internal project files",
+  "raw_STAR_CSV": "Excluded pending separate permission; original hashes listed in dataset registry",
+  "third_party_or_unconfirmed": "Excluded",
+  "scratch_oracle_weak_force": "Excluded; no formal dependency",
+  "unused_plotting_inputs": 16,
+  "initial_NPY_deduplicated": [
+    "data\\reference\\assisted\\ic1\\initial_state.npy",
+    "data\\reference\\assisted\\ic2\\initial_state.npy"
+  ]
+}

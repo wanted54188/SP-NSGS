@@ -1,0 +1,5 @@
+{
+  "checkpoint": "source:results/revision_v2/runs/full/seed_2026_recovery01/best_closure.pt",
+  "sha256": "d5273bed8d71f26dec2c3567fcc0be09bdc18d85060e8fee051b06d046d998dc",
+  "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded"
+}

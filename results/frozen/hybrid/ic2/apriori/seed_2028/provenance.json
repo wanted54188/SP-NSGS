@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-12T04:47:02.937311+00:00",
+  "ic": "ic2",
+  "mode": "apriori",
+  "seed": 2028,
+  "alpha": 0.5,
+  "input_lock_sha256": "e460975e0efa55597de0a7162ec9d9022d69a5de8b7a22c602ad172e8e116b4d",
+  "fixed_protocol_sha256": "b63d9d3ba9f6138b01cb910d310afcbe05a582c76a725de07923cf796b521030",
+  "fixed_alpha_origin": "new hypothesis fixed from IC1 exploratory results; not v3 sparse selection",
+  "old_selection_used_for_alpha": false,
+  "device": "cuda",
+  "torch": "2.5.1+cu121",
+  "numpy": "2.1.3",
+  "tf32_matmul": false,
+  "tf32_cudnn": true,
+  "training": false,
+  "adaptation": false,
+  "future_reference_to_integrator": false,
+  "v3_input_lock_sha256": "b25bf547370f91434ac1bdbdd7481ab1b6a916c7234a974619e0dd556c1fc6d8",
+  "elapsed_seconds": 2.748626700020395,
+  "outputs_sha256": {
+    "timewise.csv": "197d4d5d94065025953cef23fc42a9ca0ee1fdaaf8d72f2f6a9f7a931e324efc",
+    "summary.json": "b9d2205da60ba09bec96994b4479f8d747c0b038d35c9b8ac16582636a7d3c77"
+  },
+  "original_provenance_sha256": "37f2ff00ed4e7519729a64664cebad19e3c0d0f2f778c1408258f5864390f042",
+  "original_outputs_not_distributed": [
+    "spectra.npz",
+    "states.npz"
+  ]
+}

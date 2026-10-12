@@ -1,0 +1,4 @@
+mode,access,state_update,reported
+A-priori reference state,Reference state at every time,Closure evaluated on each reference state,"SGS flux, source, transfer"
+Free-running continuation,Reference once at t = 0.1 s,Solver + closure; model state evolves,Trajectory error over 0.1–5 s
+Observation-assisted reconstruction,"400 fixed sites (4%); ω, u, v every 0.1 s",Solver + fixed nudging; sparse data continue,Reconstruction over 0.1–10 s

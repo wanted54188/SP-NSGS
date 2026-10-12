@@ -1,0 +1,21 @@
+{
+  "status": "frozen_sparse_calibration",
+  "seed": 2028,
+  "c_leith": 0.0024657855131065723,
+  "c_mixed": 2.7307287103801563e-05,
+  "C_leith": 0.13509888526620603,
+  "C_mixed": 0.030113380990316244,
+  "objective": "equally time weighted inverse-probability weighted sparse vector-flux L2",
+  "training_dataset_sha256": "c76a5fe030cbd2b827381d21b204fea62e22e2030959c7b1e7adab80c9afb904",
+  "split_path": "source:results/revision_v2/splits/seed_2028.json",
+  "split_sha256": "a0f16fbee8e1e402385c715cfbd27c90c9bf01990ac64d1b16ed0aa54bcfc259",
+  "filter_delta_m": 0.25132741228718347,
+  "formula_sha256": "e1e73dc164bf5d8747aa824d4f5e90007d28b963bb1a05039c782370e44ab83e",
+  "solver_sha256": "d4d49a41f42240f16d567bca3748155e9bacf9dc8738fcb0b677e7b91ebf9a28",
+  "config_sha256": "2226cbd803810ee0e2fc16d712c36597af9e5a8165930f07aa607f028b462f7c",
+  "protocol_sha256": "8bbd33948e3205031815e4c5c460413518023f2d427426c30299bc42a6d2369e",
+  "times": 50,
+  "sites_per_time": 25,
+  "dense_final_targets_used_in_objective": false,
+  "ic2_used": false
+}

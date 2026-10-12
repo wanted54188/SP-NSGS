@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel>=0.43"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spnsgs"
+version = "2.0.0"
+description = "Constrained SGS-flux decomposition and frozen PoF evaluation protocols"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "pandas>=2,<3", "torch>=2.5,<3", "matplotlib>=3.8,<4"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+spnsgs = "spnsgs.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["spnsgs*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

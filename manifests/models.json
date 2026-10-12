@@ -1,0 +1,568 @@
+{
+  "iso/2026": {
+    "variant": "iso",
+    "seed": 2026,
+    "config": "configs/iso/seed_2026.json",
+    "original_config_sha256": "2226cbd803810ee0e2fc16d712c36597af9e5a8165930f07aa607f028b462f7c",
+    "config_sha256": "d47dcf293694647d184a012e9173a7b7b7736ae37a5b9bcfd49890177a764511",
+    "path_only_config_edits": [
+      "data.data_dir",
+      "training.output_dir"
+    ],
+    "expected_checkpoint_sha256": "cb2a5c54cb0c4a87fcc8bbf1f65f9a20a056afbab8f11ce952a11d29158f401d",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "source_run_identity": "iso/seed_2026",
+    "checkpoint": "models/iso/seed_2026/best_closure.pt",
+    "checkpoint_sha256": "cb2a5c54cb0c4a87fcc8bbf1f65f9a20a056afbab8f11ce952a11d29158f401d",
+    "status": "EXACT FROZEN CHECKPOINT",
+    "metadata_artifacts": {
+      "primary_checkpoint_reference.json": {
+        "path": "models/iso/seed_2026/primary_checkpoint_reference.json",
+        "sha256": "fc739c4140c57b0e47fe06ab52f617de27caaac0eda95541d1775852a650ad5e"
+      },
+      "revision_v2_run_manifest.json": {
+        "path": "models/iso/seed_2026/revision_v2_run_manifest.json",
+        "sha256": "5c07cac0a2dbdbe300fbb806490a1eda1d8f80df72ee7a0d59ede9e5f05b3fa2"
+      },
+      "runtime_report.json": {
+        "path": "models/iso/seed_2026/runtime_report.json",
+        "sha256": "cd014f29877389fa81d7df10742d147c96359259201efadcac51c7c7cd434d92"
+      },
+      "closure_scale_calibration.json": {
+        "path": "models/shared/closure_scale_calibration_71009a9bc454.json",
+        "sha256": "71009a9bc45490d5df80d3f105a32b14254bd6f00c74116074bfb97c18a8241f"
+      },
+      "discrete_consistency_report.json": {
+        "path": "models/shared/discrete_consistency_report_c706a2751e8d.json",
+        "sha256": "c706a2751e8d9df863570abffd4050f3866d6af0a7ce30d29c049704b85d23e2"
+      },
+      "preflight_report.json": {
+        "path": "models/shared/preflight_report_f00ae4d49dd4.json",
+        "sha256": "f00ae4d49dd47f1a3e1a087499e1f1455b34418b1ba5a6c196c74ca74c871ea4"
+      },
+      "sparse_data_protocol.json": {
+        "path": "models/shared/sparse_data_protocol_a97b7c2d55f8.json",
+        "sha256": "a97b7c2d55f86cd146ef69ab95452b05dd609f7c7e6a107bdcbc6f19e7d8dcb1"
+      }
+    }
+  },
+  "iso/2027": {
+    "variant": "iso",
+    "seed": 2027,
+    "config": "configs/iso/seed_2027.json",
+    "original_config_sha256": "fe8531baefa59fa10f54f8960b7ddf8cb50b0cb8df48855333b6994dcf671d48",
+    "config_sha256": "32b2358f2a4c1a7754b696e9ae51a0f4442c3724b1a4b94bfe3e906f76d68dc5",
+    "path_only_config_edits": [
+      "data.data_dir",
+      "training.output_dir"
+    ],
+    "expected_checkpoint_sha256": "464c2f9cfc872c9cf5f3abae559bd78e194e51fb8f52b00715e0dc7691511a74",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "source_run_identity": "iso/seed_2027",
+    "checkpoint": "models/iso/seed_2027/best_closure.pt",
+    "checkpoint_sha256": "464c2f9cfc872c9cf5f3abae559bd78e194e51fb8f52b00715e0dc7691511a74",
+    "status": "EXACT FROZEN CHECKPOINT",
+    "metadata_artifacts": {
+      "primary_checkpoint_reference.json": {
+        "path": "models/iso/seed_2027/primary_checkpoint_reference.json",
+        "sha256": "ad78826238f4b0f15f0c3ce000e7efcef937ad8931c64cbadc480ae838512297"
+      },
+      "revision_v2_run_manifest.json": {
+        "path": "models/iso/seed_2027/revision_v2_run_manifest.json",
+        "sha256": "27282033d644749eee6c0e4ef4bab9a3be5a397c767f9204f1446c462120746c"
+      },
+      "runtime_report.json": {
+        "path": "models/iso/seed_2027/runtime_report.json",
+        "sha256": "bc1d1607590a537e13a7daa7471d3aa797259dde7da528ae902b6d77b4ec5ce2"
+      },
+      "closure_scale_calibration.json": {
+        "path": "models/shared/closure_scale_calibration_71009a9bc454.json",
+        "sha256": "71009a9bc45490d5df80d3f105a32b14254bd6f00c74116074bfb97c18a8241f"
+      },
+      "discrete_consistency_report.json": {
+        "path": "models/shared/discrete_consistency_report_c706a2751e8d.json",
+        "sha256": "c706a2751e8d9df863570abffd4050f3866d6af0a7ce30d29c049704b85d23e2"
+      },
+      "preflight_report.json": {
+        "path": "models/shared/preflight_report_f00ae4d49dd4.json",
+        "sha256": "f00ae4d49dd47f1a3e1a087499e1f1455b34418b1ba5a6c196c74ca74c871ea4"
+      },
+      "sparse_data_protocol.json": {
+        "path": "models/shared/sparse_data_protocol_b2cd5985b734.json",
+        "sha256": "b2cd5985b734f15c0a01977c8d85c50397e8208c65403807bf52539e91dde78e"
+      }
+    }
+  },
+  "iso/2028": {
+    "variant": "iso",
+    "seed": 2028,
+    "config": "configs/iso/seed_2028.json",
+    "original_config_sha256": "b807473b3391ddf4d6ef65136cc00d88f58d0a3b4a5a27b616e6d31055ff5df9",
+    "config_sha256": "3e01f49cb2f1fe3ce76e46d016ef9b5531b33767fbb031bdd077fd455d81a652",
+    "path_only_config_edits": [
+      "data.data_dir",
+      "training.output_dir"
+    ],
+    "expected_checkpoint_sha256": "09560ee94d5c54f9045c746ca85e44874b168751a38d43375318f4798a738bc2",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "source_run_identity": "iso/seed_2028",
+    "checkpoint": "models/iso/seed_2028/best_closure.pt",
+    "checkpoint_sha256": "09560ee94d5c54f9045c746ca85e44874b168751a38d43375318f4798a738bc2",
+    "status": "EXACT FROZEN CHECKPOINT",
+    "metadata_artifacts": {
+      "primary_checkpoint_reference.json": {
+        "path": "models/iso/seed_2028/primary_checkpoint_reference.json",
+        "sha256": "656cc6ed95072eb86da4056278f6d8448d65b39f81ad4bc64e64801ed00d7901"
+      },
+      "revision_v2_run_manifest.json": {
+        "path": "models/iso/seed_2028/revision_v2_run_manifest.json",
+        "sha256": "67a2904c920e2bf8ad595e045991b5b3c425a685a35982f5eca0154ff072a856"
+      },
+      "runtime_report.json": {
+        "path": "models/iso/seed_2028/runtime_report.json",
+        "sha256": "b1a5c6ffd32655ba3c047adbd15317b2fe38afd1a1fa6940e7469b5cc3ed06f8"
+      },
+      "closure_scale_calibration.json": {
+        "path": "models/shared/closure_scale_calibration_71009a9bc454.json",
+        "sha256": "71009a9bc45490d5df80d3f105a32b14254bd6f00c74116074bfb97c18a8241f"
+      },
+      "discrete_consistency_report.json": {
+        "path": "models/shared/discrete_consistency_report_c706a2751e8d.json",
+        "sha256": "c706a2751e8d9df863570abffd4050f3866d6af0a7ce30d29c049704b85d23e2"
+      },
+      "preflight_report.json": {
+        "path": "models/shared/preflight_report_f00ae4d49dd4.json",
+        "sha256": "f00ae4d49dd47f1a3e1a087499e1f1455b34418b1ba5a6c196c74ca74c871ea4"
+      },
+      "sparse_data_protocol.json": {
+        "path": "models/shared/sparse_data_protocol_58c8a302f2af.json",
+        "sha256": "58c8a302f2af882710c1c0064d822654369c2711b16d6e7e6bb74861f501c04f"
+      }
+    }
+  },
+  "A1B0/2026": {
+    "variant": "A1B0",
+    "seed": 2026,
+    "config": "configs/A1B0/seed_2026.json",
+    "original_config_sha256": "cd09e6a2a7521ba9b0503c7e228cef6410443cd420fbc4e6ef54a0359fd9b2b2",
+    "config_sha256": "ab13ce46b8b697ac97cb80db94a2e1064ac9e2864a8a7a7779389029f0dce8ae",
+    "path_only_config_edits": [
+      "data.data_dir",
+      "training.output_dir"
+    ],
+    "expected_checkpoint_sha256": "813daacbb5184c497accf5411d37da488bbaf7a5faecdf0d9da4fa498cd2398c",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "source_run_identity": "A1B0/seed_2026",
+    "checkpoint": "models/A1B0/seed_2026/best_closure.pt",
+    "checkpoint_sha256": "813daacbb5184c497accf5411d37da488bbaf7a5faecdf0d9da4fa498cd2398c",
+    "status": "EXACT FROZEN CHECKPOINT",
+    "metadata_artifacts": {
+      "primary_checkpoint_reference.json": {
+        "path": "models/A1B0/seed_2026/primary_checkpoint_reference.json",
+        "sha256": "d0c5dd18953a78d796e96b3ded66632200f89e52dbad766adb8c521d24c28866"
+      },
+      "revision_v2_run_manifest.json": {
+        "path": "models/A1B0/seed_2026/revision_v2_run_manifest.json",
+        "sha256": "8e69b6f00313c6a99b45ce2c9c96d9398632428c8f71d8b6911c139b2067e128"
+      },
+      "runtime_report.json": {
+        "path": "models/A1B0/seed_2026/runtime_report.json",
+        "sha256": "58206674a608811e0dd75b57a9fbc491c3f13b68c4e3dc7283a5d961d18400ec"
+      },
+      "closure_scale_calibration.json": {
+        "path": "models/shared/closure_scale_calibration_71009a9bc454.json",
+        "sha256": "71009a9bc45490d5df80d3f105a32b14254bd6f00c74116074bfb97c18a8241f"
+      },
+      "discrete_consistency_report.json": {
+        "path": "models/shared/discrete_consistency_report_c706a2751e8d.json",
+        "sha256": "c706a2751e8d9df863570abffd4050f3866d6af0a7ce30d29c049704b85d23e2"
+      },
+      "preflight_report.json": {
+        "path": "models/shared/preflight_report_f00ae4d49dd4.json",
+        "sha256": "f00ae4d49dd47f1a3e1a087499e1f1455b34418b1ba5a6c196c74ca74c871ea4"
+      },
+      "sparse_data_protocol.json": {
+        "path": "models/shared/sparse_data_protocol_a97b7c2d55f8.json",
+        "sha256": "a97b7c2d55f86cd146ef69ab95452b05dd609f7c7e6a107bdcbc6f19e7d8dcb1"
+      }
+    }
+  },
+  "A1B0/2027": {
+    "variant": "A1B0",
+    "seed": 2027,
+    "config": "configs/A1B0/seed_2027.json",
+    "original_config_sha256": "66cce7e3729bb93b435dbf3344acd6507128fa924e70f376b1fe44bbe49beffb",
+    "config_sha256": "2336dc55b44e513adcacadb71f9520f299a1870ea88d514a56e72de658216025",
+    "path_only_config_edits": [
+      "data.data_dir",
+      "training.output_dir"
+    ],
+    "expected_checkpoint_sha256": "8db44b329aa9dba21dd89a1318a3b9e169f840d9fa2276d7f63950eb1afeee72",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "source_run_identity": "A1B0/seed_2027",
+    "checkpoint": "models/A1B0/seed_2027/best_closure.pt",
+    "checkpoint_sha256": "8db44b329aa9dba21dd89a1318a3b9e169f840d9fa2276d7f63950eb1afeee72",
+    "status": "EXACT FROZEN CHECKPOINT",
+    "metadata_artifacts": {
+      "primary_checkpoint_reference.json": {
+        "path": "models/A1B0/seed_2027/primary_checkpoint_reference.json",
+        "sha256": "e37d7434faeccdcc3e3ad8d67b76f5153bf77f2315c83925a439bf02cbf2aa7a"
+      },
+      "revision_v2_run_manifest.json": {
+        "path": "models/A1B0/seed_2027/revision_v2_run_manifest.json",
+        "sha256": "68d8165d88a497f0ef95e72f5576b162b4a86bf44dcb18650fe31659eb83bc8c"
+      },
+      "runtime_report.json": {
+        "path": "models/A1B0/seed_2027/runtime_report.json",
+        "sha256": "69df9779d34a964096d00761854cf6a08bc11120212e65a38f9e6fec7e8ce193"
+      },
+      "closure_scale_calibration.json": {
+        "path": "models/shared/closure_scale_calibration_71009a9bc454.json",
+        "sha256": "71009a9bc45490d5df80d3f105a32b14254bd6f00c74116074bfb97c18a8241f"
+      },
+      "discrete_consistency_report.json": {
+        "path": "models/shared/discrete_consistency_report_c706a2751e8d.json",
+        "sha256": "c706a2751e8d9df863570abffd4050f3866d6af0a7ce30d29c049704b85d23e2"
+      },
+      "preflight_report.json": {
+        "path": "models/shared/preflight_report_f00ae4d49dd4.json",
+        "sha256": "f00ae4d49dd47f1a3e1a087499e1f1455b34418b1ba5a6c196c74ca74c871ea4"
+      },
+      "sparse_data_protocol.json": {
+        "path": "models/shared/sparse_data_protocol_b2cd5985b734.json",
+        "sha256": "b2cd5985b734f15c0a01977c8d85c50397e8208c65403807bf52539e91dde78e"
+      }
+    }
+  },
+  "A1B0/2028": {
+    "variant": "A1B0",
+    "seed": 2028,
+    "config": "configs/A1B0/seed_2028.json",
+    "original_config_sha256": "5a62dc1a137b180c2736a5542a38be9909f1b5549581c3379fd3bb149fea73f5",
+    "config_sha256": "590eab0893b4359ba21de09574fb1b0d348373482b6685849cf45064c24daacd",
+    "path_only_config_edits": [
+      "data.data_dir",
+      "training.output_dir"
+    ],
+    "expected_checkpoint_sha256": "e89064625a4165a1bd752032aaea77729748a5b06f3afe1c06b1a90856dde84b",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "source_run_identity": "A1B0/seed_2028",
+    "checkpoint": "models/A1B0/seed_2028/best_closure.pt",
+    "checkpoint_sha256": "e89064625a4165a1bd752032aaea77729748a5b06f3afe1c06b1a90856dde84b",
+    "status": "EXACT FROZEN CHECKPOINT",
+    "metadata_artifacts": {
+      "primary_checkpoint_reference.json": {
+        "path": "models/A1B0/seed_2028/primary_checkpoint_reference.json",
+        "sha256": "e999efa0b368e0b3c2a20c9e931e016ee9f982823060257fda583ddbfb34a731"
+      },
+      "revision_v2_run_manifest.json": {
+        "path": "models/A1B0/seed_2028/revision_v2_run_manifest.json",
+        "sha256": "aa0bf9727ad7c631bf232c1de6b4da21f451d61ffb69fe222cf5ff402109312f"
+      },
+      "runtime_report.json": {
+        "path": "models/A1B0/seed_2028/runtime_report.json",
+        "sha256": "faf8e2bc6a041764719cbd8bd5fef66f7a280c57dd70545b4bc74f47a063502a"
+      },
+      "closure_scale_calibration.json": {
+        "path": "models/shared/closure_scale_calibration_71009a9bc454.json",
+        "sha256": "71009a9bc45490d5df80d3f105a32b14254bd6f00c74116074bfb97c18a8241f"
+      },
+      "discrete_consistency_report.json": {
+        "path": "models/shared/discrete_consistency_report_c706a2751e8d.json",
+        "sha256": "c706a2751e8d9df863570abffd4050f3866d6af0a7ce30d29c049704b85d23e2"
+      },
+      "preflight_report.json": {
+        "path": "models/shared/preflight_report_f00ae4d49dd4.json",
+        "sha256": "f00ae4d49dd47f1a3e1a087499e1f1455b34418b1ba5a6c196c74ca74c871ea4"
+      },
+      "sparse_data_protocol.json": {
+        "path": "models/shared/sparse_data_protocol_58c8a302f2af.json",
+        "sha256": "58c8a302f2af882710c1c0064d822654369c2711b16d6e7e6bb74861f501c04f"
+      }
+    }
+  },
+  "A0B1/2026": {
+    "variant": "A0B1",
+    "seed": 2026,
+    "config": "configs/A0B1/seed_2026.json",
+    "original_config_sha256": "82e151213e0863058c1d82fa19542b3f4cccdea811ed95e689ddb8d972d56341",
+    "config_sha256": "cca98d5476f1c13bdceb135e8e9a8995bde4a45e54b007514bab0108295b47a7",
+    "path_only_config_edits": [
+      "data.data_dir",
+      "training.output_dir"
+    ],
+    "expected_checkpoint_sha256": "c1842f5b90c227b3574f6e7122fce536b231a7314de8707e856f0f1a831b164e",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "source_run_identity": "A0B1/seed_2026",
+    "checkpoint": "models/A0B1/seed_2026/best_closure.pt",
+    "checkpoint_sha256": "c1842f5b90c227b3574f6e7122fce536b231a7314de8707e856f0f1a831b164e",
+    "status": "EXACT FROZEN CHECKPOINT",
+    "metadata_artifacts": {
+      "primary_checkpoint_reference.json": {
+        "path": "models/A0B1/seed_2026/primary_checkpoint_reference.json",
+        "sha256": "86b09d86f0fcb46141b81740c2d7e68af4ef937a76b8c1c705fc69787d3f72e5"
+      },
+      "revision_v2_run_manifest.json": {
+        "path": "models/A0B1/seed_2026/revision_v2_run_manifest.json",
+        "sha256": "fd737c01d01cdf4881248faac47ab5b283c321797866bc686c451ab25478e60d"
+      },
+      "runtime_report.json": {
+        "path": "models/A0B1/seed_2026/runtime_report.json",
+        "sha256": "fc0f2e71b2a4b84354d18188e14ed14f9539857db3760fad0137e4af5eefff82"
+      },
+      "closure_scale_calibration.json": {
+        "path": "models/shared/closure_scale_calibration_71009a9bc454.json",
+        "sha256": "71009a9bc45490d5df80d3f105a32b14254bd6f00c74116074bfb97c18a8241f"
+      },
+      "discrete_consistency_report.json": {
+        "path": "models/shared/discrete_consistency_report_c706a2751e8d.json",
+        "sha256": "c706a2751e8d9df863570abffd4050f3866d6af0a7ce30d29c049704b85d23e2"
+      },
+      "preflight_report.json": {
+        "path": "models/shared/preflight_report_f00ae4d49dd4.json",
+        "sha256": "f00ae4d49dd47f1a3e1a087499e1f1455b34418b1ba5a6c196c74ca74c871ea4"
+      },
+      "sparse_data_protocol.json": {
+        "path": "models/shared/sparse_data_protocol_a97b7c2d55f8.json",
+        "sha256": "a97b7c2d55f86cd146ef69ab95452b05dd609f7c7e6a107bdcbc6f19e7d8dcb1"
+      }
+    }
+  },
+  "A0B1/2027": {
+    "variant": "A0B1",
+    "seed": 2027,
+    "config": "configs/A0B1/seed_2027.json",
+    "original_config_sha256": "34722d4500228e0c12d73ca4fe377668eaa738228429ec8f5579da08d99f0e2e",
+    "config_sha256": "694d808043fa3fbc1a5b5f50180cc754450c24caf7e1fbee756a7b52df074b9a",
+    "path_only_config_edits": [
+      "data.data_dir",
+      "training.output_dir"
+    ],
+    "expected_checkpoint_sha256": "77fd9ea9ef0411954cddfb6ce0381dfd133096c58f54d27a7d4691dd52c630bb",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "source_run_identity": "A0B1/seed_2027",
+    "checkpoint": "models/A0B1/seed_2027/best_closure.pt",
+    "checkpoint_sha256": "77fd9ea9ef0411954cddfb6ce0381dfd133096c58f54d27a7d4691dd52c630bb",
+    "status": "EXACT FROZEN CHECKPOINT",
+    "metadata_artifacts": {
+      "primary_checkpoint_reference.json": {
+        "path": "models/A0B1/seed_2027/primary_checkpoint_reference.json",
+        "sha256": "4cd12d60eeab53ba575d01844764dda108b4608c6198af236bf435bcd31d4e40"
+      },
+      "revision_v2_run_manifest.json": {
+        "path": "models/A0B1/seed_2027/revision_v2_run_manifest.json",
+        "sha256": "0102452a4921c00a4885be664ce99e299799bb74ca6439f1a8ee5b910f02e688"
+      },
+      "runtime_report.json": {
+        "path": "models/A0B1/seed_2027/runtime_report.json",
+        "sha256": "c2726ddc6c047081258db922813a788caac0863da1b27fc33e51647f28a5fddf"
+      },
+      "closure_scale_calibration.json": {
+        "path": "models/shared/closure_scale_calibration_71009a9bc454.json",
+        "sha256": "71009a9bc45490d5df80d3f105a32b14254bd6f00c74116074bfb97c18a8241f"
+      },
+      "discrete_consistency_report.json": {
+        "path": "models/shared/discrete_consistency_report_c706a2751e8d.json",
+        "sha256": "c706a2751e8d9df863570abffd4050f3866d6af0a7ce30d29c049704b85d23e2"
+      },
+      "preflight_report.json": {
+        "path": "models/shared/preflight_report_f00ae4d49dd4.json",
+        "sha256": "f00ae4d49dd47f1a3e1a087499e1f1455b34418b1ba5a6c196c74ca74c871ea4"
+      },
+      "sparse_data_protocol.json": {
+        "path": "models/shared/sparse_data_protocol_b2cd5985b734.json",
+        "sha256": "b2cd5985b734f15c0a01977c8d85c50397e8208c65403807bf52539e91dde78e"
+      }
+    }
+  },
+  "A0B1/2028": {
+    "variant": "A0B1",
+    "seed": 2028,
+    "config": "configs/A0B1/seed_2028.json",
+    "original_config_sha256": "634fcf12b52fedfbdba0bec3953068950d112d7573641802be9818c0277e8913",
+    "config_sha256": "7467c8497980f178a439de5ed1af3f24939cc41a3f8139a0dae37b1e65d5cb1b",
+    "path_only_config_edits": [
+      "data.data_dir",
+      "training.output_dir"
+    ],
+    "expected_checkpoint_sha256": "142025fa0d0849d6bab5551c39a1bc9f40bdcc92f8c53ec27e7261032f035ad3",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "source_run_identity": "A0B1/seed_2028",
+    "checkpoint": "models/A0B1/seed_2028/best_closure.pt",
+    "checkpoint_sha256": "142025fa0d0849d6bab5551c39a1bc9f40bdcc92f8c53ec27e7261032f035ad3",
+    "status": "EXACT FROZEN CHECKPOINT",
+    "metadata_artifacts": {
+      "primary_checkpoint_reference.json": {
+        "path": "models/A0B1/seed_2028/primary_checkpoint_reference.json",
+        "sha256": "af37bc04d604846e7560b9fcbcb836408dd253f42cf011f0c8ee4c0a68c6ad9b"
+      },
+      "revision_v2_run_manifest.json": {
+        "path": "models/A0B1/seed_2028/revision_v2_run_manifest.json",
+        "sha256": "381f7be0529c0bdbc4967ce3947de3edbb64539959024416ef3ee2eeaddc81aa"
+      },
+      "runtime_report.json": {
+        "path": "models/A0B1/seed_2028/runtime_report.json",
+        "sha256": "b14d8378ce5a6d3a4106a93690c9340a435b09545a43d4a5c8b4779d21d173ce"
+      },
+      "closure_scale_calibration.json": {
+        "path": "models/shared/closure_scale_calibration_71009a9bc454.json",
+        "sha256": "71009a9bc45490d5df80d3f105a32b14254bd6f00c74116074bfb97c18a8241f"
+      },
+      "discrete_consistency_report.json": {
+        "path": "models/shared/discrete_consistency_report_c706a2751e8d.json",
+        "sha256": "c706a2751e8d9df863570abffd4050f3866d6af0a7ce30d29c049704b85d23e2"
+      },
+      "preflight_report.json": {
+        "path": "models/shared/preflight_report_f00ae4d49dd4.json",
+        "sha256": "f00ae4d49dd47f1a3e1a087499e1f1455b34418b1ba5a6c196c74ca74c871ea4"
+      },
+      "sparse_data_protocol.json": {
+        "path": "models/shared/sparse_data_protocol_58c8a302f2af.json",
+        "sha256": "58c8a302f2af882710c1c0064d822654369c2711b16d6e7e6bb74861f501c04f"
+      }
+    }
+  },
+  "full/2026": {
+    "variant": "full",
+    "seed": 2026,
+    "config": "configs/full/seed_2026.json",
+    "original_config_sha256": "56fea7155ba675957406357b21231c6f5d26ca6870e995a7b9270c748b8dfd61",
+    "config_sha256": "21388633fd71c65f65abc850a5dee084332af279e6c5a47832d344cd2da68ad3",
+    "path_only_config_edits": [
+      "data.data_dir",
+      "training.output_dir"
+    ],
+    "expected_checkpoint_sha256": "d5273bed8d71f26dec2c3567fcc0be09bdc18d85060e8fee051b06d046d998dc",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "source_run_identity": "full/seed_2026_recovery01",
+    "checkpoint": "models/full/seed_2026/best_closure.pt",
+    "checkpoint_sha256": "d5273bed8d71f26dec2c3567fcc0be09bdc18d85060e8fee051b06d046d998dc",
+    "status": "EXACT FROZEN CHECKPOINT",
+    "recovery_run": true,
+    "note": "The formal IC-1/IC-2 result manifests identify seed_2026_recovery01 explicitly; not the original empty seed_2026 file.",
+    "metadata_artifacts": {
+      "primary_checkpoint_reference.json": {
+        "path": "models/full/seed_2026/primary_checkpoint_reference.json",
+        "sha256": "449f289ddfe5bca2da8d5abddcad3cbf9c43a7bf36ab2305f0d3da37f283d69a"
+      },
+      "revision_v2_run_manifest.json": {
+        "path": "models/full/seed_2026/revision_v2_run_manifest.json",
+        "sha256": "393d6237325f70f2b3312afe612fedb0d636c2526bb2cd3c3ad853d18820c0f6"
+      },
+      "runtime_report.json": {
+        "path": "models/full/seed_2026/runtime_report.json",
+        "sha256": "00e26fce5fba47bd8973628c6dc47a0f44263127eb497e95a667ce9a973d6ea6"
+      },
+      "closure_scale_calibration.json": {
+        "path": "models/shared/closure_scale_calibration_71009a9bc454.json",
+        "sha256": "71009a9bc45490d5df80d3f105a32b14254bd6f00c74116074bfb97c18a8241f"
+      },
+      "discrete_consistency_report.json": {
+        "path": "models/shared/discrete_consistency_report_c706a2751e8d.json",
+        "sha256": "c706a2751e8d9df863570abffd4050f3866d6af0a7ce30d29c049704b85d23e2"
+      },
+      "preflight_report.json": {
+        "path": "models/shared/preflight_report_f00ae4d49dd4.json",
+        "sha256": "f00ae4d49dd47f1a3e1a087499e1f1455b34418b1ba5a6c196c74ca74c871ea4"
+      },
+      "sparse_data_protocol.json": {
+        "path": "models/shared/sparse_data_protocol_a97b7c2d55f8.json",
+        "sha256": "a97b7c2d55f86cd146ef69ab95452b05dd609f7c7e6a107bdcbc6f19e7d8dcb1"
+      }
+    }
+  },
+  "full/2027": {
+    "variant": "full",
+    "seed": 2027,
+    "config": "configs/full/seed_2027.json",
+    "original_config_sha256": "adffd56fc2a407f9cc52f5999a3b5b057d78e4aae859da384c87b8f7c9c4c733",
+    "config_sha256": "3fa892ebc3cf9dcb0c9b968f1a9bbee981d6b2156380b92701b61e712700d9ec",
+    "path_only_config_edits": [
+      "data.data_dir",
+      "training.output_dir"
+    ],
+    "expected_checkpoint_sha256": "27e0f291001fe1a2424ac869c928ea3ea7a65ea2982e663ad744ea0ba8ec6976",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "source_run_identity": "full/seed_2027",
+    "checkpoint": null,
+    "status": "MISSING EXACT FROZEN CHECKPOINT",
+    "historical_results_available": true,
+    "metadata_artifacts": {
+      "primary_checkpoint_reference.json": {
+        "path": "models/full/seed_2027/primary_checkpoint_reference.json",
+        "sha256": "aa8f4a5d945a451aae468987c9ff5d74d65760385c81ed5d5e180e0d1ec3d940"
+      },
+      "revision_v2_run_manifest.json": {
+        "path": "models/full/seed_2027/revision_v2_run_manifest.json",
+        "sha256": "eb60146f5446528a68632743b74a4978e959068c2bb86342bde687e248b062ae"
+      },
+      "runtime_report.json": {
+        "path": "models/full/seed_2027/runtime_report.json",
+        "sha256": "101b0f6a9728a76ed3de3c513fbb75460c0bfe6190f30e498e02850dde525307"
+      },
+      "closure_scale_calibration.json": {
+        "path": "models/shared/closure_scale_calibration_71009a9bc454.json",
+        "sha256": "71009a9bc45490d5df80d3f105a32b14254bd6f00c74116074bfb97c18a8241f"
+      },
+      "discrete_consistency_report.json": {
+        "path": "models/shared/discrete_consistency_report_c706a2751e8d.json",
+        "sha256": "c706a2751e8d9df863570abffd4050f3866d6af0a7ce30d29c049704b85d23e2"
+      },
+      "preflight_report.json": {
+        "path": "models/shared/preflight_report_f00ae4d49dd4.json",
+        "sha256": "f00ae4d49dd47f1a3e1a087499e1f1455b34418b1ba5a6c196c74ca74c871ea4"
+      },
+      "sparse_data_protocol.json": {
+        "path": "models/shared/sparse_data_protocol_b2cd5985b734.json",
+        "sha256": "b2cd5985b734f15c0a01977c8d85c50397e8208c65403807bf52539e91dde78e"
+      }
+    }
+  },
+  "full/2028": {
+    "variant": "full",
+    "seed": 2028,
+    "config": "configs/full/seed_2028.json",
+    "original_config_sha256": "1defc299169287889bd981f3dfabcfae8e67dcf8912d63879590603f1337304c",
+    "config_sha256": "e0dcdf1a8184b0185af5128a959506ca9d8aafa0b7120e55b096bc65ff67b662",
+    "path_only_config_edits": [
+      "data.data_dir",
+      "training.output_dir"
+    ],
+    "expected_checkpoint_sha256": "c21b7a7fca17848c843604f91af8efd5bada77e55ca2f71de309199ea1e40365",
+    "selection_rule": "best_closure.pt: minimum held-out reference-state closure score (divergence magnitude/correlation, Pi correlation, negative-transfer fraction); assisted/rollout scores excluded",
+    "source_run_identity": "full/seed_2028",
+    "checkpoint": "models/full/seed_2028/best_closure.pt",
+    "checkpoint_sha256": "c21b7a7fca17848c843604f91af8efd5bada77e55ca2f71de309199ea1e40365",
+    "status": "EXACT FROZEN CHECKPOINT",
+    "metadata_artifacts": {
+      "primary_checkpoint_reference.json": {
+        "path": "models/full/seed_2028/primary_checkpoint_reference.json",
+        "sha256": "154cb5fb73a4ad6c8795029463f02136c8ef9efe4466bdb992791200b0672d4d"
+      },
+      "revision_v2_run_manifest.json": {
+        "path": "models/full/seed_2028/revision_v2_run_manifest.json",
+        "sha256": "2d74e76064945e38e21bc4d9434e5561956a607d03f3ef30fc70636abeeba741"
+      },
+      "runtime_report.json": {
+        "path": "models/full/seed_2028/runtime_report.json",
+        "sha256": "02be82847bd5ef0001df7095895e785e365bef316042452389a4de35828f7327"
+      },
+      "closure_scale_calibration.json": {
+        "path": "models/shared/closure_scale_calibration_71009a9bc454.json",
+        "sha256": "71009a9bc45490d5df80d3f105a32b14254bd6f00c74116074bfb97c18a8241f"
+      },
+      "discrete_consistency_report.json": {
+        "path": "models/shared/discrete_consistency_report_c706a2751e8d.json",
+        "sha256": "c706a2751e8d9df863570abffd4050f3866d6af0a7ce30d29c049704b85d23e2"
+      },
+      "preflight_report.json": {
+        "path": "models/shared/preflight_report_f00ae4d49dd4.json",
+        "sha256": "f00ae4d49dd47f1a3e1a087499e1f1455b34418b1ba5a6c196c74ca74c871ea4"
+      },
+      "sparse_data_protocol.json": {
+        "path": "models/shared/sparse_data_protocol_58c8a302f2af.json",
+        "sha256": "58c8a302f2af882710c1c0064d822654369c2711b16d6e7e6bb74861f501c04f"
+      }
+    }
+  }
+}

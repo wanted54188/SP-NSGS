@@ -1,0 +1,26 @@
+{
+  "model_variant": "iso_dissipative",
+  "seed": 2027,
+  "checkpoint": "source:results/revision_v2/runs/iso/seed_2027/best_closure.pt",
+  "checkpoint_sha256": "464c2f9cfc872c9cf5f3abae559bd78e194e51fb8f52b00715e0dc7691511a74",
+  "dataset_version": "revision_v2_refined_STAR_0p296m_0p005s",
+  "dataset_sha256": "c76a5fe030cbd2b827381d21b204fea62e22e2030959c7b1e7adab80c9afb904",
+  "reference_case": "0.296m 0.005s",
+  "internal_dt_s": 0.005,
+  "exported_grid": [
+    100,
+    100
+  ],
+  "filter_delta_m": 0.25132741228718347,
+  "operator_mode": "physical target + separately reported two-thirds solver-matched diagnostic",
+  "training_split_manifest": "source:results/revision_v2/splits/seed_2027.json",
+  "validation_split": "disjoint spatial sensors, same time trajectory",
+  "test_split": "dense physical STAR fields at stored times; not temporally independent",
+  "evaluation_mode": "free_running_continuation",
+  "evaluation_description": "free-running continuation initialized at t=0.1 s",
+  "future_observations_accessible": false,
+  "initial_state_source": "verified first 0.296-m STAR export at t=0.1 s; exact match to frozen archive",
+  "git_commit": null,
+  "timestamp_utc": "2026-09-30T08:11:00.164971+00:00",
+  "smoke_only": false
+}

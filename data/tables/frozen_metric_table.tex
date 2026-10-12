@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\caption{Frozen a-priori physical-field amplitude and error diagnostics. Neural entries aggregate three training seeds; Leith and Mixed aggregate three IC-1 sparse calibration splits applied unchanged to IC-2. Clark is deterministic, with no artificial SD. Values are per-run 50-frame summaries, then mean $\pm$ sample SD across the three runs. The $q_x,q_y$ columns are componentwise; $\Pi$ bias retains its physical units.}
+\label{tab:supp_metrics}\centering\scriptsize
+\textit{Alt text: This table compares componentwise flux errors, SGS-source error and transfer amplitude across the two initial conditions. Clark has the lowest source error, whereas neural signed models have smaller flux errors than ISO but retain amplitude bias.}\par\smallskip
+\begin{tabular}{llccccccc}\hline
+IC & Model & $\epsilon_{q_x}$ & RMS$_{q_x}$ ratio & $\epsilon_{q_y}$ & RMS$_{q_y}$ ratio & $\epsilon_{\nabla\cdot q}$ & RMS$_\Pi$ ratio & $\Pi$ bias \\\hline
+IC-1 & Leith & 0.996$\pm$0.000 & 0.132$\pm$0.006 & 0.993$\pm$0.000 & 0.102$\pm$0.004 & 0.931$\pm$0.001 & 0.295$\pm$0.012 & 0.182$\pm$0.135 \\
+IC-1 & Clark & 0.209 & 1.076 & 0.202 & 1.079 & 0.209 & 1.014 & 0.107 \\
+IC-1 & Mixed & 0.209$\pm$0.000 & 1.076$\pm$0.000 & 0.202$\pm$0.000 & 1.079$\pm$0.000 & 0.209$\pm$0.000 & 1.014$\pm$0.000 & 0.119$\pm$0.020 \\
+IC-1 & ISO & 0.973$\pm$0.010 & 0.344$\pm$0.022 & 0.991$\pm$0.009 & 0.252$\pm$0.020 & 1.033$\pm$0.018 & 0.783$\pm$0.082 & 1.982$\pm$0.058 \\
+IC-1 & A0B1 & 0.316$\pm$0.024 & 1.069$\pm$0.072 & 0.282$\pm$0.022 & 1.047$\pm$0.080 & 0.787$\pm$0.063 & 1.215$\pm$0.104 & 2.714$\pm$0.596 \\
+IC-1 & Full & 0.361$\pm$0.082 & 1.154$\pm$0.193 & 0.342$\pm$0.090 & 1.138$\pm$0.206 & 0.770$\pm$0.017 & 1.262$\pm$0.176 & 2.730$\pm$0.746 \\
+IC-2 & Leith & 0.995$\pm$0.000 & 0.115$\pm$0.005 & 0.994$\pm$0.000 & 0.115$\pm$0.005 & 0.936$\pm$0.001 & 0.293$\pm$0.012 & 0.224$\pm$0.131 \\
+IC-2 & Clark & 0.205 & 1.076 & 0.199 & 1.075 & 0.205 & 1.015 & 0.103 \\
+IC-2 & Mixed & 0.205$\pm$0.000 & 1.076$\pm$0.000 & 0.199$\pm$0.000 & 1.075$\pm$0.000 & 0.205$\pm$0.000 & 1.015$\pm$0.000 & 0.114$\pm$0.019 \\
+IC-2 & ISO & 0.973$\pm$0.007 & 0.288$\pm$0.012 & 0.991$\pm$0.011 & 0.283$\pm$0.024 & 1.022$\pm$0.008 & 0.751$\pm$0.085 & 1.878$\pm$0.037 \\
+IC-2 & A0B1 & 0.286$\pm$0.023 & 1.045$\pm$0.072 & 0.294$\pm$0.025 & 1.053$\pm$0.075 & 0.749$\pm$0.075 & 1.193$\pm$0.097 & 2.557$\pm$0.597 \\
+IC-2 & Full & 0.338$\pm$0.085 & 1.137$\pm$0.194 & 0.354$\pm$0.080 & 1.146$\pm$0.198 & 0.750$\pm$0.017 & 1.256$\pm$0.163 & 2.604$\pm$0.679 \\
+\hline\end{tabular}
+\end{table*}

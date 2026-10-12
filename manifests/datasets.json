@@ -1,0 +1,2487 @@
+{
+  "baseline/ic1": {
+    "physical": {
+      "path": "data/reference/baseline/ic1/physical.npz",
+      "sha256": "c76a5fe030cbd2b827381d21b204fea62e22e2030959c7b1e7adab80c9afb904"
+    },
+    "diagnostic": {
+      "path": "data/reference/baseline/ic1/diagnostic.npz",
+      "sha256": "e735b21a17de591f519351a7357675a0faa7f43ba6b433dcfe25bacf9682247d"
+    },
+    "times_s": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0,
+      2.1,
+      2.2,
+      2.3,
+      2.4,
+      2.5,
+      2.6,
+      2.7,
+      2.8,
+      2.9,
+      3.0,
+      3.1,
+      3.2,
+      3.3,
+      3.4,
+      3.5,
+      3.6,
+      3.7,
+      3.8,
+      3.9,
+      4.0,
+      4.1,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6,
+      4.7,
+      4.8,
+      4.9,
+      5.0
+    ],
+    "fields": {
+      "u": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "v": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "omega": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_x": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_y": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "div_q_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "pi_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "E": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "T_sgs": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "K": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "Z": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "time_s": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "x": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      }
+    },
+    "initial": {
+      "path": "data/reference/baseline/ic1/initial_state.npy",
+      "sha256": "571bd455ebad61b40005a5604f311dbd9b07d738aeb1d621e1d5b5240b1e7e9f"
+    },
+    "delta_m": 0.25132741228718347,
+    "reference_kind": "grid-refined numerical reference",
+    "source_archive_sha256": "c76a5fe030cbd2b827381d21b204fea62e22e2030959c7b1e7adab80c9afb904",
+    "raw_exports": [
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.000000e-01.csv",
+        "time_s": 0.1,
+        "sha256": "c188811e401c31cb4e42832878cf956b6f01ca9952bde014492e0a88643fd557"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.000000e-01.csv",
+        "time_s": 0.2,
+        "sha256": "232940c8501e99a1b0e0a1acb32ed8b8931eef4716498447604b8cbb40900219"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.000000e-01.csv",
+        "time_s": 0.3,
+        "sha256": "52da7d90b2f5bc1d2e3f26b91c7cec7fbbdde985b47de74abedefc375b356d63"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.000000e-01.csv",
+        "time_s": 0.4,
+        "sha256": "f33bb0958e74faf2dbb6911c2031086ecb23ef87121874d07788254885f897e2"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_5.000000e-01.csv",
+        "time_s": 0.5,
+        "sha256": "c6fdb7547588d7cd3f143f17f38eda859a9286717b6c302ea86b54236984374e"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_6.000000e-01.csv",
+        "time_s": 0.6,
+        "sha256": "45ae9401cd76712c31bcac93b598dd93c1cd43e2ac252063b834577a0b8b4b8f"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_7.000000e-01.csv",
+        "time_s": 0.7,
+        "sha256": "a0b4303f260cfef693ad5c7c6e2016138bfafbb6194e1f5df7552f9f05929fd3"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_8.000000e-01.csv",
+        "time_s": 0.8,
+        "sha256": "a6f034cd10dbd9e305d8a05f8099698bffb42c1ac1dc30cd608e913339af8265"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_9.000000e-01.csv",
+        "time_s": 0.9,
+        "sha256": "63a8aaa366c05a0cb1b6dfeab7ddecc191d402c2f7f9e978fc7b1e3a467cce41"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.000000e+00.csv",
+        "time_s": 1.0,
+        "sha256": "19a134097e7bcb6d771eec4810bdf5bc19c286e4b5bce8d29d52241f365e0a2c"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.100000e+00.csv",
+        "time_s": 1.1,
+        "sha256": "3cbb11e17c94bb6c18eab7b4da9645003265c93a46b3f6ffd96bc76b512a22ff"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.200000e+00.csv",
+        "time_s": 1.2,
+        "sha256": "ded78193a9438101d9233d8d99ecc2524016585f94cb2a8ad4ce8e31db4db0ca"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.300000e+00.csv",
+        "time_s": 1.3,
+        "sha256": "c10822fa697b40852067f3c86a1ddce34d85d8ff86f9d2b264f207cf86ab38bc"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.400000e+00.csv",
+        "time_s": 1.4,
+        "sha256": "e32f5e08c2a3892d54e7ad271c29686ac6fa7efa7390e994a7d7f457a47bb74a"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.500000e+00.csv",
+        "time_s": 1.5,
+        "sha256": "12bd37665ef42cf09417d1d1c9409a458953b3a3153bf1e9a58cee2d236f9a97"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.600000e+00.csv",
+        "time_s": 1.6,
+        "sha256": "7e8b8f74d2900c32fcc37a4681e5e0d4d2eeb367f84caa756b658bd39fc6f96d"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.700000e+00.csv",
+        "time_s": 1.7,
+        "sha256": "3f860270f9990a7c0a1db85dd613cda61b27e6bb47e2aaac33c7b2bb2cff304a"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.800000e+00.csv",
+        "time_s": 1.8,
+        "sha256": "199909dd7fb254e64bec0b9cb187fe05bca3cd9ddac1c60e990f7397720dea90"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.900000e+00.csv",
+        "time_s": 1.9,
+        "sha256": "d267c7d59459ab96d67e8061054d03131c8b5bdaaeaef645ca9ec3bdb9e12277"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.000000e+00.csv",
+        "time_s": 2.0,
+        "sha256": "ffd64b8d6100334dc1d65c4004616aaea37fdd88e0909d3d007d278af25d23df"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.100000e+00.csv",
+        "time_s": 2.1,
+        "sha256": "589f5a5eea7c677be96e467a5b0332e82750476ebcfe18e280729d1be8814c02"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.200000e+00.csv",
+        "time_s": 2.2,
+        "sha256": "eb137cf7ed538bed1a313f5c12a5be8190b099f47b6fb0b5715f9924cdb1fdc9"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.300000e+00.csv",
+        "time_s": 2.3,
+        "sha256": "7f2be61846639f77cf0d860bf2c9ee31c058e381cee7642e4984a0bb990a7248"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.400000e+00.csv",
+        "time_s": 2.4,
+        "sha256": "0ed3647ffd60e12d45d44ddfbfe4a53b337c075d416c4545727c8e41d4b6a086"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.500000e+00.csv",
+        "time_s": 2.5,
+        "sha256": "822cd8644ec02c7865c7e178b5915a3d240015e8047d3b89f13eca55f49e67cc"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.600000e+00.csv",
+        "time_s": 2.6,
+        "sha256": "5e34eea93baaa59bef5bea081f7321078911cf73a69897925b719bf774c13252"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.700000e+00.csv",
+        "time_s": 2.7,
+        "sha256": "110be255b4204a4ffba625835132f536df9048e4a3c99f461a98e7c4c57a8b35"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.800000e+00.csv",
+        "time_s": 2.8,
+        "sha256": "f3edc16ef77cb7418d73754d12837e30540c657c3337f3c2465960a4e8b9407e"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.900000e+00.csv",
+        "time_s": 2.9,
+        "sha256": "6d3f4bf526f2845ea429d863c60963a174af2c56f0c8403b98c5e22075dd865e"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.000000e+00.csv",
+        "time_s": 3.0,
+        "sha256": "6a6075186a999d63eebaa9ba63bf1147220d5a1741300428e395c29d2ac4e9c0"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.100000e+00.csv",
+        "time_s": 3.1,
+        "sha256": "ea699fc8aa575f2e390619b0ddf38a48b104b6c3e87e52d8ee7503bb9500f1c8"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.200000e+00.csv",
+        "time_s": 3.2,
+        "sha256": "cd3cfa6ac03a0f649234cb353255806b23c0ba6a75a8060797488d7b311b4539"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.300000e+00.csv",
+        "time_s": 3.3,
+        "sha256": "704fdb6f80c7fd711d68ece6a22a5e94851fa71ddd933fe624b595030c125206"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.400000e+00.csv",
+        "time_s": 3.4,
+        "sha256": "cdb294a86c8442625e76715b0046ec12d50ed57e32d2f719f1efcc3798361f7d"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.500000e+00.csv",
+        "time_s": 3.5,
+        "sha256": "29af030b67cc93cd3ceb6f9aae54bdec41fe872807080827e872973c5a3706d9"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.600000e+00.csv",
+        "time_s": 3.6,
+        "sha256": "56a3c649fa8dcdf594f98f9aa6f747f5f4bda050ce19f6f80272be51ba914c27"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.700000e+00.csv",
+        "time_s": 3.7,
+        "sha256": "b5179b46ce7f3a8de7fd3bc03c325b5fb5979fd68d33bd3709958d72e4147089"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.800000e+00.csv",
+        "time_s": 3.8,
+        "sha256": "c613ad0767380db5931619b019dc9adfb3ed9cdd46dd208a2c2b7531b0434ae7"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.900000e+00.csv",
+        "time_s": 3.9,
+        "sha256": "e52dcae555bc49793139a34ed56ad744b538213d50ca25da118d9a8a160e2b21"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.000000e+00.csv",
+        "time_s": 4.0,
+        "sha256": "d7f70c30c81df165b6e9480d305eb1e7d997fdd3446db294cb268f08b2c18ac1"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.100000e+00.csv",
+        "time_s": 4.1,
+        "sha256": "51e882fd6cd6971d0ab0807190331d8c16a97b07494c588173fb1e808b387fa5"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.200000e+00.csv",
+        "time_s": 4.2,
+        "sha256": "100490fcbc496e1129f8a59ea0ef4af8e80216fe3d7a8b316c257767a15aa6d9"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.300000e+00.csv",
+        "time_s": 4.3,
+        "sha256": "1cb7a15828607e6d6cdd0ee7d40d622b4cf7a16196098dd148a0757e3f37102c"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.400000e+00.csv",
+        "time_s": 4.4,
+        "sha256": "1bbd6f688b4bdc393b9e6dd946b58e77a67ce3718bc90746187665c721f44d4c"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.500000e+00.csv",
+        "time_s": 4.5,
+        "sha256": "f07a72489af010c549988a944345340c2a83152b14229b8fdedb46606d3657ab"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.600000e+00.csv",
+        "time_s": 4.6,
+        "sha256": "46f651ff2f0ca62b7965d39f73851595cb47c3d087d959dcd22d11a731b755bb"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.700000e+00.csv",
+        "time_s": 4.7,
+        "sha256": "f4e9fd627d213c16b59167d61a6dd49e1eec040c9f5061eeae62951ecde0127c"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.800000e+00.csv",
+        "time_s": 4.8,
+        "sha256": "00411de5798cc4246c70f82312173eac7f27e5f8e2e2965ebd66c80943d61885"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.900000e+00.csv",
+        "time_s": 4.9,
+        "sha256": "b730c17f86d97a3b3683f678f7e9b7f24c00076d8b52e19a1753e9dfa261827c"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_5.000000e+00.csv",
+        "time_s": 5.0,
+        "sha256": "ebbecfe0852b3ac619bdc5f74949686f52433224adc1bbe6a1e0464d9039c73a"
+      }
+    ]
+  },
+  "baseline/ic2": {
+    "physical": {
+      "path": "data/reference/baseline/ic2/physical.npz",
+      "sha256": "a01dd339708261e9baf8171c9c941c280a5870e042310aae8f4df2be74ae8696"
+    },
+    "diagnostic": {
+      "path": "data/reference/baseline/ic2/diagnostic.npz",
+      "sha256": "934122daf30c2b97787c3079a326a43ea878eb18286119d5a603637c110c45c6"
+    },
+    "times_s": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0,
+      2.1,
+      2.2,
+      2.3,
+      2.4,
+      2.5,
+      2.6,
+      2.7,
+      2.8,
+      2.9,
+      3.0,
+      3.1,
+      3.2,
+      3.3,
+      3.4,
+      3.5,
+      3.6,
+      3.7,
+      3.8,
+      3.9,
+      4.0,
+      4.1,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6,
+      4.7,
+      4.8,
+      4.9,
+      5.0
+    ],
+    "fields": {
+      "u": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "v": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "omega": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_x": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_y": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "div_q_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "pi_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "K": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "Z": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "E": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "T_sgs": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "time_s": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "x": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      }
+    },
+    "initial": {
+      "path": "data/reference/baseline/ic2/initial_state.npy",
+      "sha256": "e96532636bae32e16713bafa72941cb0ade8325a5fa5b7ed0208a51a3bf04c73"
+    },
+    "delta_m": 0.25132741228718347,
+    "reference_kind": "grid-refined numerical reference",
+    "source_archive_sha256": "a01dd339708261e9baf8171c9c941c280a5870e042310aae8f4df2be74ae8696",
+    "raw_exports": [
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.000000e-01.csv",
+        "time_s": 0.1,
+        "sha256": "ff43297c219a4e9ac30d51df0a1cfab92711936b14f5963fddfde3f152ccb1ea"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.000000e-01.csv",
+        "time_s": 0.2,
+        "sha256": "56879adcbee1a501619d48076ad51da5aaecc11860d31596538655ff00b0e747"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.000000e-01.csv",
+        "time_s": 0.3,
+        "sha256": "8f0d0ac651603f3112641d73477668583940c7aa392256cecb22e8f96683ed2e"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.000000e-01.csv",
+        "time_s": 0.4,
+        "sha256": "62ce00ff29a11be27cad1351e159ac87b5d8555320f1fa5d53ae3796b4efae5b"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_5.000000e-01.csv",
+        "time_s": 0.5,
+        "sha256": "f7bfafb4669bcf022dc01789de405cf37b53480fd2bf7a54bd9ea8f4c7441477"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_6.000000e-01.csv",
+        "time_s": 0.6,
+        "sha256": "180b7c30edb91df8398f8fa7868d5bba28053dd709f2935f0cb66de3e7263316"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_7.000000e-01.csv",
+        "time_s": 0.7,
+        "sha256": "2e9b9002b19cdf0ff8ea88102daf124d76d217dbcafefe9c9a4780daadba0090"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_8.000000e-01.csv",
+        "time_s": 0.8,
+        "sha256": "63679f257fddb97aa62efb6b8d176526dbb25d69b7fb35839352ab14a04e88bd"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_9.000000e-01.csv",
+        "time_s": 0.9,
+        "sha256": "83346790213f562bab2dccf1e347a983d65ea67d311365a45601819f0da48737"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.000000e+00.csv",
+        "time_s": 1.0,
+        "sha256": "1850685126b92fecc47238c495b30abbf436768f12fd23b9d992a88594d852d0"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.100000e+00.csv",
+        "time_s": 1.1,
+        "sha256": "ea1e8075fd136f9fd7a30c87135527ad6c122fc502550aab4e76d6324b27585c"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.200000e+00.csv",
+        "time_s": 1.2,
+        "sha256": "2c91515222a0448befc82a3bf24a0b488e657468334184cd32436a55c4a693dd"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.300000e+00.csv",
+        "time_s": 1.3,
+        "sha256": "1177acd5dc20fb973527e2663b636ae4869ec67dd37c1b906690d776be8e0037"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.400000e+00.csv",
+        "time_s": 1.4,
+        "sha256": "75f1156d895da7722094b0fd334f8d84f0014b07d585d8f60eb48092a461bc7c"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.500000e+00.csv",
+        "time_s": 1.5,
+        "sha256": "9e948662f054d46be37965c28a35b292e361f778b886e31e26d23941ed6e7fd3"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.600000e+00.csv",
+        "time_s": 1.6,
+        "sha256": "21b74978d7c1a4e501df63e18191a0f0d56f10c5d527abb8b319cb2e34c97cef"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.700000e+00.csv",
+        "time_s": 1.7,
+        "sha256": "fafbda8913f3ffe95d3d256ca27e7d13adcd7503d4203a1fa4389e0aa6c3b7b1"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.800000e+00.csv",
+        "time_s": 1.8,
+        "sha256": "00c0e75ff816df1c320d667218d2daf7200e16fbde694c0b7b6f62d9aef08f3e"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_1.900000e+00.csv",
+        "time_s": 1.9,
+        "sha256": "fd1479aaa1cbd71b29853b79001b45f33e51a4389c829b7005ad3b7648961740"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.000000e+00.csv",
+        "time_s": 2.0,
+        "sha256": "78037b56bbce44bff1340af68221e160b4fd519b5b57b98ec894897ff86842b4"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.100000e+00.csv",
+        "time_s": 2.1,
+        "sha256": "962a7739889b5a351e4e3c97a2415f7e0484402a3e1fe156b19ea998ef407a04"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.200000e+00.csv",
+        "time_s": 2.2,
+        "sha256": "bc181893e109e32d06d1794f5c8fc88267ee89a8e96f18d4ef1c002465af07fb"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.300000e+00.csv",
+        "time_s": 2.3,
+        "sha256": "d11493de277edb43eb003bc757e3dfc5cf901714d73dc8cf4d717b3c45c90bc3"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.400000e+00.csv",
+        "time_s": 2.4,
+        "sha256": "74f8a2529a80fc650400774944c2702518b2c00e414d5f52abcf8d6072f7efb1"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.500000e+00.csv",
+        "time_s": 2.5,
+        "sha256": "540c122e7cb040727566b3eacaaf283bdf4fba66d37fa05ac79a22d83aef791a"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.600000e+00.csv",
+        "time_s": 2.6,
+        "sha256": "bb7999cafffa04ebe7fd4dc07d15b6b74b7f1f0a2915b0213ecea59cc5183795"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.700000e+00.csv",
+        "time_s": 2.7,
+        "sha256": "6ed1adea0c37be654d2162d66b1ef947de09e63166f0f7d53d383b84af521328"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.800000e+00.csv",
+        "time_s": 2.8,
+        "sha256": "c8465b9ab5dd3ab734e62e4aa07ad791cd58e901e2279a176e09c1b9758d7f88"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_2.900000e+00.csv",
+        "time_s": 2.9,
+        "sha256": "fcbf64a0565218cf452ffa787d0acaa793c18eb6cffa63fa49543ff4c8ebb9a7"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.000000e+00.csv",
+        "time_s": 3.0,
+        "sha256": "528550f27e79bc727a3c1981a418267e84cdb7afe8d232f5e55ac9bae218e222"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.100000e+00.csv",
+        "time_s": 3.1,
+        "sha256": "a12bcaf78ef242ae389160b88d9ceab1260208f4a95d3ed74dc0dc39846a927b"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.200000e+00.csv",
+        "time_s": 3.2,
+        "sha256": "5602704e79b9e4f32908cdd2f435ab547c92bcd2343434e82967f35cdb71d1f8"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.300000e+00.csv",
+        "time_s": 3.3,
+        "sha256": "7b01e172a189d01415f8174ad391f954a665102d1576d4caff48302051e1e617"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.400000e+00.csv",
+        "time_s": 3.4,
+        "sha256": "01262c49d220c071a7dac7aadeb9bb802bb1e3468087798c0cd4c7d7aa93e958"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.500000e+00.csv",
+        "time_s": 3.5,
+        "sha256": "b45cf10e65d8f77cd90698ad1f362d98acb7013c420d8753cb97325b7d5d09b2"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.600000e+00.csv",
+        "time_s": 3.6,
+        "sha256": "8260a61b6fd0ee8ff65a8ccdfcf15727f0df97f16234f2716c0f6875adc69e41"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.700000e+00.csv",
+        "time_s": 3.7,
+        "sha256": "e68d8a699aefab7d22a083652f8950599df3921d1992b1662c30c62d9dec1b91"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.800000e+00.csv",
+        "time_s": 3.8,
+        "sha256": "ed9fed24540322157a850ba60cbe69edb9df1e472a403b5d954401dfbbad1d3a"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_3.900000e+00.csv",
+        "time_s": 3.9,
+        "sha256": "797880408f6c1f4b14f7ca155c09b21c8ef025f315398782ca0ee39db7d99a67"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.000000e+00.csv",
+        "time_s": 4.0,
+        "sha256": "b3bc9590f587b9541820797b04384a864a10703cbacd505158cc0220e7139c71"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.100000e+00.csv",
+        "time_s": 4.1,
+        "sha256": "943324e3ada7e882a0c4fb4ae8e63044c8eabdcad9a28c11e58206f2aa060c6f"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.200000e+00.csv",
+        "time_s": 4.2,
+        "sha256": "e16484990234ab991b3ab87658cd7b28492b17d963b12b6e9385c0e1fa16ce77"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.300000e+00.csv",
+        "time_s": 4.3,
+        "sha256": "5dd098b5b0d01f1987f7636a64d8d3191ed29545240968d3d5169b151e84f2cf"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.400000e+00.csv",
+        "time_s": 4.4,
+        "sha256": "6d567cdadf1c78e075208dcf4d51b00deff05e98a3effff855fee1baff0e674d"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.500000e+00.csv",
+        "time_s": 4.5,
+        "sha256": "69c24e78e46c487d729a21c39597b244a6f8f43f559617a7229eec324434bfaf"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.600000e+00.csv",
+        "time_s": 4.6,
+        "sha256": "be566284e51bdba0fea997de8f7e30c1b52c37544c0db208df8c33e89025296e"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.700000e+00.csv",
+        "time_s": 4.7,
+        "sha256": "0c862cc624616460aeecc376f07e187382d05b7eae6f393dab5ee20e7e83373a"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.800000e+00.csv",
+        "time_s": 4.8,
+        "sha256": "4d4a8d62c617d2e4d693205c97287aa1442311b5271e9215a9cf6071cf85b0a6"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_4.900000e+00.csv",
+        "time_s": 4.9,
+        "sha256": "c216345efa9f9d88db068f32aee0b45ea97ccabc201b594b1cc1a937d238cc78"
+      },
+      {
+        "file": "XYZ_\u5185\u90e8\u8868_table_5.000000e+00.csv",
+        "time_s": 5.0,
+        "sha256": "4df484011f839c5de97d36953baa9564eb5e7fa1055303edaa14c5f9cc96588e"
+      }
+    ]
+  },
+  "assisted/ic1": {
+    "physical": {
+      "path": "data/reference/assisted/ic1/physical.npz",
+      "sha256": "9d43c963a39501bbd3da1b7ab3b64f94ee87a9b1a7e398156be31e9a55ed701d"
+    },
+    "diagnostic": {
+      "path": "data/reference/assisted/ic1/diagnostic.npz",
+      "sha256": "143b8a25cd88e5e683478c4a5556c6d58c94898244b4c17d7e0baf5ac0a74585"
+    },
+    "times_s": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0,
+      2.1,
+      2.2,
+      2.3,
+      2.4,
+      2.5,
+      2.6,
+      2.7,
+      2.8,
+      2.9,
+      3.0,
+      3.1,
+      3.2,
+      3.3,
+      3.4,
+      3.5,
+      3.6,
+      3.7,
+      3.8,
+      3.9,
+      4.0,
+      4.1,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6,
+      4.7,
+      4.8,
+      4.9,
+      5.0,
+      5.1,
+      5.2,
+      5.3,
+      5.4,
+      5.5,
+      5.6,
+      5.7,
+      5.8,
+      5.9,
+      6.0,
+      6.1,
+      6.2,
+      6.3,
+      6.4,
+      6.5,
+      6.6,
+      6.7,
+      6.8,
+      6.9,
+      7.0,
+      7.1,
+      7.2,
+      7.3,
+      7.4,
+      7.5,
+      7.6,
+      7.7,
+      7.8,
+      7.9,
+      8.0,
+      8.1,
+      8.2,
+      8.3,
+      8.4,
+      8.5,
+      8.6,
+      8.7,
+      8.8,
+      8.9,
+      9.0,
+      9.1,
+      9.2,
+      9.3,
+      9.4,
+      9.5,
+      9.6,
+      9.7,
+      9.8,
+      9.9,
+      10.0
+    ],
+    "fields": {
+      "u": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "v": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "omega": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_x": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_y": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "div_q_sgs": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "pi_sgs": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "K": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "Z": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "E": {
+        "shape": [
+          100,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "T_sgs": {
+        "shape": [
+          100,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "time_s": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "x": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      }
+    },
+    "initial": {
+      "path": "data/reference/baseline/ic1/initial_state.npy",
+      "sha256": "571bd455ebad61b40005a5604f311dbd9b07d738aeb1d621e1d5b5240b1e7e9f"
+    },
+    "delta_m": 0.25132741228718347,
+    "reference_kind": "grid-refined numerical reference",
+    "source_archive_sha256": "9d43c963a39501bbd3da1b7ab3b64f94ee87a9b1a7e398156be31e9a55ed701d"
+  },
+  "assisted/ic2": {
+    "physical": {
+      "path": "data/reference/assisted/ic2/physical.npz",
+      "sha256": "1e8b69a51fce4bce778e216a50cbb7bcb45e96428d74fdeab84cbd56a628b25d"
+    },
+    "diagnostic": {
+      "path": "data/reference/assisted/ic2/diagnostic.npz",
+      "sha256": "7ff0dae9b627c67490841dc11405e97b9949877ad38ec5907ee8e0244491e1f3"
+    },
+    "times_s": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0,
+      2.1,
+      2.2,
+      2.3,
+      2.4,
+      2.5,
+      2.6,
+      2.7,
+      2.8,
+      2.9,
+      3.0,
+      3.1,
+      3.2,
+      3.3,
+      3.4,
+      3.5,
+      3.6,
+      3.7,
+      3.8,
+      3.9,
+      4.0,
+      4.1,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6,
+      4.7,
+      4.8,
+      4.9,
+      5.0,
+      5.1,
+      5.2,
+      5.3,
+      5.4,
+      5.5,
+      5.6,
+      5.7,
+      5.8,
+      5.9,
+      6.0,
+      6.1,
+      6.2,
+      6.3,
+      6.4,
+      6.5,
+      6.6,
+      6.7,
+      6.8,
+      6.9,
+      7.0,
+      7.1,
+      7.2,
+      7.3,
+      7.4,
+      7.5,
+      7.6,
+      7.7,
+      7.8,
+      7.9,
+      8.0,
+      8.1,
+      8.2,
+      8.3,
+      8.4,
+      8.5,
+      8.6,
+      8.7,
+      8.8,
+      8.9,
+      9.0,
+      9.1,
+      9.2,
+      9.3,
+      9.4,
+      9.5,
+      9.6,
+      9.7,
+      9.8,
+      9.9,
+      10.0
+    ],
+    "fields": {
+      "u": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "v": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "omega": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_x": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_y": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "div_q_sgs": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "pi_sgs": {
+        "shape": [
+          100,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "K": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "Z": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "E": {
+        "shape": [
+          100,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "T_sgs": {
+        "shape": [
+          100,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "time_s": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "x": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      }
+    },
+    "initial": {
+      "path": "data/reference/baseline/ic2/initial_state.npy",
+      "sha256": "e96532636bae32e16713bafa72941cb0ade8325a5fa5b7ed0208a51a3bf04c73"
+    },
+    "delta_m": 0.25132741228718347,
+    "reference_kind": "grid-refined numerical reference",
+    "source_archive_sha256": "1e8b69a51fce4bce778e216a50cbb7bcb45e96428d74fdeab84cbd56a628b25d"
+  },
+  "filter_small/ic1": {
+    "physical": {
+      "path": "data/reference/filter_small/ic1/physical.npz",
+      "sha256": "3428d594bc7f07573f64f0810af267d05822c5fb7b256d6ec45d8dde92ba6507"
+    },
+    "diagnostic": {
+      "path": "data/reference/filter_small/ic1/diagnostic.npz",
+      "sha256": "02effae335a6c1169279ebaa71d8f7b4cbba7461996c5327885f9df9f41b3a4e"
+    },
+    "times_s": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0,
+      2.1,
+      2.2,
+      2.3,
+      2.4,
+      2.5,
+      2.6,
+      2.7,
+      2.8,
+      2.9,
+      3.0,
+      3.1,
+      3.2,
+      3.3,
+      3.4,
+      3.5,
+      3.6,
+      3.7,
+      3.8,
+      3.9,
+      4.0,
+      4.1,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6,
+      4.7,
+      4.8,
+      4.9,
+      5.0
+    ],
+    "fields": {
+      "u": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "v": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "omega": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_x": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_y": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "div_q_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "pi_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "K": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "Z": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "E": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "T_sgs": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "time_s": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "x": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      }
+    },
+    "initial": {
+      "path": "data/reference/filter_small/ic1/initial_state.npy",
+      "sha256": "ee7c13129a1c3bd987f50b7722bffb8f1b6be2af8c6a57d9f033f9e332396e4c"
+    },
+    "delta_m": 0.1884955592,
+    "reference_kind": "grid-refined numerical reference",
+    "source_archive_sha256": "3428d594bc7f07573f64f0810af267d05822c5fb7b256d6ec45d8dde92ba6507"
+  },
+  "filter_small/ic2": {
+    "physical": {
+      "path": "data/reference/filter_small/ic2/physical.npz",
+      "sha256": "b25734b403533e19782a5cbeb525e70bdd3d033064141871fade05c917c2a802"
+    },
+    "diagnostic": {
+      "path": "data/reference/filter_small/ic2/diagnostic.npz",
+      "sha256": "c6d83a873f2488e1e30d62762e27b50d49643035f2f64e360b8fe8a7077d72ad"
+    },
+    "times_s": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0,
+      2.1,
+      2.2,
+      2.3,
+      2.4,
+      2.5,
+      2.6,
+      2.7,
+      2.8,
+      2.9,
+      3.0,
+      3.1,
+      3.2,
+      3.3,
+      3.4,
+      3.5,
+      3.6,
+      3.7,
+      3.8,
+      3.9,
+      4.0,
+      4.1,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6,
+      4.7,
+      4.8,
+      4.9,
+      5.0
+    ],
+    "fields": {
+      "u": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "v": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "omega": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_x": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_y": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "div_q_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "pi_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "K": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "Z": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "E": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "T_sgs": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "time_s": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "x": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      }
+    },
+    "initial": {
+      "path": "data/reference/filter_small/ic2/initial_state.npy",
+      "sha256": "58f4f633756287274c0678c3ce8002ae7e5867d90a7a63d8c1906e5433a06e8a"
+    },
+    "delta_m": 0.1884955592,
+    "reference_kind": "grid-refined numerical reference",
+    "source_archive_sha256": "b25734b403533e19782a5cbeb525e70bdd3d033064141871fade05c917c2a802"
+  },
+  "filter_large/ic1": {
+    "physical": {
+      "path": "data/reference/filter_large/ic1/physical.npz",
+      "sha256": "62d3a5a2efa0413048d1cd78106821d8bbab13a50dd815cdcb9fc3ca284d9d24"
+    },
+    "diagnostic": {
+      "path": "data/reference/filter_large/ic1/diagnostic.npz",
+      "sha256": "f22e9c4b9741b204a26ad968e18e80e6436717fba766f67351bf607e93841b27"
+    },
+    "times_s": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0,
+      2.1,
+      2.2,
+      2.3,
+      2.4,
+      2.5,
+      2.6,
+      2.7,
+      2.8,
+      2.9,
+      3.0,
+      3.1,
+      3.2,
+      3.3,
+      3.4,
+      3.5,
+      3.6,
+      3.7,
+      3.8,
+      3.9,
+      4.0,
+      4.1,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6,
+      4.7,
+      4.8,
+      4.9,
+      5.0
+    ],
+    "fields": {
+      "u": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "v": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "omega": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_x": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_y": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "div_q_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "pi_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "K": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "Z": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "E": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "T_sgs": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "time_s": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "x": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      }
+    },
+    "initial": {
+      "path": "data/reference/filter_large/ic1/initial_state.npy",
+      "sha256": "f59bc6f41b15333cbbec8e731be08af7a9c4b4b2e5563007b0aa798f02054215"
+    },
+    "delta_m": 0.3769911184,
+    "reference_kind": "grid-refined numerical reference",
+    "source_archive_sha256": "62d3a5a2efa0413048d1cd78106821d8bbab13a50dd815cdcb9fc3ca284d9d24"
+  },
+  "filter_large/ic2": {
+    "physical": {
+      "path": "data/reference/filter_large/ic2/physical.npz",
+      "sha256": "75e415b52ea1ce551871ef06ec741468d1761dc17326ad1aa69e6ee58e20cd12"
+    },
+    "diagnostic": {
+      "path": "data/reference/filter_large/ic2/diagnostic.npz",
+      "sha256": "1f32ab429a26d60575db3b07838cae2cc5a2105d964fa2db8e28668a5e5c709f"
+    },
+    "times_s": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0,
+      2.1,
+      2.2,
+      2.3,
+      2.4,
+      2.5,
+      2.6,
+      2.7,
+      2.8,
+      2.9,
+      3.0,
+      3.1,
+      3.2,
+      3.3,
+      3.4,
+      3.5,
+      3.6,
+      3.7,
+      3.8,
+      3.9,
+      4.0,
+      4.1,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6,
+      4.7,
+      4.8,
+      4.9,
+      5.0
+    ],
+    "fields": {
+      "u": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "v": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "omega": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_x": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_y": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "div_q_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "pi_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "K": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "Z": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "E": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "T_sgs": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "time_s": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "x": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      }
+    },
+    "initial": {
+      "path": "data/reference/filter_large/ic2/initial_state.npy",
+      "sha256": "72bfaab573c3ea4c233b265bebc3149d1cac53ba599d4a609227aae1ad582dfc"
+    },
+    "delta_m": 0.3769911184,
+    "reference_kind": "grid-refined numerical reference",
+    "source_archive_sha256": "75e415b52ea1ce551871ef06ec741468d1761dc17326ad1aa69e6ee58e20cd12"
+  },
+  "half_Re/ic1": {
+    "physical": {
+      "path": "data/reference/half_Re/ic1/physical.npz",
+      "sha256": "ad973cb656241f52fc0a76c4bc1d7c9b5f5f9746ca244cf7318e71e85125416a"
+    },
+    "diagnostic": {
+      "path": "data/reference/half_Re/ic1/diagnostic.npz",
+      "sha256": "7799b42f4c5b82a0f36b4427b6e8937da992a444d2c175b7024836c25224ec41"
+    },
+    "times_s": [
+      0.1,
+      0.2,
+      0.30000000000000004,
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7000000000000001,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2000000000000002,
+      1.3,
+      1.4000000000000001,
+      1.5,
+      1.6,
+      1.7000000000000002,
+      1.8,
+      1.9000000000000001,
+      2.0,
+      2.1,
+      2.2,
+      2.3000000000000003,
+      2.4000000000000004,
+      2.5,
+      2.6,
+      2.7,
+      2.8000000000000003,
+      2.9000000000000004,
+      3.0,
+      3.1,
+      3.2,
+      3.3000000000000003,
+      3.4000000000000004,
+      3.5,
+      3.6,
+      3.7,
+      3.8000000000000003,
+      3.9000000000000004,
+      4.0,
+      4.1000000000000005,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6000000000000005,
+      4.7,
+      4.800000000000001,
+      4.9,
+      5.0
+    ],
+    "fields": {
+      "u": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "v": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "omega": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_x": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_y": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "div_q_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "pi_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "K": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "Z": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "E": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "T_sgs": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "time_s": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "x": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      }
+    },
+    "initial": {
+      "path": "data/reference/half_Re/ic1/initial_state.npy",
+      "sha256": "3c8926b2f36fbd0b29f60a3190daaecdcdc8ad6f42f548c5e386d4ceb505fe1e"
+    },
+    "delta_m": 0.25132741228718347,
+    "reference_kind": "grid-refined numerical reference",
+    "source_archive_sha256": "ad973cb656241f52fc0a76c4bc1d7c9b5f5f9746ca244cf7318e71e85125416a"
+  },
+  "double_Re/ic1": {
+    "physical": {
+      "path": "data/reference/double_Re/ic1/physical.npz",
+      "sha256": "e8f637a3526ddc08a18248ecb334d71c933f788e43977d6517cf37944a30fb29"
+    },
+    "diagnostic": {
+      "path": "data/reference/double_Re/ic1/diagnostic.npz",
+      "sha256": "8bf3f2c03517bd989e9e942dc3df72438c8d360f59d4915cf49011e6f6515138"
+    },
+    "times_s": [
+      0.1,
+      0.2,
+      0.30000000000000004,
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7000000000000001,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2000000000000002,
+      1.3,
+      1.4000000000000001,
+      1.5,
+      1.6,
+      1.7000000000000002,
+      1.8,
+      1.9000000000000001,
+      2.0,
+      2.1,
+      2.2,
+      2.3000000000000003,
+      2.4000000000000004,
+      2.5,
+      2.6,
+      2.7,
+      2.8000000000000003,
+      2.9000000000000004,
+      3.0,
+      3.1,
+      3.2,
+      3.3000000000000003,
+      3.4000000000000004,
+      3.5,
+      3.6,
+      3.7,
+      3.8000000000000003,
+      3.9000000000000004,
+      4.0,
+      4.1000000000000005,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6000000000000005,
+      4.7,
+      4.800000000000001,
+      4.9,
+      5.0
+    ],
+    "fields": {
+      "u": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "v": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "omega": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_x": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_y": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "div_q_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "pi_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "K": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "Z": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "E": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "T_sgs": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "time_s": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "x": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      }
+    },
+    "initial": {
+      "path": "data/reference/double_Re/ic1/initial_state.npy",
+      "sha256": "005b90719b03deb93362cf145cd826f93d5a8efe4a6e63c4df926afa1719d00e"
+    },
+    "delta_m": 0.25132741228718347,
+    "reference_kind": "grid-refined numerical reference",
+    "source_archive_sha256": "e8f637a3526ddc08a18248ecb334d71c933f788e43977d6517cf37944a30fb29"
+  },
+  "forced_strong/ic1": {
+    "physical": {
+      "path": "data/reference/forced_strong/ic1/physical.npz",
+      "sha256": "fe06bd5bfcc3f39465349c9e07df82b661c64f21a7bf705242a2962f26cdf6cf"
+    },
+    "diagnostic": {
+      "path": "data/reference/forced_strong/ic1/diagnostic.npz",
+      "sha256": "76c6a6be0a360b235ac14ff42db5bf422dce05fd052afe1883b6ccd5662e4076"
+    },
+    "times_s": [
+      0.1,
+      0.2,
+      0.30000000000000004,
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7000000000000001,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2000000000000002,
+      1.3,
+      1.4000000000000001,
+      1.5,
+      1.6,
+      1.7000000000000002,
+      1.8,
+      1.9000000000000001,
+      2.0,
+      2.1,
+      2.2,
+      2.3000000000000003,
+      2.4000000000000004,
+      2.5,
+      2.6,
+      2.7,
+      2.8000000000000003,
+      2.9000000000000004,
+      3.0,
+      3.1,
+      3.2,
+      3.3000000000000003,
+      3.4000000000000004,
+      3.5,
+      3.6,
+      3.7,
+      3.8000000000000003,
+      3.9000000000000004,
+      4.0,
+      4.1000000000000005,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6000000000000005,
+      4.7,
+      4.800000000000001,
+      4.9,
+      5.0
+    ],
+    "fields": {
+      "u": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "v": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "omega": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_x": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "q_sgs_y": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "div_q_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "pi_sgs": {
+        "shape": [
+          50,
+          100,
+          100
+        ],
+        "dtype": "float64"
+      },
+      "K": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "Z": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "E": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "T_sgs": {
+        "shape": [
+          50,
+          72
+        ],
+        "dtype": "float64"
+      },
+      "time_s": {
+        "shape": [
+          50
+        ],
+        "dtype": "float64"
+      },
+      "x": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          100
+        ],
+        "dtype": "float64"
+      }
+    },
+    "initial": {
+      "path": "data/reference/forced_strong/ic1/initial_state.npy",
+      "sha256": "4a950c49faab18e602b25923694c1b5a4356f7a099fad9d048e8ae27503da01a"
+    },
+    "delta_m": 0.25132741228718347,
+    "reference_kind": "grid-refined numerical reference",
+    "source_archive_sha256": "fe06bd5bfcc3f39465349c9e07df82b661c64f21a7bf705242a2962f26cdf6cf"
+  }
+}

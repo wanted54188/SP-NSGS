@@ -1,0 +1,11 @@
+{
+  "mode": "observation_assisted",
+  "evaluation_name": "extended_time_sparse_observation_assisted_reconstruction",
+  "ic": "ic1",
+  "variant": "iso",
+  "seed": 2026,
+  "status": "FAILED",
+  "failure_nonfinite_time_s": null,
+  "error_type": "ValueError",
+  "error": "Wrong frozen variant"
+}

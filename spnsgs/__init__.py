@@ -1,3 +1,2 @@
-"""Structure-preserving neural SGS model for 2-D filtered vorticity dynamics."""
-
-__version__ = "1.0.0"
+"""Constrained SGS fluxes and explicit evaluation protocols."""
+__version__="2.0.0"

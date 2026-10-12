@@ -1,0 +1,70 @@
+{
+  "validation_status": "PASS",
+  "frames": 50,
+  "mode": "apriori_reference_state",
+  "ic": "ic1",
+  "run_key": "A0B1:2028",
+  "checkpoint_sha256": "142025fa0d0849d6bab5551c39a1bc9f40bdcc92f8c53ec27e7261032f035ad3",
+  "checkpoint_path": "research-origin/results/revision_v2/runs/A0B1/seed_2028/best_closure.pt",
+  "effective_config": "research-origin/results/revision_v2/runs/A0B1/seed_2028/effective_config.json",
+  "effective_config_sha256": "634fcf12b52fedfbdba0bec3953068950d112d7573641802be9818c0277e8913",
+  "reference_sha256": "c76a5fe030cbd2b827381d21b204fea62e22e2030959c7b1e7adab80c9afb904",
+  "solver_source_sha256": "d4d49a41f42240f16d567bca3748155e9bacf9dc8738fcb0b677e7b91ebf9a28",
+  "script_sha256": "987d7feb8629f51aee2bde5511a09a775a41bcb4a5e25d36896f50804b85106b",
+  "spectral_core_sha256": "8d85bb88a7bdc0764cc8f3302f77bc7e816f18475c853ea59aa14d6af50772bf",
+  "implementation_sha256": {
+    "research-origin/scripts/reviewer_requested_spectral_diagnostics/preflight.py": "e29e0ba08ddeff2fc09c796f23c28982c21235c5c56a8e2333fc6339760c8735",
+    "research-origin/scripts/reviewer_requested_spectral_diagnostics/spectral_core.py": "8d85bb88a7bdc0764cc8f3302f77bc7e816f18475c853ea59aa14d6af50772bf",
+    "research-origin/scripts/evaluate_revision_v2.py": "22c128f96acc15b5de96dd47b08bb85674043fefa426357c132683ccc9b7ccd5",
+    "research-origin/scripts/diagnose_conditional_oracle_ceiling.py": "e3cc5f63f42b8ee0bf271640a5a68e146a341246979f65ae758e1b6a5e1fbdd9",
+    "research-origin/spnsgs/config.py": "602352b5029d8e93dc17ed24638dbe657bebf5d14fef9d88fd051d876f270a31",
+    "research-origin/spnsgs/classical_baselines.py": "e1e73dc164bf5d8747aa824d4f5e90007d28b963bb1a05039c782370e44ab83e",
+    "research-origin/spnsgs/solver.py": "d4d49a41f42240f16d567bca3748155e9bacf9dc8738fcb0b677e7b91ebf9a28"
+  },
+  "source_conventions": {
+    "physical_target": "P2/3[-div(q_model)] versus full-Fourier physical reference source",
+    "operator_matched": "P2/3[-div(q_model)] versus P2/3[reference source]",
+    "full_fourier_constitutive": "-div(q_model) using full Fourier derivative versus physical reference; separate new diagnostic"
+  },
+  "full_2026": "recorded seed_2026_recovery01; not a replacement for Full/2027",
+  "Full_2027": "MISSING EXACT FROZEN CHECKPOINT",
+  "elapsed_seconds": 0.7918864000821486,
+  "device": "cuda",
+  "sources": [
+    {
+      "path": "research-origin/results/revision_v2/dataset_manifest.json",
+      "sha256": "866f8f94106eff54344ee0c2093b757fba4ab1905a6d07e0e583a8141927a857"
+    },
+    {
+      "path": "research-origin/results/revision_refined_reference_v2/refined_reference_v2.npz",
+      "sha256": "c76a5fe030cbd2b827381d21b204fea62e22e2030959c7b1e7adab80c9afb904"
+    },
+    {
+      "path": "research-origin/results/revision_v2/solver_matched_diagnostics_v2.npz",
+      "sha256": "e735b21a17de591f519351a7357675a0faa7f43ba6b433dcfe25bacf9682247d"
+    },
+    {
+      "path": "research-origin/results/revision_v2/evaluations/A0B1_2028_apriori/timewise.csv",
+      "sha256": "9b1f44f3791b2cf969d9fb3f7ee80d41ce7dc0b07ac3fed93561f70a86905cd3"
+    },
+    {
+      "path": "research-origin/results/revision_v2/evaluations/A0B1_2028_apriori/summary.json",
+      "sha256": "fb29d313121ae412f698860db61b7a8302ec45aa5da1bb2458de2defa373ce0b"
+    },
+    {
+      "path": "research-origin/results/revision_v2/evaluations/A0B1_2028_apriori/run_manifest.json",
+      "sha256": "8d11842d37e6f20effde9bc6918c26ddd6c5c6b1b1a298ebd5150ba18bbf3a8e"
+    },
+    {
+      "path": "research-origin/results/revision_v2/runs/A0B1/seed_2028/effective_config.json",
+      "sha256": "634fcf12b52fedfbdba0bec3953068950d112d7573641802be9818c0277e8913"
+    }
+  ],
+  "outputs_sha256": {
+    "per_frame_spectra.npz": "f808ecb2f24b2eb9984e1d3942b6ba97e338be533c2319c61a9b3d3f508ce088",
+    "per_frame_validation.csv": "8143eb83b6e64415aa8034527b04c5ade422003ddc0259af18975e78072df025",
+    "validated_time_means.json": "b1e6ebade5839276b0f9a2ffce72dfcccd876779ef5213fb91284422fbb13ae4"
+  },
+  "aggregation": "arithmetic time means after 50 frame checks; time frames not independent samples",
+  "original_provenance_sha256": "e0f39d512caf2f09bcec9fdcfb659dfbb6abee2646cb118675ec96ce83901058"
+}

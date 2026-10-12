@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-12T04:48:07.607636+00:00",
+  "ic": "ic2",
+  "mode": "free_running",
+  "seed": 2026,
+  "alpha": 0.5,
+  "input_lock_sha256": "e460975e0efa55597de0a7162ec9d9022d69a5de8b7a22c602ad172e8e116b4d",
+  "fixed_protocol_sha256": "b63d9d3ba9f6138b01cb910d310afcbe05a582c76a725de07923cf796b521030",
+  "fixed_alpha_origin": "new hypothesis fixed from IC1 exploratory results; not v3 sparse selection",
+  "old_selection_used_for_alpha": false,
+  "device": "cuda",
+  "torch": "2.5.1+cu121",
+  "numpy": "2.1.3",
+  "tf32_matmul": false,
+  "tf32_cudnn": true,
+  "training": false,
+  "adaptation": false,
+  "future_reference_to_integrator": false,
+  "v3_input_lock_sha256": "b25bf547370f91434ac1bdbdd7481ab1b6a916c7234a974619e0dd556c1fc6d8",
+  "initial_source": "origin-file/XYZ_内部表_table_1.000000e-01.csv",
+  "initial_source_sha256": "ff43297c219a4e9ac30d51df0a1cfab92711936b14f5963fddfde3f152ccb1ea",
+  "elapsed_seconds": 15.541991100064479,
+  "outputs_sha256": {
+    "timewise.csv": "c331d522c6d5a87001278ee25d518d770c589596c7c3360046dc1e0a4a84c353",
+    "summary.json": "d2343fe710281c083bb7af08849e7edb8548aa9c2352ca30ad56590714574ac6"
+  },
+  "original_provenance_sha256": "e0636c7275c2a6e668b148199ee4ffa0484874aadb32089bb8201a0f85e1ecbb",
+  "original_outputs_not_distributed": [
+    "every_step.csv",
+    "every_step_spectra.npz",
+    "spectra.npz",
+    "states.npz"
+  ]
+}
